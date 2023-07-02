@@ -10,7 +10,6 @@
     font-family: 'Montserrat', 'sans-serif';
     text-transform: uppercase;
     letter-spacing: .3em;
-    font-size: .9rem;
     white-space: nowrap;
   }
 </style>

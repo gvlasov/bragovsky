@@ -34,7 +34,6 @@
 <style lang="scss">
   nav {
     .items {
-      font-size: .9rem;
       display: flex;
       font-family: 'Montserrat', 'sans-serif';
       gap: 2em;
