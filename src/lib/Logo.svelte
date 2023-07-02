@@ -9,7 +9,7 @@
   a {
     font-family: 'Montserrat', 'sans-serif';
     text-transform: uppercase;
-    letter-spacing: .3em;
+    letter-spacing: .15em;
     white-space: nowrap;
   }
 </style>

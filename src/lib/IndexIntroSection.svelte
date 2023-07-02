@@ -6,8 +6,7 @@
 <section class="intro">
     <h3 class="top">{$_('page.index.desc.top')}</h3>
     <figure>
-        <img class="image-right" src="{base}/Сайт/Фото/pap23-pl01-06.jpg"/>
-        <figcaption>{$_('page.index.desc.photo.desc')}</figcaption>
+        <img class="image-right" src="{base}/Сайт/Фото/pap23-pl01-06.jpg"/><figcaption>{$_('page.index.desc.photo.desc')}</figcaption>
     </figure>
     <div class="bottom">{$_('page.index.desc.bottom')}</div>
     <div class="years">{$_('page.index.desc.years')}</div>
@@ -16,7 +15,6 @@
 <style lang="scss">
   @import "../variables";
 
-  $sideImageHeight: 40rem;
   section.intro {
     font-family: Bruta Glb, sans-serif;
     display: grid;
@@ -24,7 +22,6 @@
     grid-template-rows: min-content min-content 1fr;
     max-width: 100vw;
     width: 100%;
-    max-height: $sideImageHeight;
 
     .top, .bottom, .years {
       max-width: 35rem;
@@ -50,17 +47,28 @@
     .bottom {
       font-size: 1rem;
       margin-bottom: 3rem;
+      @media screen and (max-width: 639px) {
+        margin-top: 26px;
+        font-size: 12px;
+        line-height: 2;
+      }
     }
 
     .years {
       font-size: .9rem;
+      @media screen and (max-width: 639px) {
+        font-size: 12px;
+      }
     }
 
     figure {
-      max-width: $sideImageHeight;
+      @media screen and (min-width: 640px) {
+        max-width: 709px;
+      }
       height: auto;
       grid-row: span 3;
       margin: auto 0-$bodyPadding auto auto;
+      font-size: 0; // Remove newline
 
       img.image-right {
         max-width: 100%;
@@ -71,6 +79,10 @@
         font-size: .7rem;
         padding-right: 3em;
         padding-top: 1.6em;
+        @media screen and (max-width: 639px) {
+          padding-top: 16px;
+          font-size: 9px;
+        }
       }
     }
 

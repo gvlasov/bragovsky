@@ -26,7 +26,7 @@
                 <a href="{base}/work">{$_('page.work.name')}</a>
                 <a href="{base}/contacts">{$_('page.contacts.name')}</a>
                 <a href="{base}/search">{$_('page.search.name')}</a>
-                <button on:click={toggleLanguage}>EN/RU</button>
+                <button on:click={toggleLanguage}>RU/EN</button>
             </div>
         {/if}
     </MediaQuery>
@@ -36,8 +36,8 @@
     .items {
       display: flex;
       font-family: 'Montserrat', 'sans-serif';
-      gap: 2em;
-      position: absolute;
+      column-gap: 24px;
+      font-size: 15.61px;
 
       @media screen and (max-width: 1080px) {
         position: absolute;
@@ -65,7 +65,7 @@
       a, button {
         cursor: pointer;
         text-transform: uppercase;
-        letter-spacing: .3em;
+        letter-spacing: 0.15em;
         text-decoration: none;
 
         &:visited {
@@ -77,7 +77,5 @@
         margin-left: 2em;
       }
     }
-
-
   }
 </style>

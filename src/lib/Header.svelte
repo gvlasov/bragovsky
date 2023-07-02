@@ -11,15 +11,13 @@
 <style lang="scss">
   header {
     position: relative;
-    top: 0;
     display: flex;
-    padding: 2rem 6vw 2rem 6vw;
+    padding: 46px 60px 126px 60px;
     justify-content: space-between;
     background-color: white;
     @media screen and (max-width: 639px) {
-      padding: 33px 0 53px 0;
+      padding: 33px 24px 53px 24px;
       font-size: 14px;
-
     }
   }
 </style>

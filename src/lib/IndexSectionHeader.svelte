@@ -14,15 +14,18 @@
   a {
     float: left;
     display: flex;
-    gap: 1.4rem;
-    align-items: center;
-    font-size: 1.4rem;
-    font-weight: bold;
+    gap: 1.2rem;
+    align-items: start;
+    font-size: 34px;
     text-transform: uppercase;
     letter-spacing: .2em;
+    @media screen and (max-width: 639px) {
+      font-size: 20px;
+    }
 
     img {
-      height: 1em;
+      height: .9em;
+      margin-top: 1px;
     }
   }
 </style>

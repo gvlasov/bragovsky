@@ -24,7 +24,10 @@
   @import "../variables";
 
   section.life {
-    margin-top: 20vh;
+    margin-top: 26vh;
+    @media screen and (max-width: 639px) {
+      margin-top: 60px;
+    }
 
     figure.afisha {
 
@@ -106,7 +109,7 @@
       }
     }
 
-    @media screen and (max-width: 640px) {
+    @media screen and (max-width: 639px) {
       text-align: center;
       .firstclear {
         clear: none;
@@ -116,7 +119,7 @@
       }
       figure.afisha {
         float: right;
-        width: 45vw;
+        width: 56%;
 
         figcaption {
           text-align: right;
@@ -125,47 +128,47 @@
         }
       }
       & > img {
-        padding: 1.9vw;
+        $padding: 1.9vw;
+        padding: $padding;
+        box-sizing: border-box;
 
         &.photo1 {
-          width: 31vw;
+          padding-left: 0;
+          width: 33%;
           float: left;
-          margin-left: -1.5vw;
-          margin-top: 2vw;
+          margin-top: 5vw;
         }
 
         &.photo2 {
-          width: 30vw;
+          padding-left: 0;
+          width: 37%;
           float: left;
-          margin-left: -1.5vw;
         }
 
         &.photo3 {
-          width: 25vw;
+          width: 30%;
           float: right;
-          margin-right: -1.5vw;
+          padding-right: 0;
         }
 
         &.photo4 {
-          margin-top: 2vw;
-          width: 27vw;
+          width: 33%;
         }
 
         &.photo5 {
-          width: 24vw;
+          width: 27%;
           float: left;
-          margin-left: -1.5vw;
-          clear: left;
+          padding-left: 0;
         }
 
         &.photo6 {
-          width: 30vw;
+          width: 40%;
           margin-top: 2vw;
           float: left;
         }
 
         &.photo7 {
-          width: 29vw;
+          width: 33%;
           float: right;
         }
       }

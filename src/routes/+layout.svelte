@@ -6,8 +6,8 @@
     export const ssr = false
 </script>
 
+<Header/>
 <div class="content">
-    <Header/>
     <slot/>
 </div>
 <Footer/>
@@ -16,5 +16,8 @@
 
   .content {
     padding: 0 $bodyPadding 0 $bodyPadding;
+    @media screen and (max-width: 639px) {
+      padding: 0 $narrowBodyPadding 0 $narrowBodyPadding;
+    }
   }
 </style>
