@@ -17,7 +17,7 @@
     justify-content: space-between;
     background-color: white;
     @media screen and (max-width: 639px) {
-        padding: 33px 0 53px 0;
+      padding: 33px 0 53px 0;
       font-size: 14px;
 
     }

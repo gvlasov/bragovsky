@@ -11,9 +11,9 @@
 
   $color: black;
   button {
-    zoom: .6;
+    zoom: .5;
     width: 60px;
-    height: 30px;
+    height: 34px;
     position: relative;
     transform: rotate(0deg);
     -webkit-transition: .5s ease-in-out;
@@ -42,7 +42,7 @@
       }
 
       &.bottom {
-        top: 18px;
+        top: 26px;
       }
     }
 
