@@ -33,7 +33,6 @@
 
     .top {
       font-size: 1.8rem;
-      font-weight: bold;
       margin-bottom: 11rem;
       margin-top: 8rem;
     }

@@ -38,6 +38,7 @@
       display: flex;
       font-family: 'Montserrat', 'sans-serif';
       gap: 2em;
+      position: absolute;
 
       @media screen and (max-width: 1080px) {
         position: absolute;

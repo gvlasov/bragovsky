@@ -10,10 +10,10 @@
 
 <style lang="scss">
   header {
-    position: sticky;
+    position: relative;
     top: 0;
     display: flex;
-    padding: 3rem 3rem 3rem 3rem;
+    padding: 2rem 6vw 2rem 6vw;
     justify-content: space-between;
     background-color: white;
   }
