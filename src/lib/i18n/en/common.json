@@ -1,0 +1,23 @@
+{
+  "author": {
+    "fullName": "Eduard Bragovsky"
+  },
+  "page": {
+    "index": {
+      "desc": {
+        "top": "top",
+        "bottom": "bottom",
+        "years": "Годы жизни: 1923 — 2010",
+        "photo": {
+          "desc": "Photo by Valery Yakovlev"
+        }
+      }
+    }
+  },
+  "menu": {
+    "life": "Life",
+    "work": "Work",
+    "contacts": "Contacts",
+    "search": "Search"
+  }
+}
