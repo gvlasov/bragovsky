@@ -1,22 +1,23 @@
 <script lang="ts">
     import IndexSectionHeader from "./IndexSectionHeader.svelte";
     import {_} from 'svelte-i18n'
+    import { base } from '$app/paths';
 </script>
 
 <section class="life">
     <IndexSectionHeader pageName="life"/>
     <div class="firstclear"/>
     <figure class="afisha">
-        <img src="/Сайт/Фото/_MG_1565-2.jpg"/>
+        <img src="{base}/Сайт/Фото/_MG_1565-2.jpg"/>
         <figcaption>{$_('page.index.life.afisha.desc')}</figcaption>
     </figure>
-    <img class="photo1" src="/Сайт/Фото/Пишет.jpg"/>
-    <img class="photo2" src="/Сайт/Фото/С%20Папикяном-5.jpg"/>
-    <img class="photo3" src="/Сайт/Фото/На%20льду%201.jpg"/>
-    <img class="photo4" src="/Сайт/Фото/Выставка%202.1.jpg"/>
-    <img class="photo5" src="/Сайт/Фото/Храм%20в%20Армении%201.jpg"/>
-    <img class="photo6" src="/Сайт/Фото/Портрет%205.jpg"/>
-    <img class="photo7" src="/Сайт/Фото/Э.%20Браговский.jpg"/>
+    <img class="photo1" src="{base}/Сайт/Фото/Пишет.jpg"/>
+    <img class="photo2" src="{base}/Сайт/Фото/С%20Папикяном-5.jpg"/>
+    <img class="photo3" src="{base}/Сайт/Фото/На%20льду%201.jpg"/>
+    <img class="photo4" src="{base}/Сайт/Фото/Выставка%202.1.jpg"/>
+    <img class="photo5" src="{base}/Сайт/Фото/Храм%20в%20Армении%201.jpg"/>
+    <img class="photo6" src="{base}/Сайт/Фото/Портрет%205.jpg"/>
+    <img class="photo7" src="{base}/Сайт/Фото/Э.%20Браговский.jpg"/>
     <div class="lastclear"/>
 </section>
 <style lang="scss">

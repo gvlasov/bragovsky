@@ -1,10 +1,11 @@
 <script lang="ts">
     import {_} from 'svelte-i18n';
+    import { base } from '$app/paths';
 
     export let name: string
 </script>
 <div class="category">
-    <a href="/life/{name}/">
+    <a href="{base}/life/{name}/">
         <img alt="{$_(`life.categories.${name}.title`)}" src="/images/{name}.jpg"/>
         <div>{$_(`life.categories.${name}.title`)}</div>
     </a>

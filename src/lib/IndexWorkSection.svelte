@@ -1,21 +1,22 @@
 <script lang="ts">
     import IndexSectionHeader from "./IndexSectionHeader.svelte";
+    import { base } from '$app/paths';
 </script>
 
 <section class="life">
     <div class="section-header">
         <IndexSectionHeader pageName="work"/>
     </div>
-    <img class="photo1" src="/Сайт/Графика/Графика%2018.%20Resolution%2040.jpg"/>
-    <img class="photo2" src="/Сайт/Графика/Графика%2030.%20Resolution%2040.jpg"/>
-    <img class="photo3" src="/Сайт/Графика/Графика%209.%20Resolution%2020.jpg"/>
-    <img class="photo4" src="/Сайт/Графика/Графика%203.%20Resolution%2015.jpg"/>
-    <img class="photo5" src="/Сайт/Живопись/Автопортет%2060.jpg"/>
-    <img class="photo6" src="/Сайт/Живопись/03BT1638.%20Resolution%20155.jpg"/>
-    <img class="photo7" src="/Сайт/Живопись/031.%20Resolution%2080.jpg"/>
-    <img class="photo8" src="/Сайт/Живопись/В%20список.%20Resolution%2050.jpg"/>
-    <img class="photo9" src="/Сайт/Живопись/b-s-096-2.%20Resolution%20110.jpg"/>
-    <img class="photo10" src="/Сайт/Живопись/IMG_2407%20Resolution%2040.jpg"/>
+    <img class="photo1" src="{base}/Сайт/Графика/Графика%2018.%20Resolution%2040.jpg"/>
+    <img class="photo2" src="{base}/Сайт/Графика/Графика%2030.%20Resolution%2040.jpg"/>
+    <img class="photo3" src="{base}/Сайт/Графика/Графика%209.%20Resolution%2020.jpg"/>
+    <img class="photo4" src="{base}/Сайт/Графика/Графика%203.%20Resolution%2015.jpg"/>
+    <img class="photo5" src="{base}/Сайт/Живопись/Автопортет%2060.jpg"/>
+    <img class="photo6" src="{base}/Сайт/Живопись/03BT1638.%20Resolution%20155.jpg"/>
+    <img class="photo7" src="{base}/Сайт/Живопись/031.%20Resolution%2080.jpg"/>
+    <img class="photo8" src="{base}/Сайт/Живопись/В%20список.%20Resolution%2050.jpg"/>
+    <img class="photo9" src="{base}/Сайт/Живопись/b-s-096-2.%20Resolution%20110.jpg"/>
+    <img class="photo10" src="{base}/Сайт/Живопись/IMG_2407%20Resolution%2040.jpg"/>
 </section>
 <style lang="scss">
   @import "../variables";

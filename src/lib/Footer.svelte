@@ -1,9 +1,10 @@
 <script lang="ts">
     import {_} from "svelte-i18n";
+    import { base } from '$app/paths';
 </script>
 
 <footer>
-    <a href="/legal">{$_('page.legal.title')}</a>
+    <a href="{base}/legal">{$_('page.legal.title')}</a>
 </footer>
 
 <style lang="scss">

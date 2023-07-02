@@ -1,8 +1,9 @@
 <script lang="ts">
     import {_} from 'svelte-i18n'
+    import { base } from '$app/paths';
 </script>
 
-<a href="/">{$_('author.fullName')}</a>
+<a href="{base}/">{$_('author.fullName')}</a>
 
 <style lang="scss">
   a {

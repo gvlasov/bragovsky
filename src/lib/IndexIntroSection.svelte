@@ -1,11 +1,12 @@
 <script lang="ts">
     import {_} from 'svelte-i18n'
+    import { base } from '$app/paths';
 </script>
 
 <section class="intro">
     <h3 class="top">{$_('page.index.desc.top')}</h3>
     <figure>
-        <img class="image-right" src="/Сайт/Фото/pap23-pl01-06.jpg"/>
+        <img class="image-right" src="{base}/Сайт/Фото/pap23-pl01-06.jpg"/>
         <figcaption>{$_('page.index.desc.photo.desc')}</figcaption>
     </figure>
     <div class="bottom">{$_('page.index.desc.bottom')}</div>
