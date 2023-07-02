@@ -18,7 +18,7 @@
 
   $sideImageHeight: 40rem;
   section.intro {
-    font-family: "Bruta Glb Regular", sans-serif;
+    font-family: Bruta Glb, sans-serif;
     display: grid;
     grid-template-columns: max-content 1fr;
     grid-template-rows: min-content min-content 1fr;
@@ -29,12 +29,22 @@
     .top, .bottom, .years {
       max-width: 35rem;
       margin-right: 2em;
+      @media screen and (max-width: 639px) {
+        margin-right: 0;
+      }
     }
 
     .top {
       font-size: 1.8rem;
       margin-bottom: 11rem;
       margin-top: 8rem;
+      @media screen and (max-width: 639px) {
+        margin-top: 0;
+        font-size: 19px;
+        line-height: 1.6;
+        margin-bottom: 6vw;
+        letter-spacing: 0.06em;
+      }
     }
 
     .bottom {
