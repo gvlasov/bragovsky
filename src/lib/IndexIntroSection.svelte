@@ -24,8 +24,7 @@
     width: 100%;
 
     .top, .bottom, .years {
-      max-width: 35rem;
-      margin-right: 2em;
+      max-width: 37rem;
       @media screen and (max-width: 639px) {
         margin-right: 0;
       }
@@ -33,8 +32,10 @@
 
     .top {
       font-size: 1.8rem;
-      margin-bottom: 11rem;
-      margin-top: 8rem;
+      margin-bottom: 9rem;
+      margin-top: 10rem;
+      line-height: 1.25;
+      letter-spacing: 0.06em;
       @media screen and (max-width: 639px) {
         margin-top: 0;
         font-size: 19px;
@@ -47,7 +48,7 @@
     .bottom {
       font-size: 1rem;
       margin-bottom: 3rem;
-      @media screen and (max-width: 639px) {
+      @media screen and (max-width: 820px) {
         margin-top: 26px;
         font-size: 12px;
         line-height: 2;
@@ -64,6 +65,7 @@
     figure {
       @media screen and (min-width: 640px) {
         max-width: 709px;
+        margin-left: 20px;
       }
       height: auto;
       grid-row: span 3;
