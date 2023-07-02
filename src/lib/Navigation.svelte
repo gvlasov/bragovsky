@@ -23,7 +23,7 @@
         {#if (narrowScreen && open || !narrowScreen)}
             <div class="items">
                 <a href="{base}/life">{$_('page.life.name')}</a>
-                <a href="{base}/works">{$_('page.work.name')}</a>
+                <a href="{base}/work">{$_('page.work.name')}</a>
                 <a href="{base}/contacts">{$_('page.contacts.name')}</a>
                 <a href="{base}/search">{$_('page.search.name')}</a>
                 <button on:click={toggleLanguage}>EN/RU</button>

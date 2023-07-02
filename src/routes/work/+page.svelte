@@ -3,12 +3,6 @@
 </script>
 
 <div class="categories">
-<!--    <LifeCategory name="photos"/>-->
-<!--    <LifeCategory name="sketches"/>-->
-<!--    <LifeCategory name="books"/>-->
-<!--    <LifeCategory name="articles"/>-->
-<!--    <LifeCategory name="1971"/>-->
-<!--    <LifeCategory name="dates"/>-->
 </div>
 
 
