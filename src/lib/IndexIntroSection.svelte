@@ -42,7 +42,7 @@
         margin-top: 0;
         font-size: 19px;
         line-height: 1.6;
-        margin-bottom: 6vw;
+        margin-bottom: 11vw;
         letter-spacing: 0.06em;
       }
     }

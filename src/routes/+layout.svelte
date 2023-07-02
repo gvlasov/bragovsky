@@ -16,8 +16,5 @@
 
   .content {
     padding: 0 $bodyPadding 0 $bodyPadding;
-    @media screen and (max-width: 639px) {
-      padding: 0 24px;
-    }
   }
 </style>
