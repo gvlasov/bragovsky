@@ -1,12 +1,13 @@
 <script lang="ts">
     import {_} from 'svelte-i18n'
-    import { base } from '$app/paths';
+    import {base} from '$app/paths';
 </script>
 
 <section class="intro">
     <h3 class="top">{$_('page.index.desc.top')}</h3>
     <figure>
-        <img class="image-right" src="{base}/Сайт/Фото/pap23-pl01-06.jpg"/><figcaption>{$_('page.index.desc.photo.desc')}</figcaption>
+        <img class="image-right" src="{base}/Сайт/Фото/pap23-pl01-06.jpg"/>
+        <figcaption>{$_('page.index.desc.photo.desc')}</figcaption>
     </figure>
     <div class="bottom">{$_('page.index.desc.bottom')}</div>
     <div class="years">{$_('page.index.desc.years')}</div>
@@ -32,8 +33,8 @@
 
     .top {
       font-size: 1.8rem;
-      margin-bottom: 9rem;
-      margin-top: 10rem;
+      margin-bottom: 113px;
+      margin-top: 78px;
       line-height: 1.25;
       letter-spacing: 0.06em;
       @media screen and (max-width: 639px) {
@@ -47,7 +48,7 @@
 
     .bottom {
       font-size: 1rem;
-      margin-bottom: 3rem;
+      margin-bottom: 26px;
       @media screen and (max-width: 820px) {
         margin-top: 26px;
         font-size: 12px;
@@ -64,7 +65,13 @@
 
     figure {
       @media screen and (min-width: 640px) {
-        max-width: 709px;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        img.image-right {
+          max-width: min(100%, 709px);
+          margin-left: auto;
+        }
         margin-left: 20px;
       }
       height: auto;
@@ -72,9 +79,6 @@
       margin: auto 0-$bodyPadding auto auto;
       font-size: 0; // Remove newline
 
-      img.image-right {
-        max-width: 100%;
-      }
 
       figcaption {
         text-align: right;

@@ -12,7 +12,7 @@
   header {
     position: relative;
     display: flex;
-    padding: 46px 60px 126px 60px;
+    padding: 44px 67px 139px 60px;
     justify-content: space-between;
     @media screen and (max-width: 639px) {
       padding: 33px 24px 53px 24px;

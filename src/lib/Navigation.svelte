@@ -29,7 +29,7 @@
         <a href="{base}/work" on:click={close}>{$_('page.work.name')}</a>
         <a href="{base}/contacts" on:click={close}>{$_('page.contacts.name')}</a>
         <a href="{base}/search" on:click={close}>{$_('page.search.name')}</a>
-        <button on:click={toggleLanguage}>RU/EN</button>
+        <button on:click={toggleLanguage}>EN/RU</button>
     </div>
 </nav>
 <style lang="scss">
@@ -43,7 +43,7 @@
     .items {
       display: flex;
       font-family: 'Montserrat', 'sans-serif';
-      column-gap: 24px;
+      column-gap: 38px;
       font-size: 15.61px;
 
       @media screen and (max-width: 800px) {
@@ -88,7 +88,7 @@
       }
 
       button {
-        margin-left: 2em;
+        margin-left: 33px;
       }
     }
   }

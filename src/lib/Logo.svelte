@@ -10,7 +10,8 @@
   a {
     font-family: 'Montserrat', 'sans-serif';
     text-transform: uppercase;
-    letter-spacing: .15em;
+    letter-spacing: .186em;
+    line-height: 19.6px;
     white-space: nowrap;
   }
 </style>
