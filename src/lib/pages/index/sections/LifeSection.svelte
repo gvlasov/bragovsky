@@ -1,7 +1,7 @@
 <script lang="ts">
     import SectionHeader from "./SectionHeader.svelte";
     import {_} from 'svelte-i18n'
-    import { base } from '$app/paths';
+    import {base} from '$app/paths';
 </script>
 
 <section class="life">
@@ -26,7 +26,7 @@
   section.life {
     margin-top: 495px;
     @media screen and (max-width: 639px) {
-      margin-top: 60px;
+      margin-top: 72px;
     }
 
     figure.afisha {
@@ -35,6 +35,7 @@
         box-shadow: 0 0 20px rgb(93 93 93 / 24%);
         min-width: 100%;
       }
+
       figcaption {
         text-align: right;
         font-size: .7rem;

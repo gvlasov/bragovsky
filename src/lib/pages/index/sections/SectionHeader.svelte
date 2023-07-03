@@ -1,6 +1,6 @@
 <script lang="ts">
     import {_} from 'svelte-i18n'
-    import { base } from '$app/paths';
+    import {base} from '$app/paths';
 
     export let pageName: string
 </script>
@@ -22,13 +22,20 @@
     letter-spacing: .15em;
     line-height: 41.6px;
     margin-left: 10px;
-    @media screen and (max-width: 639px) {
-      font-size: 20px;
-    }
 
     img {
       height: 1em;
       margin-top: -1px;
     }
+
+    @media screen and (max-width: 639px) {
+      font-size: 20px;
+      margin-left: 0;
+      gap: 18px;
+      img {
+        margin-top: 7px;
+      }
+    }
+
   }
 </style>

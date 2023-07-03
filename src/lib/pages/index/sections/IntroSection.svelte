@@ -49,8 +49,10 @@
       font-size: 15px;
       letter-spacing: 0.03em;
       @media screen and (max-width: 820px) {
-        margin-top: 26px;
-        line-height: 2;
+        margin-top: 23px;
+        font-size: 12px;
+        line-height: 23px;
+        letter-spacing: 0.025em;
       }
     }
     .years {
@@ -82,8 +84,11 @@
         padding-right: 19px;
         padding-top: 22px;
         @media screen and (max-width: 639px) {
-          padding-top: 16px;
-          font-size: 9px;
+          font-size: 8px;
+          line-height: 16.8px;
+          letter-spacing: 0.057em;
+          padding-top: 7px;
+          padding-right: 9px;
         }
       }
     }
@@ -94,7 +99,7 @@
       max-height: initial;
       figure {
         min-width: 100vw;
-        margin: 0 0-$bodyPadding 0 0-$bodyPadding;
+        margin: 0 0-$narrowBodyPadding 0 0-$narrowBodyPadding;
       }
     }
   }
