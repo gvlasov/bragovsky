@@ -24,7 +24,7 @@
   @import "../../../../variables";
 
   section.life {
-    margin-top: 493px;
+    margin-top: 495px;
     @media screen and (max-width: 639px) {
       margin-top: 60px;
     }
