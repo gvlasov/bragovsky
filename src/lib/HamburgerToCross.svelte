@@ -49,11 +49,11 @@
     &.open {
       .top {
         top: 18px;
-        transform: translateY(-9px) rotate(-45deg);
+        transform: translateY(-4px) translateX(-2px) rotate(-45deg);
       }
 
       .bottom {
-        transform: translateY(-9px) rotate(45deg);
+        transform: translateY(-13px) rotate(45deg);
       }
     }
   }

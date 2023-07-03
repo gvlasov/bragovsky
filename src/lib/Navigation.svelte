@@ -1,9 +1,8 @@
 <script lang="ts">
     import {_, locale} from 'svelte-i18n';
     import HamburgerToCross from "./HamburgerToCross.svelte";
-    import MediaQuery from 'svelte-media-queries'
-    import {get } from 'svelte/store'
-    import { base } from '$app/paths';
+    import {get} from 'svelte/store'
+    import {base} from '$app/paths';
 
     function toggleLanguage(): void {
         if (get(locale) === 'en') {
@@ -14,32 +13,42 @@
     }
 
     let open: boolean = false
+    let narrowScreen = false
 </script>
 <nav>
-    <MediaQuery let:matches={narrowScreen} query='(max-width: 1080px)'>
-        {#if narrowScreen}
-            <HamburgerToCross open="{open}" on:click={ () => open = !open }/>
-        {/if}
-        {#if (narrowScreen && open || !narrowScreen)}
-            <div class="items">
-                <a href="{base}/life">{$_('page.life.name')}</a>
-                <a href="{base}/work">{$_('page.work.name')}</a>
-                <a href="{base}/contacts">{$_('page.contacts.name')}</a>
-                <a href="{base}/search">{$_('page.search.name')}</a>
-                <button on:click={toggleLanguage}>RU/EN</button>
-            </div>
-        {/if}
-    </MediaQuery>
+
+    <div class="hamburger-wrap">
+        <HamburgerToCross open={open} on:click={ () => open = !open }/>
+    </div>
+    <div class="items" class:open={open}>
+        <a href="{base}/life">{$_('page.life.name')}</a>
+        <a href="{base}/work">{$_('page.work.name')}</a>
+        <a href="{base}/contacts">{$_('page.contacts.name')}</a>
+        <a href="{base}/search">{$_('page.search.name')}</a>
+        <button on:click={toggleLanguage}>RU/EN</button>
+    </div>
 </nav>
 <style lang="scss">
   nav {
+    .hamburger-wrap {
+      @media screen and (min-width: 800px) {
+        display: none;
+      }
+    }
+
     .items {
       display: flex;
       font-family: 'Montserrat', 'sans-serif';
       column-gap: 24px;
       font-size: 15.61px;
 
-      @media screen and (max-width: 1080px) {
+      @media screen and (max-width: 800px) {
+        display: none;
+        margin-top: 92px;
+        &.open {
+          display: flex;
+          flex-direction: column;
+        }
         position: absolute;
         top: 100%;
         right: 0;
@@ -58,7 +67,8 @@
           }
 
           border-bottom: 1px solid transparent;
-          padding-bottom: .2em;
+          margin-top: 30px;
+          padding-bottom: 5px;
         }
       }
 

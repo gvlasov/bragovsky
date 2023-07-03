@@ -1080,11 +1080,6 @@
     "sade" "^1.8.1"
     "tiny-glob" "^0.2.9"
 
-"svelte-media-queries@^1.5.4":
-  "integrity" "sha512-+qH3lDk3DhAC3Gsuw05P30+LMjp9gmF/4+fsnVHLYYsx8fM56f4ZJ0SZjm+lp+PSLot5N3uQXYDTvPcYGGC40Q=="
-  "resolved" "https://registry.npmjs.org/svelte-media-queries/-/svelte-media-queries-1.5.4.tgz"
-  "version" "1.5.4"
-
 "svelte-preprocess@^5.0.3":
   "integrity" "sha512-ABia2QegosxOGsVlsSBJvoWeXy1wUKSfF7SWJdTjLAbx/Y3SrVevvvbFNQqrSJw89+lNSsM58SipmZJ5SRi5iw=="
   "resolved" "https://registry.npmjs.org/svelte-preprocess/-/svelte-preprocess-5.0.4.tgz"
