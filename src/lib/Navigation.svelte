@@ -48,10 +48,11 @@
 
       @media screen and (max-width: 800px) {
         display: none;
-        padding-top: 92px;
+        padding-top: 73px;
         &.open {
           display: flex;
           flex-direction: column;
+          row-gap: 42px;
         }
         position: absolute;
         top: 100%;
@@ -61,9 +62,10 @@
         height: 100vh;
         flex-direction: column;
         align-items: center;
-        font-size: 1.2rem;
+        font-size: 19px;
+        letter-spacing: 0.15em;
         button {
-          margin-left: 0 !important;
+          margin-left: -4px !important;
         }
         & > * {
           &:hover {
@@ -71,8 +73,7 @@
           }
 
           border-bottom: 1px solid transparent;
-          margin-top: 30px;
-          padding-bottom: 5px;
+          margin-left: -6px;
         }
       }
 

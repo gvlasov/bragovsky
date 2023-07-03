@@ -10,7 +10,7 @@
 <style lang="scss">
   footer {
     text-align: center;
-    padding-top: 170px;
+    padding-top: 168px;
     padding-bottom: 8vh;
     font-size: 13px;
     text-transform: uppercase;
@@ -22,6 +22,14 @@
 
       &:hover {
         border-bottom: 0;
+      }
+    }
+    @media screen and (max-width: 639px){
+      padding-top: 20px;
+      a {
+        font-size: 10px;
+        line-height: 18px;
+        letter-spacing: 0.06em;
       }
     }
   }
