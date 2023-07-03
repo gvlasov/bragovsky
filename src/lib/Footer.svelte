@@ -10,14 +10,14 @@
 <style lang="scss">
   footer {
     text-align: center;
-    padding-top: 16vh;
+    padding-top: 170px;
     padding-bottom: 8vh;
     font-size: 13px;
     text-transform: uppercase;
 
     a {
       border-bottom: 1px solid black;
-      padding-bottom: .2rem;
+      padding-bottom: .2em;
       letter-spacing: 0.025em;
 
       &:hover {
