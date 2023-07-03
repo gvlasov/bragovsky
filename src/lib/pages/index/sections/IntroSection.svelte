@@ -36,12 +36,12 @@
       margin-top: 112px;
       line-height: 38px;
       letter-spacing: 0.06em;
-      @media screen and (max-width: 639px) {
+      @media screen and (max-width: 820px) {
         margin-top: 0;
         font-size: 19px;
         line-height: 1.6;
-        margin-bottom: 11vw;
-        letter-spacing: 0.06em;
+        margin-bottom: 19px;
+        letter-spacing: 0.05em;
       }
     }
 
@@ -93,8 +93,8 @@
       flex-direction: column;
       max-height: initial;
       figure {
-        max-width: 100vw !important;
-        margin: auto 0-$bodyPadding auto 0-$bodyPadding !important;
+        min-width: 100vw;
+        margin: 0 0-$bodyPadding 0 0-$bodyPadding;
       }
     }
   }
