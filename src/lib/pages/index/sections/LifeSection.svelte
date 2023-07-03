@@ -135,7 +135,8 @@
           padding-left: 0;
           width: 33%;
           float: left;
-          margin-top: 5vw;
+          margin-top: 1%;
+          padding-right: 3.4%;
         }
 
         &.photo2 {
