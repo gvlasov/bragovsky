@@ -22,15 +22,15 @@
   @import "../../../../variables";
 
   section.life {
-    margin-top: 20vh;
+    margin-top: 244px;
     @media screen and (max-width: 639px) {
       margin-top: 80px;
     }
     display: grid;
-    grid-template-columns: 18% 18% 18% 33%;
-    column-gap: 4%;
-    row-gap: 1vw;
+    grid-template-columns: auto 16.85% 16.99% 32.53%;
     grid-template-rows: repeat(6, min-content);
+    column-gap: 5%;
+    row-gap: 1vw;
     width: 100%;
 
     .graphic {
@@ -45,60 +45,58 @@
     .photo1 {
       grid-column: 1;
       grid-row: 2;
-      margin-top: 3vw;
+      margin-top: 30%;
     }
 
     .photo2 {
       grid-column: 1;
       grid-row: 3;
+      margin-top: 4%;
+      margin-left: 14%;
     }
 
     .photo3 {
       grid-column: 2;
       grid-row: 2/4;
+      margin-top: 11.2%;
+      margin-left: -2.7%;
     }
 
     .photo4 {
       grid-column: 3;
-      grid-row: 1/3;
-      margin-top: 5vw;
+      grid-row: 2/4;
+      margin-top: -21.5%;
     }
 
     .photo5 {
       grid-column: 4;
       grid-row: 1/5;
-      min-width: 20vw;
+      margin-top: -7.1%;
     }
 
     .photo6 {
       grid-column: 1/4;
       grid-row: 4/6;
-      padding-right: 6vw;
     }
 
     .photo7 {
       grid-column: 4;
       grid-row: 5;
-      padding-top: 11vw;
     }
 
     .photo8 {
       grid-column: 1/3;
       grid-row: 6;
-      padding-left: 4vw;
     }
 
     .photo9 {
       grid-column: 3/5;
       grid-row: 6;
-      margin: auto 0;
-      padding-right: 4vw;
     }
 
     .photo10 {
       grid-column: 1/5;
       grid-row: 7;
-      padding: 4vw 17vw 0 9vw;
     }
   }
 

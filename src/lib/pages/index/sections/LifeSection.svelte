@@ -46,7 +46,7 @@
     @media screen and (min-width: 641px) {
 
       display: grid;
-      grid-template-columns: 1fr 1fr 1fr auto;
+      grid-template-columns: 18.25% 1fr 1fr 39%;
       grid-template-rows: repeat(5, max-content);
 
       .firstclear, .lastclear {
@@ -56,56 +56,54 @@
       figure.afisha {
         grid-column: 4;
         grid-row: 1/6;
-        width: 30vw;
         float: right;
+        margin-top: -3.9vw;
       }
 
       .photo1 {
         grid-column: 1;
         grid-row: 2/4;
-        padding-top: 5vw;
-        padding-right: 3vw;
+        padding-top: 32.5%;
+        padding-right: 13.8%;
       }
 
       .photo2 {
         grid-column: 1;
         grid-row: 4/6;
-        padding-top: 3vw;
-        padding-right: 6vw;
+        padding-top: 13%;
+        padding-right: 24%;
       }
       .photo3 {
         grid-column: 3;
         grid-row: 4/6;
-        padding-top: 2vw;
-        padding-right: 6vw;
-        padding-left: 2vw;
+        padding-top: 12%;
+        padding-left: 11.5%;
+        padding-right: 32.4%;
       }
       .photo4 {
         grid-column: 2;
         grid-row: 2;
-        padding-top: 8vw;
-        padding-left: 2vw;
-        padding-right: 1vw;
-        padding-bottom: 1vw;
+        padding-top: 34.3%;
+        padding-left: 15%;
+        padding-right: 2%;
       }
       .photo5 {
         grid-column: 3;
         grid-row: 2/4;
-        padding-top: 10vw;
-        padding-right: 1vw;
-        padding-left: 2vw;
-        width: 15vw;
+        padding-top: 43%;
+        padding-right: 23.4%;
+        padding-left: 11.5%;
       }
       .photo6 {
         grid-column: 2;
         grid-row: 3/5;
-        padding-top: 3vw;
+        padding-top: 14%;
       }
       .photo7 {
         grid-column: 2;
         grid-row: 5/6;
-        padding-left: 3vw;
-        padding-top: 2vw;
+        padding-top: 8.4%;
+        padding-left: 21%;
       }
     }
 
