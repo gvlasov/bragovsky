@@ -15,7 +15,7 @@
     padding: 44px 67px 139px 60px;
     justify-content: space-between;
     @media screen and (max-width: 639px) {
-      padding: 33px 24px 53px 24px;
+      padding: 29px 24px 23px 24px;
       font-size: 14px;
     }
   }
