@@ -3,6 +3,8 @@
     import HamburgerToCross from "./HamburgerToCross.svelte";
     import {get} from 'svelte/store'
     import {base} from '$app/paths';
+    import {menuOpen as open} from "./store.js";
+
 
     function toggleLanguage(): void {
         if (get(locale) === 'en') {
@@ -12,19 +14,21 @@
         }
     }
 
-    let open: boolean = false
-    let narrowScreen = false
+    function close() {
+        open.set(false)
+    }
+
 </script>
 <nav>
 
     <div class="hamburger-wrap">
-        <HamburgerToCross open={open} on:click={ () => open = !open }/>
+        <HamburgerToCross open={$open} on:click={ () => open.update(n => !n) }/>
     </div>
-    <div class="items" class:open={open}>
-        <a href="{base}/life">{$_('page.life.name')}</a>
-        <a href="{base}/work">{$_('page.work.name')}</a>
-        <a href="{base}/contacts">{$_('page.contacts.name')}</a>
-        <a href="{base}/search">{$_('page.search.name')}</a>
+    <div class="items" class:open={$open}>
+        <a href="{base}/life" on:click={close}>{$_('page.life.name')}</a>
+        <a href="{base}/work" on:click={close}>{$_('page.work.name')}</a>
+        <a href="{base}/contacts" on:click={close}>{$_('page.contacts.name')}</a>
+        <a href="{base}/search" on:click={close}>{$_('page.search.name')}</a>
         <button on:click={toggleLanguage}>RU/EN</button>
     </div>
 </nav>
@@ -44,7 +48,7 @@
 
       @media screen and (max-width: 800px) {
         display: none;
-        margin-top: 92px;
+        padding-top: 92px;
         &.open {
           display: flex;
           flex-direction: column;

@@ -1,9 +1,10 @@
 <script lang="ts">
     import {_} from 'svelte-i18n'
     import { base } from '$app/paths';
+    import {menuOpen} from "./store";
 </script>
 
-<a href="{base}/">{$_('author.fullName')}</a>
+<a href="{base}/" on:click={() => menuOpen.set(false)}>{$_('author.fullName')}</a>
 
 <style lang="scss">
   a {

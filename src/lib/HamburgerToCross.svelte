@@ -3,59 +3,69 @@
 </script>
 
 <button class:open={open} on:click>
-    <span class="top"></span>
-    <span class="bottom"></span>
+    <span></span>
 </button>
 
 <style lang="scss">
-
-  $color: black;
   button {
-    zoom: .5;
-    width: 60px;
-    height: 34px;
+    font-weight: 400;
+    color: #262626;
+    font-family: "Bruta Glb", Arial, sans-serif;
+    display: block;
     position: relative;
-    transform: rotate(0deg);
-    -webkit-transition: .5s ease-in-out;
-    -moz-transition: .5s ease-in-out;
-    -o-transition: .5s ease-in-out;
-    transition: .5s ease-in-out;
+    width: 30px;
+    height: 14px;
     cursor: pointer;
+    margin-left: auto;
 
-    span {
-      display: block;
-      position: absolute;
-      height: 1px;
-      width: 100%;
-      background: $color;
-      border-radius: 9px;
-      opacity: 1;
-      left: 0;
-      transform: rotate(0deg);
-      -webkit-transition: .25s ease-in-out;
-      -moz-transition: .25s ease-in-out;
-      -o-transition: .25s ease-in-out;
-      transition: .25s ease-in-out;
+    &:after, &:before {
+      content: "";
+    }
 
-      &.top {
-        top: 0;
-      }
+    &:before {
+      top: 0;
+    }
 
-      &.bottom {
-        top: 26px;
-      }
+    &:after {
+      bottom: 0;
     }
 
     &.open {
-      .top {
-        top: 18px;
-        transform: translateY(-4px) translateX(-2px) rotate(-45deg);
+
+      &:before {
+        transform: translateY(7px) rotate(45deg);
       }
 
-      .bottom {
-        transform: translateY(-13px) rotate(45deg);
+      &:after {
+        transform: translateY(-7px) rotate(-45deg);
       }
+
     }
-  }
 
+    span {
+      display: none;
+      font-weight: 400;
+      line-height: 1.5;
+      font-family: "Bruta Glb", Arial, sans-serif;
+      cursor: pointer;
+      left: 0;
+      position: absolute;
+      width: 100%;
+      transition: all 0.3s ease 0s;
+      height: 0;
+      top: 50%;
+      transform: scale(1) translate(0, -50%);
+    }
+
+    &:before, &:after, span {
+      left: 0;
+      position: absolute;
+      height: 1px;
+      width: 100%;
+      -webkit-transition: all 0.3s ease 0s;
+      transition: all 0.3s ease 0s;
+      background-color: #000;
+    }
+
+  }
 </style>
