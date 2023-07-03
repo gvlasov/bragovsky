@@ -14,5 +14,10 @@
     letter-spacing: .186em;
     line-height: 19.6px;
     white-space: nowrap;
+    @media screen and (max-width: 639px) {
+      font-size: 14px;
+      line-height: 30px;
+      letter-spacing: 0.186em;
+    }
   }
 </style>
