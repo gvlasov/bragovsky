@@ -1,11 +1,11 @@
 <script lang="ts">
-    import IndexSectionHeader from "./IndexSectionHeader.svelte";
+    import SectionHeader from "./SectionHeader.svelte";
     import {_} from 'svelte-i18n'
     import { base } from '$app/paths';
 </script>
 
 <section class="life">
-    <IndexSectionHeader pageName="life"/>
+    <SectionHeader pageName="life"/>
     <div class="firstclear"/>
     <figure class="afisha">
         <img src="{base}/Сайт/Фото/_MG_1565-2.jpg"/>
@@ -21,10 +21,10 @@
     <div class="lastclear"/>
 </section>
 <style lang="scss">
-  @import "../variables";
+  @import "../../../../variables";
 
   section.life {
-    margin-top: 26vh;
+    margin-top: 493px;
     @media screen and (max-width: 639px) {
       margin-top: 60px;
     }

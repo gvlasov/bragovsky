@@ -8,6 +8,7 @@
 
 <style lang="scss">
   a {
+    font-size: 15.61px;
     font-family: 'Montserrat', 'sans-serif';
     text-transform: uppercase;
     letter-spacing: .186em;

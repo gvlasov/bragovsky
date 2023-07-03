@@ -9,12 +9,11 @@
         <img class="image-right" src="{base}/Сайт/Фото/pap23-pl01-06.jpg"/>
         <figcaption>{$_('page.index.desc.photo.desc')}</figcaption>
     </figure>
-    <div class="bottom">{$_('page.index.desc.bottom')}</div>
-    <div class="years">{$_('page.index.desc.years')}</div>
+    <div class="bottom">{@html ($_('page.index.desc.bottom'))}</div>
 </section>
 
 <style lang="scss">
-  @import "../variables";
+  @import "../../../../variables";
 
   section.intro {
     font-family: Bruta Glb, sans-serif;
@@ -32,10 +31,10 @@
     }
 
     .top {
-      font-size: 1.8rem;
-      margin-bottom: 113px;
-      margin-top: 78px;
-      line-height: 1.25;
+      font-size: 30px;
+      margin-bottom: 220px;
+      margin-top: 112px;
+      line-height: 38px;
       letter-spacing: 0.06em;
       @media screen and (max-width: 639px) {
         margin-top: 0;
@@ -46,21 +45,16 @@
       }
     }
 
-    .bottom {
-      font-size: 1rem;
-      margin-bottom: 26px;
+    .bottom, .years {
+      font-size: 15px;
+      letter-spacing: 0.03em;
       @media screen and (max-width: 820px) {
         margin-top: 26px;
-        font-size: 12px;
         line-height: 2;
       }
     }
-
     .years {
-      font-size: .9rem;
-      @media screen and (max-width: 639px) {
-        font-size: 12px;
-      }
+      margin-top: 20px;
     }
 
     figure {
@@ -82,9 +76,11 @@
 
       figcaption {
         text-align: right;
-        font-size: .7rem;
-        padding-right: 3em;
-        padding-top: 1.6em;
+        font-size: 11px;
+        letter-spacing: 0.057em;
+        line-height: 14.6px;
+        padding-right: 19px;
+        padding-top: 22px;
         @media screen and (max-width: 639px) {
           padding-top: 16px;
           font-size: 9px;
