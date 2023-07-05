@@ -13,8 +13,12 @@ const config = {
 			assets: 'build',
 			fallback: undefined,
 			precompress: false,
-			strict: true
+			strict: true,
 		}),
+		alias: {
+			$app: 'src',
+			$assets: 'src/assets'
+		},
 		paths: {
 			base: process.env.NODE_ENV === 'production' ? '/sveltekit-github-pages' : '',
 		}

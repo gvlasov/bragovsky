@@ -1,13 +1,14 @@
 <script lang="ts">
     import {_} from 'svelte-i18n'
     import {base} from '$app/paths';
+    import arrowRight from '$assets/arrow-right.svg'
 
     export let pageName: string
 </script>
 
 <a href="{base}/{pageName}">
     <div>{$_('page.' + pageName + '.name')}</div>
-    <img src="{base}/arrow-right.svg"/>
+    <img src="{arrowRight}"/>
 </a>
 
 <style lang="scss">

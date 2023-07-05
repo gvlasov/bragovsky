@@ -1,6 +1,18 @@
 <script lang="ts">
     import SectionHeader from "./SectionHeader.svelte";
     import {base} from '$app/paths';
+    import photo1 from '$assets/Сайт/Графика/Графика 18. Resolution 40.jpg'
+    import photo2 from '$assets/Сайт/Графика/Графика 30. Resolution 40.jpg'
+    import photo3 from '$assets/Сайт/Графика/Графика 9. Resolution 20.jpg'
+    import photo4 from '$assets/Сайт/Графика/Графика 3. Resolution 15.jpg'
+    import photo5 from '$assets/Сайт/Живопись/Автопортет 60.jpg'
+    import photo6 from '$assets/Сайт/Живопись/b-s-012. Resolution 115.jpg'
+    import photo7 from '$assets/Сайт/Живопись/031. Resolution 80.jpg'
+    import photo8 from '$assets/Сайт/Живопись/В список. Resolution 50.jpg'
+    import photo9 from '$assets/Сайт/Живопись/b-s-096-2. Resolution 110.jpg'
+    import photo10 from '$assets/Сайт/Живопись/IMG_2407 Resolution 40.jpg'
+
+
 </script>
 
 <section class="work">
@@ -8,34 +20,34 @@
         <SectionHeader pageName="work"/>
     </div>
     <figure class="photo1">
-        <img class="shadowed" src="{base}/Сайт/Графика/Графика%2018.%20Resolution%2040.jpg"/>
+        <img class="shadowed" src="{photo1}"/>
     </figure>
     <figure class="photo2">
-        <img class="shadowed" src="{base}/Сайт/Графика/Графика%2030.%20Resolution%2040.jpg"/>
+        <img class="shadowed" src="{photo2}"/>
     </figure>
     <figure class="photo3">
-        <img src="{base}/Сайт/Графика/Графика%209.%20Resolution%2020.jpg"/>
+        <img src="{photo3}"/>
     </figure>
     <figure class="photo4">
-        <img src="{base}/Сайт/Графика/Графика%203.%20Resolution%2015.jpg"/>
+        <img src="{photo4}"/>
     </figure>
     <figure class="photo5">
-        <img class="shadowed" src="{base}/Сайт/Живопись/Автопортет%2060.jpg"/>
+        <img class="shadowed" src="{photo5}"/>
     </figure>
     <figure class="photo6">
-        <img class="shadowed" src="{base}/Сайт/Живопись/b-s-012.%20Resolution%20115.jpg"/>
+        <img class="shadowed" src="{photo6}"/>
     </figure>
     <figure class="photo7">
-        <img class="shadowed" src="{base}/Сайт/Живопись/031.%20Resolution%2080.jpg"/>
+        <img class="shadowed" src="{photo7}"/>
     </figure>
     <figure class="photo8">
-        <img class="shadowed" src="{base}/Сайт/Живопись/В%20список.%20Resolution%2050.jpg"/>
+        <img class="shadowed" src="{photo8}"/>
     </figure>
     <figure class="photo9">
-        <img class="shadowed" src="{base}/Сайт/Живопись/b-s-096-2.%20Resolution%20110.jpg"/>
+        <img class="shadowed" src="{photo9}"/>
     </figure>
     <figure class="photo10">
-        <img class="shadowed" src="{base}/Сайт/Живопись/IMG_2407%20Resolution%2040.jpg"/>
+        <img class="shadowed" src="{photo10}"/>
     </figure>
 </section>
 <style lang="scss">
