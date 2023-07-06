@@ -157,6 +157,7 @@
         clear: none;
       }
       .lastclear {
+        display: block;
         clear: both;
       }
       figure.afisha {
@@ -210,31 +211,37 @@
         }
 
         &.photo3 {
-          width: 28.6%;
+          width: 26.6%;
           float: right;
           padding-right: 0;
-          margin-top: 3%;
+          margin-top: 5%;
           padding-top: 0%;
           padding-left: 0%;
         }
 
         &.photo4 {
-          width: 34.1%;
-          margin-right: 1.4%;
-          margin-top: 5.7%;
+          width: 32.1%;
+          margin-right: 3.5%;
+          margin-top: 7.9%;
           float: right;
+          padding-top: 0%;
+          padding-left: 0%;
         }
 
         &.photo5 {
-          width: 26.5%;
-          margin-top: -0.3%;
+          width: 24.5%;
+          margin-top: 1.6%;
           float: left;
           padding-left: 0;
+          padding-top: 0%;
+          padding-right: 0%;
         }
 
         &.photo6 {
-          width: 40.4%;
-          margin-top: 3%;
+          width: 40.7%;
+          margin-top: 5%;
+          padding-top: 0%;
+          margin-left: 2%;
           float: left;
         }
 
@@ -242,7 +249,7 @@
           padding-left: 0;
           width: 33%;
           margin-right: -2%;
-          margin-top: .5%;
+          margin-top: -3.9%;
           float: right;
         }
       }

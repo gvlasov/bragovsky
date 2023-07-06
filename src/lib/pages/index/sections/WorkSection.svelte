@@ -192,6 +192,10 @@
     @media screen and (max-width: 639px) {
       margin-top: 41px;
 
+      .section-header {
+        margin-left: -1px;
+      }
+
       .photo1 {
         grid-column: 1;
         grid-row: 2;

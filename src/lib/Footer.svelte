@@ -34,12 +34,13 @@
     }
 
     @media screen and (max-width: 639px) {
-      padding-top: 20px;
+      padding-top: 19px;
       padding-left: 0px;
       a {
         font-size: 10px;
         line-height: 18px;
         letter-spacing: 0.06em;
+        padding-bottom: 2px;
       }
     }
   }

@@ -35,9 +35,7 @@
 <style lang="scss">
   nav {
     .hamburger-wrap {
-      @media screen and (min-width: 800px) {
-        display: none;
-      }
+      display: none;
     }
 
     .items {
@@ -45,37 +43,6 @@
       font-family: 'Montserrat', 'sans-serif';
       column-gap: 38px;
       font-size: 15.61px;
-
-      @media screen and (max-width: 800px) {
-        display: none;
-        padding-top: 73px;
-        &.open {
-          display: flex;
-          flex-direction: column;
-          row-gap: 42px;
-        }
-        position: absolute;
-        top: 100%;
-        right: 0;
-        background-color: white;
-        width: 100vw;
-        height: 100vh;
-        flex-direction: column;
-        align-items: center;
-        font-size: 19px;
-        letter-spacing: 0.15em;
-        button {
-          margin-left: -4px !important;
-        }
-        & > * {
-          &:hover {
-            border-bottom: 1px solid black;
-          }
-
-          border-bottom: 1px solid transparent;
-          margin-left: -6px;
-        }
-      }
 
 
       a, button {
@@ -97,8 +64,49 @@
     @media screen and (max-width: 1680px) {
       .items {
         column-gap: 22px;
+
         button {
           margin-left: 29px;
+        }
+      }
+    }
+
+    @media screen and (max-width: 934px) {
+      .hamburger-wrap {
+        display: block;
+      }
+      .items {
+        display: none;
+        padding-top: 73px;
+
+        &.open {
+          display: flex;
+          flex-direction: column;
+          row-gap: 42px;
+        }
+
+        position: absolute;
+        top: 100%;
+        right: 0;
+        background-color: white;
+        width: 100vw;
+        height: 100vh;
+        flex-direction: column;
+        align-items: center;
+        font-size: 19px;
+        letter-spacing: 0.15em;
+
+        button {
+          margin-left: -4px !important;
+        }
+
+        & > * {
+          &:hover {
+            border-bottom: 1px solid black;
+          }
+
+          border-bottom: 1px solid transparent;
+          margin-left: -6px;
         }
       }
     }
