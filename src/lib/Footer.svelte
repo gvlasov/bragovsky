@@ -26,8 +26,11 @@
     }
 
     @media screen and (max-width: 1680px) {
-      padding-top: 146px;
+      padding-top: 145px;
       padding-left: 5px;
+      a {
+        padding-bottom: 2px;
+      }
     }
 
     @media screen and (max-width: 639px) {
