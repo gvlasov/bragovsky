@@ -15,7 +15,7 @@
   a {
     float: left;
     display: flex;
-    gap: 40px;
+    gap: 43px;
     align-items: start;
     font-size: 34px;
 

@@ -66,6 +66,8 @@
     .section-header {
       grid-column: 1/3;
       grid-row: 1;
+      margin-top: -8px;
+      margin-left: 2px;
     }
 
     .photo1 {
