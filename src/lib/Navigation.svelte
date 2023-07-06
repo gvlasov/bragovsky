@@ -77,6 +77,7 @@
         }
       }
 
+
       a, button {
         cursor: pointer;
         text-transform: uppercase;
@@ -90,6 +91,15 @@
 
       button {
         margin-left: 33px;
+      }
+    }
+
+    @media screen and (max-width: 1680px) {
+      .items {
+        column-gap: 22px;
+        button {
+          margin-left: 29px;
+        }
       }
     }
   }
