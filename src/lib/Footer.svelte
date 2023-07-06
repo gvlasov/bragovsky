@@ -32,5 +32,9 @@
         letter-spacing: 0.06em;
       }
     }
+    @media screen and (max-width: 1680px) {
+      padding-top: 146px;
+      padding-left: 5px;
+    }
   }
 </style>
