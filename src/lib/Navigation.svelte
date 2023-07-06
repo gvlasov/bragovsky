@@ -74,6 +74,8 @@
     @media screen and (max-width: 934px) {
       .hamburger-wrap {
         display: block;
+        margin-top: -1px;
+        margin-right: -5px;
       }
       .items {
         display: none;

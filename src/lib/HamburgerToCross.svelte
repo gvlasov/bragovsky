@@ -13,8 +13,8 @@
     font-family: "Bruta Glb", Arial, sans-serif;
     display: block;
     position: relative;
-    width: 30px;
-    height: 14px;
+    width: 36px;
+    height: 13px;
     cursor: pointer;
     margin-left: auto;
 
