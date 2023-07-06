@@ -225,7 +225,46 @@
 
     }
     @media screen and (max-width: 1680px) {
+      margin-top: 214px;
+      .section-header {
+        $shift: 7px;
+        margin-top: 0-$shift;
+        padding-bottom: $shift;
+      }
+      .photo5 {
+          margin-top: -8.3%;
+      }
+      .photo4 {
+        margin-top: -25.7%;
+      }
+      .photo3 {
+        margin-top: 7.3%;
+      }
+      .photo2 {
+        margin-top: 3.3%;
+        border-right: .38vw solid transparent;
+      }
+      .photo1 {
+        margin-top: 26.0%;
+        margin-right: 2.2%;
+        margin-left: 1.3%;
+      }
+      .photo6 {
+        margin-top: 4.4%;
+      }
 
+      .photo8 {
+        margin-top: 14.3%;
+      }
+
+      .photo9 {
+        margin-top: 23.5%;
+        margin-left: 5%;
+      }
+
+      .photo10 {
+        margin-top: 7.7%;
+      }
     }
   }
 

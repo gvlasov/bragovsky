@@ -22,7 +22,7 @@
     text-transform: uppercase;
     letter-spacing: .15em;
     line-height: 41.6px;
-    margin-left: 10px;
+    margin-left: 9px;
 
     img {
       height: 1em;
@@ -39,11 +39,12 @@
     }
 
     @media screen and (max-width: 1680px) {
-      gap: 34px;
+      gap: 38px;
       img {
         height: .9em;
+        margin-left: -1px;
       }
-      margin-bottom: -7px;
+      margin-bottom: -8px;
     }
 
   }
