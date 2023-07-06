@@ -55,6 +55,7 @@
         letter-spacing: 0.025em;
       }
     }
+
     .years {
       margin-top: 20px;
     }
@@ -100,6 +101,20 @@
       figure {
         min-width: 100vw;
         margin: 0 0-$narrowBodyPadding 0 0-$narrowBodyPadding;
+      }
+    }
+    @media screen and (max-width: 1680px) {
+      figure {
+        img.image-right {
+          max-width: min(100%, 620px);
+        }
+
+        figcaption {
+          line-height: 14.7px;
+          letter-spacing: 0.6px;
+          padding-right: 18px;
+          padding-top: 19px;
+        }
       }
     }
   }
