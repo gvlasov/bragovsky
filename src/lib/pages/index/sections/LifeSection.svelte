@@ -70,71 +70,74 @@
       max-width: 100%;
     }
 
-    @media screen and (min-width: 641px) {
-      display: grid;
-      grid-template-columns: 18.25% 1fr 1fr 39%;
-      grid-template-rows: repeat(5, max-content);
+    display: grid;
+    grid-template-columns: 18.25% 1fr 1fr 39%;
+    grid-template-rows: repeat(5, max-content);
 
-      .firstclear, .lastclear {
+    .firstclear, .lastclear {
+      display: none;
+    }
+
+    figure.afisha {
+      grid-column: 4;
+      grid-row: 1/6;
+      float: right;
+      margin-top: -3.9vw;
+
+      figcaption {
         display: none;
       }
+    }
 
-      figure.afisha {
-        grid-column: 4;
-        grid-row: 1/6;
-        float: right;
-        margin-top: -3.9vw;
-        figcaption {
-          display: none;
-        }
-      }
+    .photo1 {
+      grid-column: 1;
+      grid-row: 2/4;
+      padding-top: 33.5%;
+      padding-right: 13.8%;
+    }
 
-      .photo1 {
-        grid-column: 1;
-        grid-row: 2/4;
-        padding-top: 32.5%;
-        padding-right: 13.8%;
-      }
+    .photo2 {
+      grid-column: 1;
+      grid-row: 4/6;
+      padding-top: 9.5%;
+      padding-right: 24%;
+    }
 
-      .photo2 {
-        grid-column: 1;
-        grid-row: 4/6;
-        padding-top: 10.5%;
-        padding-right: 24%;
-      }
+    .photo3 {
+      grid-column: 3;
+      grid-row: 4/6;
+      padding-top: 9%;
+      padding-left: 11.5%;
+      padding-right: 32.4%;
+    }
 
-      .photo3 {
-        grid-column: 3;
-        grid-row: 4/6;
-        padding-top: 10%;
-        padding-left: 11.5%;
-        padding-right: 32.4%;
-      }
-      .photo4 {
-        grid-column: 2;
-        grid-row: 2;
-        padding-top: 34.3%;
-        padding-left: 15%;
-        padding-right: 2%;
-      }
-      .photo5 {
-        grid-column: 3;
-        grid-row: 2/4;
-        padding-top: 43%;
-        padding-right: 23.4%;
-        padding-left: 11.5%;
-      }
-      .photo6 {
-        grid-column: 2;
-        grid-row: 3/5;
-        padding-top: 12%;
-      }
-      .photo7 {
-        grid-column: 2;
-        grid-row: 5/6;
-        padding-top: 6.4%;
-        padding-left: 21%;
-      }
+    .photo4 {
+      grid-column: 2;
+      grid-row: 2;
+      padding-top: 35.3%;
+      padding-left: 15%;
+      padding-right: 2%;
+    }
+
+    .photo5 {
+      grid-column: 3;
+      grid-row: 2/4;
+      padding-top: 44%;
+      padding-right: 23.4%;
+      padding-left: 11.5%;
+    }
+
+    .photo6 {
+      grid-column: 2;
+      grid-row: 3/5;
+      padding-top: 12%;
+    }
+
+    .photo7 {
+      grid-column: 2;
+      grid-row: 5/6;
+      padding-top: 6.1%;
+      padding-left: 21%;
     }
 
     @media screen and (max-width: 639px) {
@@ -165,6 +168,7 @@
           width: 53.8%;
           margin-top: -2%;
         }
+
         img {
           margin-top: -8%;
         }
