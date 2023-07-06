@@ -104,6 +104,16 @@
       }
     }
     @media screen and (max-width: 1680px) {
+      .top {
+        margin-top: 98px;
+        margin-bottom: 172px;
+      }
+      .bottom {
+        max-width: 39rem;
+        font-size: 15px;
+        line-height: 20px;
+        letter-spacing: -0.42px;
+      }
       figure {
         img.image-right {
           max-width: min(100%, 620px);
