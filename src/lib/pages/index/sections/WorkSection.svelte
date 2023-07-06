@@ -73,7 +73,7 @@
     .photo1 {
       grid-column: 1;
       grid-row: 2;
-      margin-top: 28.0%;
+      margin-top: 29.0%;
       margin-right: 2.2%;
       margin-left: 1.3%;
     }
@@ -89,7 +89,7 @@
     .photo3 {
       grid-column: 2;
       grid-row: 2/4;
-      margin-top: 9%;
+      margin-top: 10.3%;
       margin-left: -2.7%;
       margin-right: 2.6%;
     }
@@ -97,7 +97,7 @@
     .photo4 {
       grid-column: 3;
       grid-row: 2/4;
-      margin-top: -23.9%;
+      margin-top: -21.9%;
     }
 
     .photo5 {
