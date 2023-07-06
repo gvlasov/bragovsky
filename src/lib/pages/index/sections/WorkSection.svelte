@@ -152,6 +152,7 @@
         $shift: 7px;
         margin-top: 0-$shift;
         padding-bottom: $shift;
+        margin-left: 0px;
       }
       .photo5 {
         margin-top: -8.3%;
