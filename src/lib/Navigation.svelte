@@ -20,7 +20,6 @@
 
 </script>
 <nav>
-
     <div class="hamburger-wrap">
         <HamburgerToCross open={$open} on:click={ () => open.update(n => !n) }/>
     </div>
@@ -32,6 +31,7 @@
         <button on:click={toggleLanguage}>EN/RU</button>
     </div>
 </nav>
+
 <style lang="scss">
   nav {
     .hamburger-wrap {
