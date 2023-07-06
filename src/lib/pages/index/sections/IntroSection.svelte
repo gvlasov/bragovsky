@@ -54,7 +54,6 @@
         margin-left: auto;
       }
 
-      margin-left: 20px;
       height: auto;
       grid-row: span 3;
       margin: auto 0-$bodyPadding auto auto;
@@ -68,13 +67,6 @@
         line-height: 14.6px;
         padding-right: 19px;
         padding-top: 22px;
-        @media screen and (max-width: 639px) {
-          font-size: 8px;
-          line-height: 16.8px;
-          letter-spacing: 0.057em;
-          padding-top: 7px;
-          padding-right: 9px;
-        }
       }
     }
 
@@ -128,6 +120,15 @@
     @media screen and (max-width: 639px) {
       .top, .bottom, .years {
         margin-right: 0;
+      }
+      figure {
+        figcaption {
+          font-size: 8px;
+          line-height: 16.8px;
+          letter-spacing: 0.057em;
+          padding-top: 7px;
+          padding-right: 9px;
+        }
       }
     }
   }
