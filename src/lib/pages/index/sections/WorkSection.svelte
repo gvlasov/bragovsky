@@ -1,6 +1,5 @@
 <script lang="ts">
     import SectionHeader from "./SectionHeader.svelte";
-    import {base} from '$app/paths';
     import photo1 from '$assets/Сайт/Графика/Графика 18. Resolution 40.jpg'
     import photo2 from '$assets/Сайт/Графика/Графика 30. Resolution 40.jpg'
     import photo3 from '$assets/Сайт/Графика/Графика 9. Resolution 20.jpg'
@@ -11,8 +10,6 @@
     import photo8 from '$assets/Сайт/Живопись/В список. Resolution 50.jpg'
     import photo9 from '$assets/Сайт/Живопись/b-s-096-2. Resolution 110.jpg'
     import photo10 from '$assets/Сайт/Живопись/IMG_2407 Resolution 40.jpg'
-
-
 </script>
 
 <section class="work">
@@ -225,6 +222,9 @@
         margin-left: 8.26%;
         margin-right: 27.3%;
       }
+
+    }
+    @media screen and (max-width: 1680px) {
 
     }
   }

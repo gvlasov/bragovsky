@@ -109,10 +109,10 @@
         margin-bottom: 172px;
       }
       .bottom {
-        max-width: 39rem;
+        max-width: 36rem;
         font-size: 15px;
         line-height: 20px;
-        letter-spacing: -0.42px;
+        letter-spacing: 0.45px;
       }
       figure {
         img.image-right {
