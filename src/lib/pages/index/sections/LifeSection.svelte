@@ -136,14 +136,23 @@
 
     @media screen and (max-width: 1680px) {
       margin-top: 432px;
-
+      figure.afisha {
+        figcaption {
+          padding-top: 20px;
+          padding-right: 11px;
+          display: block;
+          font-size: 11px;
+          line-height: 14.7px;
+          letter-spacing: 0.6px;
+        }
+      }
     }
+
     @media screen and (max-width: 639px) {
+      display: block;
       margin-top: 72px;
-    }
-
-    @media screen and (max-width: 639px) {
       text-align: center;
+
       .firstclear {
         clear: none;
       }
@@ -152,7 +161,6 @@
       }
       figure.afisha {
         float: right;
-        width: 56%;
 
         figcaption {
           text-align: right;
@@ -161,26 +169,31 @@
           letter-spacing: 0.057em;
           padding-top: 0;
           padding-right: 3px;
-          @media screen and (max-width: 639px) {
-            padding-top: 2px;
-          }
         }
 
-        @media screen and (max-width: 639px) {
-          width: 53.8%;
-          margin-top: -2%;
-        }
+        width: 53.8%;
+        margin-top: -2%;
 
-        img {
-          margin-top: -8%;
+        figcaption {
+          display: block;
         }
       }
+
       & > div {
         padding: 1.9%;
         box-sizing: border-box;
 
+        figure.afisha {
+          margin-top: 16%;
+
+          figcaption {
+            padding-top: 2px;
+          }
+        }
+
         &.photo1 {
           padding-left: 0;
+          padding-top: 2%;
           max-width: 33%;
           float: left;
           margin-top: 3.7%;
@@ -189,6 +202,8 @@
 
         &.photo2 {
           padding-left: 0;
+          padding-right: 2%;
+          padding-top: 2%;
           width: 34.7%;
           margin-top: -0.5%;
           float: left;
@@ -199,6 +214,8 @@
           float: right;
           padding-right: 0;
           margin-top: 3%;
+          padding-top: 0%;
+          padding-left: 0%;
         }
 
         &.photo4 {
