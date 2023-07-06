@@ -29,15 +29,6 @@
       margin-top: -1px;
     }
 
-    @media screen and (max-width: 639px) {
-      font-size: 20px;
-      margin-left: 0;
-      gap: 18px;
-      img {
-        margin-top: 7px;
-      }
-    }
-
     @media screen and (max-width: 1680px) {
       gap: 38px;
       img {
@@ -45,6 +36,15 @@
         margin-left: -1px;
       }
       margin-bottom: -8px;
+    }
+
+    @media screen and (max-width: 639px) {
+      font-size: 20px;
+      margin-left: 0;
+      gap: 20px;
+      img {
+        margin-top: 8px;
+      }
     }
 
   }

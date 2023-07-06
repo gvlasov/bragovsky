@@ -16,6 +16,30 @@
   @import "../../../../variables";
 
   section.intro {
+    @media screen and (max-width: 1680px) {
+      .top {
+        margin-top: 98px;
+        margin-bottom: 172px;
+      }
+      .bottom {
+        max-width: 36rem;
+        font-size: 15px;
+        line-height: 20px;
+        letter-spacing: 0.45px;
+      }
+      figure {
+        img.image-right {
+          max-width: min(100%, 620px);
+        }
+
+        figcaption {
+          line-height: 14.7px;
+          letter-spacing: 0.6px;
+          padding-right: 18px;
+          padding-top: 19px;
+        }
+      }
+    }
     font-family: Bruta Glb, sans-serif;
     display: grid;
     grid-template-columns: max-content 1fr;
@@ -101,30 +125,6 @@
       figure {
         min-width: 100vw;
         margin: 0 0-$narrowBodyPadding 0 0-$narrowBodyPadding;
-      }
-    }
-    @media screen and (max-width: 1680px) {
-      .top {
-        margin-top: 98px;
-        margin-bottom: 172px;
-      }
-      .bottom {
-        max-width: 36rem;
-        font-size: 15px;
-        line-height: 20px;
-        letter-spacing: 0.45px;
-      }
-      figure {
-        img.image-right {
-          max-width: min(100%, 620px);
-        }
-
-        figcaption {
-          line-height: 14.7px;
-          letter-spacing: 0.6px;
-          padding-right: 18px;
-          padding-top: 19px;
-        }
       }
     }
   }

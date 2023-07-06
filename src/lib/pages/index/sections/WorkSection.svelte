@@ -144,86 +144,6 @@
       margin-right: 23.3%;
     }
 
-    @media screen and (max-width: 639px) {
-      margin-top: 35px;
-
-      .photo1 {
-        grid-column: 1;
-        grid-row: 2;
-        margin-top: 42.0%;
-        margin-right: 2.2%;
-        margin-left: 1.3%;
-      }
-
-      .photo2 {
-        grid-column: 1;
-        grid-row: 3;
-        margin-top: -3.3%;
-        border-right: .38vw solid transparent;
-        margin-left: 1.3%;
-      }
-
-      .photo3 {
-        grid-column: 2;
-        grid-row: 2/4;
-        margin-top: 23.1%;
-        margin-left: -2.7%;
-        margin-right: 2.6%;
-      }
-
-      .photo4 {
-        grid-column: 3;
-        grid-row: 2/4;
-        margin-top: -6.9%;
-      }
-
-      .photo5 {
-        grid-column: 4;
-        grid-row: 1/5;
-        margin-top: 10.1%;
-      }
-
-      .photo6 {
-        grid-column: 1/4;
-        grid-row: 4/6;
-        margin-top: 2.4%;
-        margin-right: 7%;
-      }
-
-      .photo7 {
-        grid-column: 4;
-        grid-row: 5;
-        margin-left: -13.4%;
-
-        img {
-          transform: translateY(14.2%);
-        }
-      }
-
-      .photo8 {
-        grid-column: 1/3;
-        grid-row: 6;
-        margin-top: 3.8%;
-        margin-left: 12%;
-        margin-right: -3%;
-      }
-
-      .photo9 {
-        grid-column: 3/5;
-        grid-row: 6;
-        margin-top: 11.8%;
-        margin-left: 2.5%;
-      }
-
-      .photo10 {
-        grid-column: 1/5;
-        grid-row: 7;
-        margin-top: 1.5%;
-        margin-left: 8.26%;
-        margin-right: 27.3%;
-      }
-
-    }
     @media screen and (max-width: 1680px) {
       margin-top: 214px;
       .section-header {
@@ -232,7 +152,7 @@
         padding-bottom: $shift;
       }
       .photo5 {
-          margin-top: -8.3%;
+        margin-top: -8.3%;
       }
       .photo4 {
         margin-top: -25.7%;
@@ -265,6 +185,87 @@
       .photo10 {
         margin-top: 7.7%;
       }
+    }
+
+    @media screen and (max-width: 639px) {
+      margin-top: 41px;
+
+      .photo1 {
+        grid-column: 1;
+        grid-row: 2;
+        margin-top: 42.0%;
+        margin-right: 2.2%;
+        margin-left: 1.3%;
+      }
+
+      .photo2 {
+        grid-column: 1;
+        grid-row: 3;
+        margin-top: -3.3%;
+        border-right: .38vw solid transparent;
+        margin-left: 1.3%;
+      }
+
+      .photo3 {
+        grid-column: 2;
+        grid-row: 2/4;
+        margin-top: 24.1%;
+        margin-left: -2.7%;
+        margin-right: 2.6%;
+      }
+
+      .photo4 {
+        grid-column: 3;
+        grid-row: 2/4;
+        margin-top: -6.9%;
+      }
+
+      .photo5 {
+        grid-column: 4;
+        grid-row: 1/5;
+        margin-top: 3.1%;
+      }
+
+      .photo6 {
+        grid-column: 1/4;
+        grid-row: 4/6;
+        margin-top: 2.4%;
+        margin-right: 7%;
+      }
+
+      .photo7 {
+        grid-column: 4;
+        grid-row: 5;
+        margin-left: -13.4%;
+
+        img {
+          transform: translateY(15.2%);
+        }
+      }
+
+      .photo8 {
+        grid-column: 1/3;
+        grid-row: 6;
+        margin-top: 3.8%;
+        margin-left: 12%;
+        margin-right: -3%;
+      }
+
+      .photo9 {
+        grid-column: 3/5;
+        grid-row: 6;
+        margin-top: 11.8%;
+        margin-left: 2.5%;
+      }
+
+      .photo10 {
+        grid-column: 1/5;
+        grid-row: 7;
+        margin-top: 1.5%;
+        margin-left: 8.26%;
+        margin-right: 26.5%;
+      }
+
     }
   }
 

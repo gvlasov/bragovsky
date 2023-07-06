@@ -1,6 +1,6 @@
 <script lang="ts">
     import {_} from "svelte-i18n";
-    import { base } from '$app/paths';
+    import {base} from '$app/paths';
 </script>
 
 <footer>
@@ -24,17 +24,20 @@
         border-bottom: 0;
       }
     }
-    @media screen and (max-width: 639px){
+
+    @media screen and (max-width: 1680px) {
+      padding-top: 146px;
+      padding-left: 5px;
+    }
+
+    @media screen and (max-width: 639px) {
       padding-top: 20px;
+      padding-left: 0px;
       a {
         font-size: 10px;
         line-height: 18px;
         letter-spacing: 0.06em;
       }
-    }
-    @media screen and (max-width: 1680px) {
-      padding-top: 146px;
-      padding-left: 5px;
     }
   }
 </style>
