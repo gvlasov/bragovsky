@@ -20,7 +20,7 @@
       font-size: 14px;
     }
     @media screen and (max-width: 639px) {
-      padding: 28px 46px 24px 24px;
+      padding: 28px 46px 24.4px 24px;
       font-size: 14px;
     }
   }

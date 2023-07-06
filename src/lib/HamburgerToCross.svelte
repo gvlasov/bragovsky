@@ -9,7 +9,6 @@
 <style lang="scss">
   button {
     font-weight: 400;
-    color: #262626;
     font-family: "Bruta Glb", Arial, sans-serif;
     display: block;
     position: relative;
