@@ -73,7 +73,7 @@
     @media screen and (max-width: 1680px) {
       .top {
         margin-top: 98px;
-        margin-bottom: 172px;
+        margin-bottom: 173px;
       }
       .bottom {
         max-width: 36rem;

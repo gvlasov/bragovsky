@@ -37,6 +37,12 @@
       }
       margin-bottom: -8px;
     }
+    @media screen and (max-width: 1680px) {
+      letter-spacing: 5px;
+      font-size: 34px;
+      line-height: 41.6px;
+      margin-left: 9px;
+    }
 
     @media screen and (max-width: 639px) {
       font-size: 20px;

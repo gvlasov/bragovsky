@@ -178,16 +178,39 @@
   font-style: normal;
 }
 
+//@font-face {
+//  font-family: 'Bruta Glb';
+//  src: url('/fonts/Bruta/BrutaGlbRegular-RegularIt.eot');
+//  src: local('Bruta Glb Regular Regular Italic'), local('BrutaGlbRegular-RegularIt'),
+//  url('/fonts/Bruta/BrutaGlbRegular-RegularIt.eot?#iefix') format('embedded-opentype'),
+//  url('/fonts/Bruta/BrutaGlbRegular-RegularIt.woff2') format('woff2'),
+//  url('/fonts/Bruta/BrutaGlbRegular-RegularIt.woff') format('woff'),
+//  url('/fonts/Bruta/BrutaGlbRegular-RegularIt.ttf') format('truetype');
+//  font-weight: normal;
+//  font-style: italic;
+//}
 @font-face {
-  font-family: 'Bruta Glb';
-  src: url('/fonts/Bruta/BrutaGlbRegular-RegularIt.eot');
-  src: local('Bruta Glb Regular Regular Italic'), local('BrutaGlbRegular-RegularIt'),
-  url('/fonts/Bruta/BrutaGlbRegular-RegularIt.eot?#iefix') format('embedded-opentype'),
-  url('/fonts/Bruta/BrutaGlbRegular-RegularIt.woff2') format('woff2'),
-  url('/fonts/Bruta/BrutaGlbRegular-RegularIt.woff') format('woff'),
-  url('/fonts/Bruta/BrutaGlbRegular-RegularIt.ttf') format('truetype');
+  font-family: 'Bruta Glb Light';
+  src: url('/fonts/Bruta/BrutaGlbRegular-Light.eot');
+  src: local('Bruta Glb Regular Light'), local('BrutaGlbRegular-Light'),
+  url('/fonts/Bruta/BrutaGlbRegular-Light.eot?#iefix') format('embedded-opentype'),
+  url('/fonts/Bruta/BrutaGlbRegular-Light.woff2') format('woff2'),
+  url('/fonts/Bruta/BrutaGlbRegular-Light.woff') format('woff'),
+  url('/fonts/Bruta/BrutaGlbRegular-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Bruta Glb Regular';
+  src: url('/fonts/Bruta/BrutaGlbRegular-Regular.eot');
+  src: local('Bruta Glb Regular Regular'), local('BrutaGlbRegular-Regular'),
+  url('/fonts/Bruta/BrutaGlbRegular-Regular.eot?#iefix') format('embedded-opentype'),
+  url('/fonts/Bruta/BrutaGlbRegular-Regular.woff2') format('woff2'),
+  url('/fonts/Bruta/BrutaGlbRegular-Regular.woff') format('woff'),
+  url('/fonts/Bruta/BrutaGlbRegular-Regular.ttf') format('truetype');
   font-weight: normal;
-  font-style: italic;
+  font-style: normal;
 }
 
 @font-face {
