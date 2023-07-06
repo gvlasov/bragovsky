@@ -38,5 +38,13 @@
       }
     }
 
+    @media screen and (max-width: 1680px) {
+      gap: 34px;
+      img {
+        height: .9em;
+      }
+      margin-bottom: -7px;
+    }
+
   }
 </style>

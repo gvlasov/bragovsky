@@ -49,6 +49,9 @@
     @media screen and (max-width: 639px) {
       margin-top: 72px;
     }
+    @media screen and (max-width: 1680px) {
+      margin-top: 432px;
+    }
 
     figure.afisha {
 
