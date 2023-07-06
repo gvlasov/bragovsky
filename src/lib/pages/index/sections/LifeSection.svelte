@@ -46,12 +46,6 @@
 
   section.life {
     margin-top: 495px;
-    @media screen and (max-width: 1680px) {
-      margin-top: 432px;
-    }
-    @media screen and (max-width: 639px) {
-      margin-top: 72px;
-    }
 
     figure.afisha {
 
@@ -92,21 +86,21 @@
     .photo1 {
       grid-column: 1;
       grid-row: 2/4;
-      padding-top: 33.5%;
+      padding-top: 32.5%;
       padding-right: 13.8%;
     }
 
     .photo2 {
       grid-column: 1;
       grid-row: 4/6;
-      padding-top: 9.5%;
+      padding-top: 10.5%;
       padding-right: 24%;
     }
 
     .photo3 {
       grid-column: 3;
       grid-row: 4/6;
-      padding-top: 9%;
+      padding-top: 10%;
       padding-left: 11.5%;
       padding-right: 32.4%;
     }
@@ -114,7 +108,7 @@
     .photo4 {
       grid-column: 2;
       grid-row: 2;
-      padding-top: 35.3%;
+      padding-top: 34.3%;
       padding-left: 15%;
       padding-right: 2%;
     }
@@ -122,7 +116,7 @@
     .photo5 {
       grid-column: 3;
       grid-row: 2/4;
-      padding-top: 44%;
+      padding-top: 43%;
       padding-right: 23.4%;
       padding-left: 11.5%;
     }
@@ -136,8 +130,16 @@
     .photo7 {
       grid-column: 2;
       grid-row: 5/6;
-      padding-top: 6.1%;
+      padding-top: 6.6%;
       padding-left: 21%;
+    }
+
+    @media screen and (max-width: 1680px) {
+      margin-top: 432px;
+
+    }
+    @media screen and (max-width: 639px) {
+      margin-top: 72px;
     }
 
     @media screen and (max-width: 639px) {
