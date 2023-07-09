@@ -23,19 +23,21 @@
     <div class="hamburger-wrap">
         <HamburgerToCross open={$open} on:click={ () => open.update(n => !n) }/>
     </div>
-    <div class="items" class:open={$open}>
-        <a href="{base}/life" on:click={close}>{$_('page.life.name')}</a>
-        <a href="{base}/work" on:click={close}>{$_('page.work.name')}</a>
-        <a href="{base}/contacts" on:click={close}>{$_('page.contacts.name')}</a>
-        <a href="{base}/search" on:click={close}>{$_('page.search.name')}</a>
-        <button on:click={toggleLanguage}>EN/RU</button>
-    </div>
+<!--    <div class="items" class:open={$open}>-->
+<!--        <a href="{base}/life" on:click={close}>{$_('page.life.name')}</a>-->
+<!--        <a href="{base}/work" on:click={close}>{$_('page.work.name')}</a>-->
+<!--        <a href="{base}/contacts" on:click={close}>{$_('page.contacts.name')}</a>-->
+<!--        <a href="{base}/search" on:click={close}>{$_('page.search.name')}</a>-->
+<!--        <button on:click={toggleLanguage}>EN/RU</button>-->
+<!--    </div>-->
 </nav>
 
 <style lang="scss">
   nav {
     .hamburger-wrap {
-      display: none;
+      display: block;
+      margin-top: -.4vw;
+      margin-right: -5vw;
     }
 
     .items {
@@ -72,11 +74,6 @@
     }
 
     @media screen and (max-width: 934px) {
-      .hamburger-wrap {
-        display: block;
-        margin-top: -1px;
-        margin-right: -5px;
-      }
       .items {
         display: none;
         padding-top: 73px;

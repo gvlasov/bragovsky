@@ -7,13 +7,15 @@
 </button>
 
 <style lang="scss">
+  $hamburgerHeight: 3.39vw;
+  $hamburgerWeight: .31vw;
   button {
     font-weight: 400;
     font-family: "Bruta Glb", Arial, sans-serif;
     display: block;
     position: relative;
-    width: 36px;
-    height: 13px;
+    width: 8.8vw;
+    height: $hamburgerHeight;
     cursor: pointer;
     margin-left: auto;
 
@@ -32,11 +34,11 @@
     &.open {
 
       &:before {
-        transform: translateY(7px) rotate(45deg);
+        transform: translateY($hamburgerHeight/2-$hamburgerWeight/2) rotate(-45deg);
       }
 
       &:after {
-        transform: translateY(-7px) rotate(-45deg);
+        transform: translateY(-($hamburgerHeight/2-$hamburgerWeight/2)) rotate(45deg);
       }
 
     }
@@ -44,7 +46,6 @@
     span {
       display: none;
       font-weight: 400;
-      line-height: 1.5;
       font-family: "Bruta Glb", Arial, sans-serif;
       cursor: pointer;
       left: 0;
@@ -59,11 +60,12 @@
     &:before, &:after, span {
       left: 0;
       position: absolute;
-      height: 1px;
+      height: $hamburgerWeight;
       width: 100%;
       -webkit-transition: all 0.3s ease 0s;
       transition: all 0.3s ease 0s;
       background-color: #000;
+      border-radius: $hamburgerWeight;
     }
 
   }

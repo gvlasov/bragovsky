@@ -12,7 +12,7 @@
   header {
     position: relative;
     display: flex;
-    padding: 10.5vw 4vw 0 6.1vw;
+    padding: 8.9vw 15.8vw 0 6.1vw;
     justify-content: space-between;
     align-items: center;
     @media screen and (min-width: 1680px) {
