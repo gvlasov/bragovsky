@@ -58,8 +58,8 @@
     row-gap: 1vw;
     width: 100%;
 
-    & > figure > img {
-      box-shadow: 0 0 20px rgb(93 93 93 / 24%);
+    & > figure > img, & > img {
+      box-shadow: 0 0 6vw rgb(93 93 93 / 24%);
     }
 
     margin-top: 14vw;
