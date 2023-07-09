@@ -8,10 +8,10 @@
 
 <style lang="scss">
   a {
-    font-size: 3.4vw;
+    font-size: 3.45vw;
     font-family: 'Montserrat', 'sans-serif';
     text-transform: uppercase;
-    letter-spacing: .631vw;
+    letter-spacing: .765vw;
     white-space: nowrap;
   }
 </style>

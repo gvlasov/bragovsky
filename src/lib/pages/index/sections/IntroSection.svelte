@@ -37,12 +37,10 @@
     }
 
     figure {
-      min-width: 100vw;
-      margin: 5.3vw 0-$narrowBodyPadding 0 0-$narrowBodyPadding;
+      margin: 5.0vw 0-$narrowBodyPadding 0 0-$narrowBodyPadding;
 
       img.image-right {
         width: 100%;
-        margin-left: auto;
       }
 
       figcaption {
@@ -85,6 +83,7 @@
         font-size: 0; // Remove newline
         img.image-right {
           max-width: min(100%, 37vw);
+          margin-left: auto;
         }
 
         figcaption {
