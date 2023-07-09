@@ -13,7 +13,6 @@
 
 <section class="life">
     <SectionHeader pageName="life"/>
-    <div class="firstclear"/>
     <figure class="afisha">
         <img src="{afisha}"/>
         <figcaption>{$_('page.index.life.afisha.desc')}</figcaption>
@@ -45,215 +44,179 @@
   @import "../../../../variables";
 
   section.life {
-    margin-top: 495px;
+    margin-top: 22.3vw;
+    display: block;
 
     figure.afisha {
-
-      img {
-        box-shadow: 0 0 20px rgb(93 93 93 / 24%);
-        min-width: 100%;
-      }
-
       figcaption {
         text-align: right;
       }
     }
 
-    & > div > img {
+    & > div > img, figure.afisha > img {
       box-shadow: 0 0 20px rgb(93 93 93 / 24%);
       max-width: 100%;
     }
 
-    display: grid;
-    grid-template-columns: 18.25% 1fr 1fr 39%;
-    grid-template-rows: repeat(5, max-content);
+    text-align: center;
 
-    .firstclear, .lastclear {
-      display: none;
+    .lastclear {
+      display: block;
+      clear: both;
     }
 
     figure.afisha {
-      grid-column: 4;
-      grid-row: 1/6;
       float: right;
-      margin-top: -3.9vw;
+      margin-top: -5.6rem;
+      width: 54%;
 
       figcaption {
+        display: block;
+        text-align: right;
+        font-size: 2rem;
+        line-height: 16.8px;
+        letter-spacing: 0.057em;
+        padding-top: 3rem;
+        padding-right: .6vw;
+      }
+    }
+
+    & > div {
+      padding: 1.9%;
+      box-sizing: border-box;
+
+      &.photo1 {
+        padding-left: 0;
+        padding-top: 4.3%;
+        max-width: 33%;
+        float: left;
+        margin-top: 3.7%;
+        padding-right: 3.6%;
+      }
+
+      &.photo2 {
+        padding-left: 0;
+        padding-right: 2%;
+        padding-top: 2%;
+        width: 34.7%;
+        margin-top: 1.3%;
+        float: left;
+      }
+
+      &.photo3 {
+        width: 26.6%;
+        float: right;
+        padding-right: 0;
+        margin-top: 5.2%;
+        padding-left: 0%;
+      }
+
+      &.photo4 {
+        width: 34%;
+        margin-right: 3.3%;
+        margin-top: 7.4%;
+        margin-bottom: 0.4%;
+        float: right;
+      }
+
+      &.photo5 {
+        width: 24.5%;
+        margin-top: 3.3%;
+        float: left;
+        padding-left: 0;
+        padding-top: 0%;
+        padding-right: 0%;
+      }
+
+      &.photo6 {
+        width: 40.7%;
+        margin-top: 4.6%;
+        margin-left: 2%;
+        float: left;
+      }
+
+      &.photo7 {
+        padding-left: 0;
+        width: 32.8%;
+        margin-right: -2.0%;
+        margin-top: 2.0%;
+        float: right;
+      }
+    }
+
+    @media screen and (min-width: 1680px) {
+      display: grid;
+      grid-template-columns: 18.25% 1fr 1fr 39%;
+      grid-template-rows: repeat(5, max-content);
+
+      .firstclear, .lastclear {
         display: none;
       }
-    }
 
-    .photo1 {
-      grid-column: 1;
-      grid-row: 2/4;
-      padding-top: 32.5%;
-      padding-right: 13.8%;
-    }
-
-    .photo2 {
-      grid-column: 1;
-      grid-row: 4/6;
-      padding-top: 10.5%;
-      padding-right: 24%;
-    }
-
-    .photo3 {
-      grid-column: 3;
-      grid-row: 4/6;
-      padding-top: 10%;
-      padding-left: 11.5%;
-      padding-right: 32.4%;
-    }
-
-    .photo4 {
-      grid-column: 2;
-      grid-row: 2;
-      padding-top: 34.3%;
-      padding-left: 15%;
-      padding-right: 2%;
-    }
-
-    .photo5 {
-      grid-column: 3;
-      grid-row: 2/4;
-      padding-top: 43%;
-      padding-right: 23.4%;
-      padding-left: 11.5%;
-    }
-
-    .photo6 {
-      grid-column: 2;
-      grid-row: 3/5;
-      padding-top: 12%;
-    }
-
-    .photo7 {
-      grid-column: 2;
-      grid-row: 5/6;
-      padding-top: 6.6%;
-      padding-left: 21%;
-    }
-
-    @media screen and (max-width: 1680px) {
-      margin-top: 432px;
       figure.afisha {
-        figcaption {
-          padding-top: 20px;
-          padding-right: 11px;
-          display: block;
-          font-size: 11px;
-          line-height: 14.7px;
-          letter-spacing: 0.6px;
-        }
-      }
-    }
-
-    @media screen and (max-width: 639px) {
-      display: block;
-      margin-top: 72px;
-      text-align: center;
-
-      .firstclear {
-        clear: none;
-      }
-      .lastclear {
-        display: block;
-        clear: both;
-      }
-      figure.afisha {
+        grid-column: 4;
+        grid-row: 1/6;
         float: right;
+        margin-top: -3.9vw;
 
         figcaption {
-          text-align: right;
-          font-size: 8px;
-          line-height: 16.8px;
-          letter-spacing: 0.057em;
-          padding-top: 0;
-          padding-right: 3px;
-        }
-
-        width: 53.8%;
-        margin-top: -2%;
-
-        figcaption {
-          display: block;
+          display: none;
         }
       }
 
-      & > div {
-        padding: 1.9%;
-        box-sizing: border-box;
-
-        figure.afisha {
-          margin-top: 16%;
-
-          figcaption {
-            padding-top: 2px;
-          }
-        }
-
-        &.photo1 {
-          padding-left: 0;
-          padding-top: 2%;
-          max-width: 33%;
-          float: left;
-          margin-top: 3.7%;
-          padding-right: 3.4%;
-        }
-
-        &.photo2 {
-          padding-left: 0;
-          padding-right: 2%;
-          padding-top: 2%;
-          width: 34.7%;
-          margin-top: -0.5%;
-          float: left;
-        }
-
-        &.photo3 {
-          width: 26.6%;
-          float: right;
-          padding-right: 0;
-          margin-top: 5%;
-          padding-top: 0%;
-          padding-left: 0%;
-        }
-
-        &.photo4 {
-          width: 32.1%;
-          margin-right: 3.5%;
-          margin-top: 7.9%;
-          float: right;
-          padding-top: 0%;
-          padding-left: 0%;
-        }
-
-        &.photo5 {
-          width: 24.5%;
-          margin-top: 1.6%;
-          float: left;
-          padding-left: 0;
-          padding-top: 0%;
-          padding-right: 0%;
-        }
-
-        &.photo6 {
-          width: 40.7%;
-          margin-top: 5%;
-          padding-top: 0%;
-          margin-left: 2%;
-          float: left;
-        }
-
-        &.photo7 {
-          padding-left: 0;
-          width: 33%;
-          margin-right: -2%;
-          margin-top: -3.9%;
-          float: right;
-        }
+      .photo1 {
+        grid-column: 1;
+        grid-row: 2/4;
+        padding-top: 32.5%;
+        padding-right: 13.8%;
       }
+
+      .photo2 {
+        grid-column: 1;
+        grid-row: 4/6;
+        padding-top: 10.5%;
+        padding-right: 24%;
+      }
+
+      .photo3 {
+        grid-column: 3;
+        grid-row: 4/6;
+        padding-top: 10%;
+        padding-left: 11.5%;
+        padding-right: 32.4%;
+      }
+
+      .photo4 {
+        grid-column: 2;
+        grid-row: 2;
+        padding-top: 34.3%;
+        padding-left: 15%;
+        padding-right: 2%;
+      }
+
+      .photo5 {
+        grid-column: 3;
+        grid-row: 2/4;
+        padding-top: 43%;
+        padding-right: 23.4%;
+        padding-left: 11.5%;
+      }
+
+      .photo6 {
+        grid-column: 2;
+        grid-row: 3/5;
+        padding-top: 12%;
+      }
+
+      .photo7 {
+        grid-column: 2;
+        grid-row: 5/6;
+        padding-top: 6.6%;
+        padding-left: 21%;
+      }
+
     }
+
   }
 
 </style>

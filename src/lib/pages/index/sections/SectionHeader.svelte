@@ -15,42 +15,18 @@
   a {
     float: left;
     display: flex;
-    gap: 43px;
+    gap: 1em;
     align-items: start;
-    font-size: 34px;
+    font-size: 4.9rem;
 
     text-transform: uppercase;
-    letter-spacing: .15em;
+    letter-spacing: .17em;
     line-height: 41.6px;
-    margin-left: 9px;
 
     img {
-      height: 1em;
-      margin-top: -1px;
-    }
-
-    @media screen and (max-width: 1680px) {
-      gap: 38px;
-      img {
-        height: .9em;
-        margin-left: -1px;
-      }
-      margin-bottom: -8px;
-    }
-    @media screen and (max-width: 1680px) {
-      letter-spacing: 5px;
-      font-size: 34px;
-      line-height: 41.6px;
-      margin-left: 9px;
-    }
-
-    @media screen and (max-width: 639px) {
-      font-size: 20px;
-      margin-left: 0;
-      gap: 20px;
-      img {
-        margin-top: 8px;
-      }
+      height: 1.00em;
+      margin-top: -0.40em;
+      margin-left: -0.09em;
     }
 
   }
