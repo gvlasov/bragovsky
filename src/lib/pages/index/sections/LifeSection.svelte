@@ -67,17 +67,16 @@
 
     figure.afisha {
       float: right;
-      margin-top: -5.6rem;
+      margin-top: -5.7vw;
       width: 54%;
 
       figcaption {
         display: block;
         text-align: right;
-        font-size: 2rem;
-        line-height: 16.8px;
+        font-size: 2.05vw;
         letter-spacing: 0.057em;
-        padding-top: 3rem;
-        padding-right: .6vw;
+        padding-top: 1.05em;
+        padding-right: .65vw;
       }
     }
 
@@ -107,21 +106,21 @@
         width: 26.6%;
         float: right;
         padding-right: 0;
-        margin-top: 5.2%;
+        margin-top: 4.2%;
         padding-left: 0%;
       }
 
       &.photo4 {
         width: 34%;
         margin-right: 3.3%;
-        margin-top: 7.4%;
-        margin-bottom: 0.4%;
+        margin-top: 6.4%;
+        margin-bottom: 0.5%;
         float: right;
       }
 
       &.photo5 {
         width: 24.5%;
-        margin-top: 3.3%;
+        margin-top: 3.2%;
         float: left;
         padding-left: 0;
         padding-top: 0%;
@@ -130,7 +129,7 @@
 
       &.photo6 {
         width: 40.7%;
-        margin-top: 4.6%;
+        margin-top: 4.4%;
         margin-left: 2%;
         float: left;
       }
