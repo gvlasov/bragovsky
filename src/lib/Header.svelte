@@ -12,16 +12,12 @@
   header {
     position: relative;
     display: flex;
-    padding: 44px 67px 139px 60px;
+    padding: 10.5vw 4vw 0 6.1vw;
     justify-content: space-between;
     align-items: center;
-    @media screen and (max-width: 1680px) {
-      padding: 39px 51px 119px 52px;
+    @media screen and (min-width: 1680px) {
+      padding: 39px 51px 39px 52px;
       font-size: 14px;
-    }
-    @media screen and (max-width: 639px) {
-      padding: 28px 46px 24px 24px;
-      font-size: 14px
     }
   }
 </style>

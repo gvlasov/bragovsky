@@ -50,7 +50,7 @@
       align-items: end;
 
       img.image-right {
-        max-width: min(100%, 709px);
+        max-width: min(100%, 37vw);
         margin-left: auto;
       }
 
@@ -83,7 +83,7 @@
       }
       figure {
         img.image-right {
-          max-width: min(100%, 620px);
+          max-width: min(100%, 37vw);
         }
 
         figcaption {
@@ -115,6 +115,10 @@
       figure {
         min-width: 100vw;
         margin: 0 0-$narrowBodyPadding 0 0-$narrowBodyPadding;
+        img.image-right {
+          min-width: 100%;
+          max-width: 100%;
+        }
       }
     }
     @media screen and (max-width: 639px) {
