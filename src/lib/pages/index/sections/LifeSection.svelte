@@ -48,7 +48,7 @@
     display: block;
 
     & > div > img, figure.afisha > img {
-      box-shadow: 0 0 20px rgb(93 93 93 / 24%);
+      box-shadow: 0 0 3vw rgb(93 93 93 / 24%);
       max-width: 100%;
     }
 

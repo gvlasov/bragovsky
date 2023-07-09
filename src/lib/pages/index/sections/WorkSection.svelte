@@ -60,7 +60,7 @@
     width: 100%;
 
     & > figure > img, & > img {
-      box-shadow: 0 0 6vw rgb(93 93 93 / 24%);
+      box-shadow: 0 0 3vw rgb(93 93 93 / 24%);
     }
 
 
