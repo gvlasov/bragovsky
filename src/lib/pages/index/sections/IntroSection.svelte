@@ -28,12 +28,10 @@
     }
 
     .bottom, .years {
-      font-size: 15px;
-      letter-spacing: 0.03em;
-    }
-
-    .years {
-      margin-top: 20px;
+      margin-top: 6.42vw;
+      font-size: 3.06vw;
+      line-height: 5.89vw;
+      letter-spacing: 0.028em;
     }
 
     figure {
@@ -50,13 +48,6 @@
         padding-right: 2.2vw;
         padding-top: 2.1vw;
       }
-    }
-
-    .bottom, .years {
-      margin-top: 6.5vw;
-      font-size: 3rem;
-      line-height: 5.74rem;
-      letter-spacing: 0.025em;
     }
 
     @media screen and (min-width: 1680px) {
