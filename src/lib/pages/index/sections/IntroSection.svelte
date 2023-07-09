@@ -16,15 +16,15 @@
   @import "../../../../variables";
 
   section.intro {
-    margin-top: 7.5vw;
+    margin-top: 7.9vw;
     font-family: Bruta Glb, sans-serif;
     max-width: 100vw;
     width: 100%;
 
     .top {
-      font-size: 4.7rem;
-      letter-spacing: 0.056em;
-      line-height: 7.5rem;
+      font-size: 5.0vw;
+      letter-spacing: 0.034em;
+      line-height: 7.68vw;
     }
 
     .bottom, .years {
@@ -37,7 +37,7 @@
     }
 
     figure {
-      margin: 5.0vw 0-$narrowBodyPadding 0 0-$narrowBodyPadding;
+      margin: 5.5vw 0-$narrowBodyPadding 0 0-$narrowBodyPadding;
 
       img.image-right {
         width: 100%;
@@ -45,10 +45,10 @@
 
       figcaption {
         text-align: right;
-        font-size: 2rem;
+        font-size: 2.05vw;
         letter-spacing: 0.0571em;
         padding-right: 2.2vw;
-        padding-top: 2.12vw;
+        padding-top: 2.1vw;
       }
     }
 
