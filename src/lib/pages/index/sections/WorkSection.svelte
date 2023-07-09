@@ -51,6 +51,7 @@
   @import "../../../../variables";
 
   section.work {
+    margin-top: 12vw;
     display: grid;
     grid-template-columns: auto 16.85% 16.99% 32.53%;
     grid-template-rows: repeat(6, min-content);
@@ -62,7 +63,6 @@
       box-shadow: 0 0 6vw rgb(93 93 93 / 24%);
     }
 
-    margin-top: 14vw;
 
     .section-header {
       grid-column: 1/3;
@@ -73,7 +73,7 @@
     .photo1 {
       grid-column: 1;
       grid-row: 2;
-      margin-top: 65.0%;
+      margin-top: 54.0%;
       margin-right: 2.2%;
       margin-left: 1.3%;
     }
@@ -89,7 +89,7 @@
     .photo3 {
       grid-column: 2;
       grid-row: 2/4;
-      margin-top: 50.1%;
+      margin-top: 39.1%;
       margin-left: -2.7%;
       margin-right: 2.6%;
     }
@@ -97,19 +97,19 @@
     .photo4 {
       grid-column: 3;
       grid-row: 2/4;
-      margin-top: 16.9%;
+      margin-top: 5.9%;
     }
 
     .photo5 {
       grid-column: 4;
       grid-row: 1/5;
-      margin-top: -3.1%;
+      margin-top: 4.1%;
     }
 
     .photo6 {
       grid-column: 1/4;
       grid-row: 4/6;
-      margin-top: 4.9%;
+      margin-top: 5.0%;
       margin-right: 7%;
     }
 
@@ -119,7 +119,7 @@
       margin-left: -13.4%;
 
       img {
-        transform: translateY(15.2%);
+        transform: translateY(15.3%);
       }
     }
 

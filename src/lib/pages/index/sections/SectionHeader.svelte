@@ -17,15 +17,13 @@
     display: flex;
     gap: 1em;
     align-items: start;
-    font-size: 4.9rem;
+    font-size: 5.0vw;
 
     text-transform: uppercase;
-    letter-spacing: .17em;
-    line-height: 41.6px;
+    letter-spacing: .175em;
 
     img {
       height: 1.00em;
-      margin-top: -0.40em;
       margin-left: -0.09em;
     }
 

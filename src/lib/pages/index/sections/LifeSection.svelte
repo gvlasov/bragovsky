@@ -44,14 +44,8 @@
   @import "../../../../variables";
 
   section.life {
-    margin-top: 22.3vw;
+    margin-top: 20.3vw;
     display: block;
-
-    figure.afisha {
-      figcaption {
-        text-align: right;
-      }
-    }
 
     & > div > img, figure.afisha > img {
       box-shadow: 0 0 20px rgb(93 93 93 / 24%);
@@ -67,7 +61,7 @@
 
     figure.afisha {
       float: right;
-      margin-top: -5.7vw;
+      margin-top: -3.7vw;
       width: 54%;
 
       figcaption {
@@ -89,7 +83,7 @@
         padding-top: 4.3%;
         max-width: 33%;
         float: left;
-        margin-top: 3.7%;
+        margin-top: 1.7%;
         padding-right: 3.6%;
       }
 
@@ -114,7 +108,7 @@
         width: 34%;
         margin-right: 3.3%;
         margin-top: 6.4%;
-        margin-bottom: 0.5%;
+        margin-bottom: 1.6%;
         float: right;
       }
 
@@ -129,7 +123,7 @@
 
       &.photo6 {
         width: 40.7%;
-        margin-top: 4.4%;
+        margin-top: 3.4%;
         margin-left: 2%;
         float: left;
       }
