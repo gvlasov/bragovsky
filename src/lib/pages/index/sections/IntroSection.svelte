@@ -16,7 +16,7 @@
   @import "../../../../variables";
 
   section.intro {
-    margin-top: 7.9vw;
+    margin-top: 7.5vw;
     font-family: Bruta Glb, sans-serif;
     max-width: 100vw;
     width: 100%;
