@@ -16,23 +16,15 @@
   @import "../../../../variables";
 
   section.intro {
+    margin-top: 7.9vw;
     font-family: Bruta Glb, sans-serif;
-    display: grid;
-    grid-template-columns: max-content 1fr;
-    grid-template-rows: min-content min-content 1fr;
     max-width: 100vw;
     width: 100%;
 
-    .top, .bottom, .years {
-      max-width: 37rem;
-    }
-
     .top {
-      font-size: 30px;
-      margin-bottom: 220px;
-      margin-top: 112px;
-      line-height: 38px;
-      letter-spacing: 0.06em;
+      font-size: 4.7rem;
+      letter-spacing: 0.056em;
+      line-height: 7.5rem;
     }
 
     .bottom, .years {
@@ -45,32 +37,34 @@
     }
 
     figure {
-      display: flex;
-      flex-direction: column;
-      align-items: end;
+      min-width: 100vw;
+      margin: 5.3vw 0-$narrowBodyPadding 0 0-$narrowBodyPadding;
 
       img.image-right {
-        max-width: min(100%, 37vw);
+        width: 100%;
         margin-left: auto;
       }
 
-      height: auto;
-      grid-row: span 3;
-      margin: auto 0-$bodyPadding auto auto;
-      font-size: 0; // Remove newline
-
-
       figcaption {
         text-align: right;
-        font-size: 11px;
-        letter-spacing: 0.057em;
-        line-height: 14.6px;
-        padding-right: 19px;
-        padding-top: 22px;
+        font-size: 2rem;
+        letter-spacing: 0.0571em;
+        padding-right: 2.2vw;
+        padding-top: 2.12vw;
       }
     }
 
-    @media screen and (max-width: 1680px) {
+    .bottom, .years {
+      margin-top: 6.5vw;
+      font-size: 3rem;
+      line-height: 5.74rem;
+      letter-spacing: 0.025em;
+    }
+
+    @media screen and (min-width: 1680px) {
+      display: grid;
+      grid-template-columns: max-content 1fr;
+      grid-template-rows: min-content min-content 1fr;
       .top {
         margin-top: 98px;
         margin-bottom: 173px;
@@ -82,6 +76,13 @@
         letter-spacing: 0.45px;
       }
       figure {
+        margin: auto 0-$bodyPadding auto auto;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        height: auto;
+        grid-row: span 3;
+        font-size: 0; // Remove newline
         img.image-right {
           max-width: min(100%, 37vw);
         }
@@ -91,47 +92,6 @@
           letter-spacing: 0.6px;
           padding-right: 18px;
           padding-top: 19px;
-        }
-      }
-    }
-
-    @media screen and (max-width: 820px) {
-      display: flex;
-      flex-direction: column;
-      max-height: initial;
-      .top {
-        margin-top: 0;
-        font-size: 19px;
-        line-height: 1.6;
-        margin-bottom: 19px;
-        letter-spacing: 0.05em;
-      }
-      .bottom, .years {
-        margin-top: 23px;
-        font-size: 12px;
-        line-height: 23px;
-        letter-spacing: 0.025em;
-      }
-      figure {
-        min-width: 100vw;
-        margin: 0 0-$narrowBodyPadding 0 0-$narrowBodyPadding;
-        img.image-right {
-          min-width: 100%;
-          max-width: 100%;
-        }
-      }
-    }
-    @media screen and (max-width: 639px) {
-      .top, .bottom, .years {
-        margin-right: 0;
-      }
-      figure {
-        figcaption {
-          font-size: 8px;
-          line-height: 16.8px;
-          letter-spacing: 0.057em;
-          padding-top: 7px;
-          padding-right: 9px;
         }
       }
     }

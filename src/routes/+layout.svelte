@@ -15,9 +15,9 @@
   @import "../variables";
 
   .content {
-    padding: 0 $bodyPadding 0 $bodyPadding;
-    @media screen and (max-width: 639px) {
-      padding: 0 $narrowBodyPadding 0 $narrowBodyPadding;
+    padding: 0 $narrowBodyPadding 0 $narrowBodyPadding;
+    @media screen and (min-width: 1680px) {
+      padding: 0 $bodyPadding 0 $bodyPadding;
     }
   }
 </style>
