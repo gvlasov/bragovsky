@@ -10,38 +10,20 @@
 <style lang="scss">
   footer {
     text-align: center;
-    padding-top: 168px;
+    padding-top: 7vw;
     padding-bottom: 8vh;
-    font-size: 13px;
+    font-size: 2.55rem;
     text-transform: uppercase;
 
     a {
-      border-bottom: 1px solid black;
-      padding-bottom: .2em;
-      letter-spacing: 0.025em;
+      border-bottom: .05em solid black;
+      padding-bottom: .24em;
+      letter-spacing: 0.047em;
 
       &:hover {
         border-bottom: 0;
       }
     }
 
-    @media screen and (max-width: 1680px) {
-      padding-top: 145px;
-      padding-left: 5px;
-      a {
-        padding-bottom: 2px;
-      }
-    }
-
-    @media screen and (max-width: 639px) {
-      padding-top: 19px;
-      padding-left: 0px;
-      a {
-        font-size: 10px;
-        line-height: 18px;
-        letter-spacing: 0.06em;
-        padding-bottom: 2px;
-      }
-    }
   }
 </style>
