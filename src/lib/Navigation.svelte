@@ -36,7 +36,7 @@
   nav {
     .hamburger-wrap {
       display: block;
-      margin-top: -.4vw;
+      margin-top: -.3vw;
       margin-right: -5vw;
     }
 
