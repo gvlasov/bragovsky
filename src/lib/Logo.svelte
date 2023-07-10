@@ -14,8 +14,8 @@
     letter-spacing: .765vw;
     white-space: nowrap;
     @media screen and (min-device-width: 1680px) {
-      font-size: .75vw;
-      letter-spacing: .197vw;
+      font-size: 14px;
+      letter-spacing: .208vw;
     }
   }
 </style>
