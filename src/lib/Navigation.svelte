@@ -120,6 +120,7 @@
       }
 
       .items {
+        opacity: initial;
         &.open {
           display: flex;
         }
@@ -137,6 +138,7 @@
         right: initial;
 
         a, button {
+          opacity: initial;
           font-size: .98rem;
           cursor: pointer;
           text-transform: uppercase;
