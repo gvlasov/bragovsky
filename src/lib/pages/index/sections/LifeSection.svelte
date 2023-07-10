@@ -12,7 +12,9 @@
 </script>
 
 <section class="life">
-    <SectionHeader pageName="life"/>
+    <div class="section-header">
+        <SectionHeader pageName="life"/>
+    </div>
     <figure class="afisha">
         <img src="{afisha}"/>
         <figcaption>{$_('page.index.life.afisha.desc')}</figcaption>
@@ -136,10 +138,15 @@
       }
     }
 
-    @media screen and (min-width: 1680px) {
+    @media screen and (min-device-width: 1680px) {
       display: grid;
       grid-template-columns: 18.25% 1fr 1fr 39%;
       grid-template-rows: repeat(5, max-content);
+      margin-top: 488px;
+
+      .section-header {
+        margin-left: 5px;
+      }
 
       .firstclear, .lastclear {
         display: none;

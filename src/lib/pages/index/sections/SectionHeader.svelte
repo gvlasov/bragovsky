@@ -26,6 +26,12 @@
       height: 1.00em;
       margin-left: -0.09em;
     }
+    @media screen and (min-device-width: 1680px) {
+      font-size: 33px;
+      img {
+        margin-left: 5px;
+      }
+    }
 
   }
 </style>
