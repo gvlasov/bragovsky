@@ -11,7 +11,7 @@
   footer {
     text-align: center;
     padding-top: 7.1vw;
-    padding-bottom: 8vh;
+    padding-bottom: 2em;
     font-size: 2.60vw;
     text-transform: uppercase;
 
@@ -28,6 +28,7 @@
     @media screen and (min-device-width: 1680px) {
       font-size: 13px;
       padding-top: 13em;
+      padding-bottom: 7.55em;
       a {
         letter-spacing: 0.025em;
       }
