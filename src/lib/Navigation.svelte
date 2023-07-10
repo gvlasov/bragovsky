@@ -87,6 +87,8 @@
         &.open {
           display: flex;
         }
+        min-height: initial;
+        padding: 0 0;
 
         display: flex;
         flex-direction: row;
@@ -96,7 +98,6 @@
         height: auto;
         top: initial;
         right: initial;
-        padding-top: 0;
 
         a, button {
           font-size: .98rem;

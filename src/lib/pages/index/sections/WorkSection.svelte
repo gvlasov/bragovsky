@@ -163,6 +163,7 @@
         margin-top: -36%;
       }
       .photo5 {
+        margin-top: -6%;
       }
       .photo6 {
         margin-top: 1.5%;
