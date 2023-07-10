@@ -67,7 +67,7 @@
     .section-header {
       grid-column: 1/3;
       grid-row: 1;
-      margin-left: -0rem;
+      margin-left: 1.7em;
     }
 
     .photo1 {
@@ -97,13 +97,13 @@
     .photo4 {
       grid-column: 3;
       grid-row: 2/4;
-      margin-top: 5.9%;
+      margin-top: 5.5%;
     }
 
     .photo5 {
       grid-column: 4;
       grid-row: 1/5;
-      margin-top: -6%;
+      margin-top: 4%;
     }
 
     .photo6 {
