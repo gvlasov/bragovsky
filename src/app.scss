@@ -16,6 +16,9 @@ a {
 
 body {
   font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
 }
 
 body::-webkit-scrollbar {
