@@ -11,10 +11,11 @@
 <Footer/>
 <style lang="scss">
   @import "../variables";
+  @import "../mixins";
 
   .content {
     padding: 0 $narrowBodyPadding 0 $narrowBodyPadding;
-    @media screen and (min-width: 1680px) {
+    @include for-widescreen {
       padding: 0 $bodyPadding 0 $bodyPadding;
     }
   }

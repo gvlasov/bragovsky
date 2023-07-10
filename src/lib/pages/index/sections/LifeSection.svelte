@@ -44,6 +44,7 @@
 </section>
 <style lang="scss">
   @import "../../../../variables";
+  @import "../../../../mixins";
 
   section.life {
     margin-top: 18.6vw;
@@ -138,7 +139,7 @@
       }
     }
 
-    @media screen and (min-device-width: 1680px) {
+    @include for-widescreen {
       display: grid;
       grid-template-columns: 18.25% 1fr 1fr 39%;
       grid-template-rows: repeat(5, max-content);

@@ -8,6 +8,7 @@
 </footer>
 
 <style lang="scss">
+  @import "../mixins";
   footer {
     text-align: center;
     padding-top: 7.1vw;
@@ -25,7 +26,7 @@
       }
     }
 
-    @media screen and (min-device-width: 1680px) {
+    @include for-widescreen {
       font-size: 13px;
       padding-top: 13em;
       padding-bottom: 7.55em;

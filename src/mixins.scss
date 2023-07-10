@@ -1,0 +1,5 @@
+$bodyPadding: 7.2vw;
+$narrowBodyPadding: 6.2vw;
+@mixin for-widescreen {
+  @media screen and (min-width: 1280px) and (min-aspect-ratio: 4/3) { @content; }
+}

@@ -33,6 +33,7 @@
 </nav>
 
 <style lang="scss">
+  @import "../mixins";
   nav {
     .hamburger-wrap {
       display: block;
@@ -110,7 +111,7 @@
       }
     }
 
-    @media screen and (min-device-width: 1680px) {
+    @include for-widescreen {
       .hamburger-wrap {
         display: none;
       }

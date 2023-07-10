@@ -49,6 +49,7 @@
 </section>
 <style lang="scss">
   @import "../../../../variables";
+  @import "../../../../mixins";
 
   section.work {
     margin-top: 12vw;
@@ -146,7 +147,7 @@
       margin-right: 26.8%;
     }
 
-    @media screen and (min-device-width: 1680px) {
+    @include for-widescreen {
       .section-header {
         margin-top: -1.3%;
       }

@@ -12,6 +12,7 @@
 </a>
 
 <style lang="scss">
+  @import "../../../../mixins";
   a {
     float: left;
     display: flex;
@@ -27,7 +28,7 @@
       height: 1.00em;
       margin-left: -0.09em;
     }
-    @media screen and (min-device-width: 1680px) {
+    @include for-widescreen {
       font-size: 34px;
       letter-spacing: .159em;
       margin-left: 10px;

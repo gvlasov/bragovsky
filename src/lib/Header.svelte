@@ -9,6 +9,7 @@
 </header>
 
 <style lang="scss">
+  @import "../mixins";
   header {
     z-index: 2;
     position: relative;
@@ -16,7 +17,7 @@
     padding: 8.94vw 15.8vw 0 6.2vw;
     justify-content: space-between;
     align-items: center;
-    @media screen and (min-device-width: 1680px) {
+    @include for-widescreen {
       padding: 2.30vw 3.5vw 0 3.15vw;
     }
   }
