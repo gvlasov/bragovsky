@@ -25,5 +25,13 @@
       }
     }
 
+    @media screen and (min-device-width: 1680px) {
+      font-size: 13px;
+      padding-top: 13em;
+      a {
+        letter-spacing: 0.025em;
+      }
+    }
+
   }
 </style>
