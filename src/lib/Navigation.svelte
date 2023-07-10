@@ -23,13 +23,13 @@
     <div class="hamburger-wrap">
         <HamburgerToCross open={$open} on:click={ () => open.update(n => !n) }/>
     </div>
-<!--    <div class="items" class:open={$open}>-->
-<!--        <a href="{base}/life" on:click={close}>{$_('page.life.name')}</a>-->
-<!--        <a href="{base}/work" on:click={close}>{$_('page.work.name')}</a>-->
-<!--        <a href="{base}/contacts" on:click={close}>{$_('page.contacts.name')}</a>-->
-<!--        <a href="{base}/search" on:click={close}>{$_('page.search.name')}</a>-->
-<!--        <button on:click={toggleLanguage}>EN/RU</button>-->
-<!--    </div>-->
+    <div class="items" class:open={$open}>
+        <a href="{base}/life" on:click={close}>{$_('page.life.name')}</a>
+        <a href="{base}/work" on:click={close}>{$_('page.work.name')}</a>
+        <a href="{base}/contacts" on:click={close}>{$_('page.contacts.name')}</a>
+        <a href="{base}/search" on:click={close}>{$_('page.search.name')}</a>
+        <button on:click={toggleLanguage}>EN/RU</button>
+    </div>
 </nav>
 
 <style lang="scss">
@@ -43,69 +43,57 @@
     .items {
       display: flex;
       font-family: 'Montserrat', 'sans-serif';
-      column-gap: 38px;
-      font-size: 15.61px;
+      padding-top: 73px;
+      flex-direction: column;
+      row-gap: 42px;
+      position: absolute;
+      top: 100%;
+      right: 0;
+      background-color: white;
+      width: 100vw;
+      height: 100vh;
+      align-items: center;
+      font-size: 19px;
+      letter-spacing: 0.15em;
 
-
-      a, button {
-        cursor: pointer;
-        text-transform: uppercase;
-        letter-spacing: 0.15em;
-        text-decoration: none;
-
-        &:visited {
-          color: black;
+      & > * {
+        &:hover {
+          border-bottom: 1px solid black;
         }
-      }
 
-      button {
-        margin-left: 33px;
+        border-bottom: 1px solid transparent;
       }
     }
 
-    @media screen and (max-width: 1680px) {
-      .items {
-        column-gap: 22px;
-
-        button {
-          margin-left: 29px;
-        }
-      }
-    }
-
-    @media screen and (max-width: 934px) {
-      .items {
+    @media screen and (min-device-width: 1680px) {
+      .hamburger-wrap {
         display: none;
-        padding-top: 73px;
+      }
 
-        &.open {
-          display: flex;
-          flex-direction: column;
-          row-gap: 42px;
-        }
+      .items {
+        display: flex;
+        flex-direction: row;
+        column-gap: 2.4rem;
+        position: static;
+        width: auto;
+        height: auto;
+        top: initial;
+        right: initial;
+        padding-top: 0;
 
-        position: absolute;
-        top: 100%;
-        right: 0;
-        background-color: white;
-        width: 100vw;
-        height: 100vh;
-        flex-direction: column;
-        align-items: center;
-        font-size: 19px;
-        letter-spacing: 0.15em;
+        a, button {
+          font-size: .98rem;
+          cursor: pointer;
+          text-transform: uppercase;
+          letter-spacing: 0.15em;
+          text-decoration: none;
 
-        button {
-          margin-left: -4px !important;
-        }
-
-        & > * {
-          &:hover {
-            border-bottom: 1px solid black;
+          &:visited {
+            color: black;
           }
-
-          border-bottom: 1px solid transparent;
-          margin-left: -6px;
+        }
+        button {
+          margin-left: 1.8rem;
         }
       }
     }

@@ -16,7 +16,7 @@
     justify-content: space-between;
     align-items: center;
     @media screen and (min-device-width: 1680px) {
-      padding: 1.25vw 2.8vw 0 3.15vw;
+      padding: 2.3vw 3.5vw 0 3.15vw;
     }
   }
 </style>
