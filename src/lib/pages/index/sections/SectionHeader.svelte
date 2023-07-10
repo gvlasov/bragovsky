@@ -27,9 +27,10 @@
       margin-left: -0.09em;
     }
     @media screen and (min-device-width: 1680px) {
-      font-size: 33px;
+      font-size: 34px;
+      letter-spacing: .159em;
       img {
-        margin-left: 5px;
+        margin-left: 3px;
       }
     }
 

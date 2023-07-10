@@ -142,10 +142,12 @@
       display: grid;
       grid-template-columns: 18.25% 1fr 1fr 39%;
       grid-template-rows: repeat(5, max-content);
-      margin-top: 488px;
+      margin-top: 480px;
 
       .section-header {
-        margin-left: 5px;
+        margin-left: -2px;
+        grid-column: 1/3;
+        grid-row: 1;
       }
 
       .firstclear, .lastclear {
@@ -163,55 +165,59 @@
         }
       }
 
-      .photo1 {
-        grid-column: 1;
-        grid-row: 2/4;
-        padding-top: 32.5%;
-        padding-right: 13.8%;
-      }
+      & > div {
 
-      .photo2 {
-        grid-column: 1;
-        grid-row: 4/6;
-        padding-top: 10.5%;
-        padding-right: 24%;
-      }
+        &.photo1 {
+          max-width: initial;
+          grid-column: 1;
+          grid-row: 2/4;
+          padding-top: 32.5%;
+          padding-right: 13.8%;
+        }
 
-      .photo3 {
-        grid-column: 3;
-        grid-row: 4/6;
-        padding-top: 10%;
-        padding-left: 11.5%;
-        padding-right: 32.4%;
-      }
+        &.photo2 {
+          grid-column: 1;
+          grid-row: 4/6;
+          padding-top: 10.5%;
+          padding-right: 24%;
+        }
 
-      .photo4 {
-        grid-column: 2;
-        grid-row: 2;
-        padding-top: 34.3%;
-        padding-left: 15%;
-        padding-right: 2%;
-      }
+        &.photo3 {
+          grid-column: 3;
+          grid-row: 4/6;
+          padding-top: 10%;
+          padding-left: 11.5%;
+          padding-right: 32.4%;
+        }
 
-      .photo5 {
-        grid-column: 3;
-        grid-row: 2/4;
-        padding-top: 43%;
-        padding-right: 23.4%;
-        padding-left: 11.5%;
-      }
+        &.photo4 {
+          grid-column: 2;
+          grid-row: 2;
+          padding-top: 34.3%;
+          padding-left: 15%;
+          padding-right: 2%;
+        }
 
-      .photo6 {
-        grid-column: 2;
-        grid-row: 3/5;
-        padding-top: 12%;
-      }
+        &.photo5 {
+          grid-column: 3;
+          grid-row: 2/4;
+          padding-top: 43%;
+          padding-right: 23.4%;
+          padding-left: 11.5%;
+        }
 
-      .photo7 {
-        grid-column: 2;
-        grid-row: 5/6;
-        padding-top: 6.6%;
-        padding-left: 21%;
+        &.photo6 {
+          grid-column: 2;
+          grid-row: 3/5;
+          padding-top: 12%;
+        }
+
+        &.photo7 {
+          grid-column: 2;
+          grid-row: 5/6;
+          padding-top: 6.6%;
+          padding-left: 21%;
+        }
       }
 
     }
