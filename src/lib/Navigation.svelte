@@ -43,6 +43,7 @@
     }
 
     .items {
+      will-change: opacity;
       display: flex;
       transition: opacity 0.2s ease;
       opacity: 0;
@@ -50,6 +51,10 @@
       &.open {
         display: flex;
         opacity: 1;
+        a, button {
+          opacity: 1;
+          transition-duration: .4s !important;
+        }
       }
 
       font-family: 'Montserrat', 'sans-serif';
@@ -67,10 +72,34 @@
       padding: 26.6vw 0;
 
       a, button {
+        will-change: opacity;
         background-color: white;
         text-transform: uppercase;
         margin-left: -1.6vw;
+        transition: opacity .0s ease .1s;
+        opacity: 0;
+
+        &:nth-of-type(1) {
+          transition-delay: .2s;
+        }
+
+        &:nth-of-type(2) {
+          transition-delay: .3s;
+        }
+
+        &:nth-of-type(3) {
+          transition-delay: .4s;
+        }
+
+        &:nth-of-type(4) {
+          transition-delay: .5s;
+        }
+
       }
+      button {
+        transition-delay: .6s !important;
+      }
+
 
       & > * {
         &:hover {
