@@ -54,7 +54,6 @@
       transition: all 0.3s ease 0s;
       height: 0;
       top: 50%;
-      transform: scale(1) translate(0, -50%);
     }
 
     &:before, &:after, span {
