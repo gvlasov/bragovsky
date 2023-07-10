@@ -92,7 +92,7 @@
 
         display: flex;
         flex-direction: row;
-        column-gap: 2.4rem;
+        column-gap: 4.3rem;
         position: static;
         width: auto;
         height: auto;
@@ -112,7 +112,7 @@
         }
 
         button {
-          margin-left: 1.8rem;
+          margin-left: -0.1rem;
         }
       }
     }
