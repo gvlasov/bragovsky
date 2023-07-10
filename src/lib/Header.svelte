@@ -15,9 +15,8 @@
     padding: 8.94vw 15.8vw 0 6.2vw;
     justify-content: space-between;
     align-items: center;
-    @media screen and (min-width: 1680px) {
-      padding: 39px 51px 39px 52px;
-      font-size: 14px;
+    @media screen and (min-device-width: 1680px) {
+      padding: 1.25vw 2.8vw 0 3.15vw;
     }
   }
 </style>

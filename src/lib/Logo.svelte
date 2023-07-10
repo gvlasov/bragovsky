@@ -1,6 +1,6 @@
 <script lang="ts">
     import {_} from 'svelte-i18n'
-    import { base } from '$app/paths';
+    import {base} from '$app/paths';
     import {menuOpen} from "./store";
 </script>
 
@@ -13,5 +13,9 @@
     text-transform: uppercase;
     letter-spacing: .765vw;
     white-space: nowrap;
+    @media screen and (min-device-width: 1680px) {
+      font-size: .75vw;
+      letter-spacing: .197vw;
+    }
   }
 </style>
