@@ -1,6 +1,6 @@
 {
   "author": {
-    "fullName": "Eduard Bragovsky"
+    "fullName": "Эдуард Браговский"
   },
   "page": {
     "index": {
@@ -18,16 +18,16 @@
       }
     },
     "life": {
-      "name": "Life"
+      "name": "Жизнь"
     },
     "work": {
-      "name": "Work"
+      "name": "Работы"
     },
     "contacts": {
-      "name": "Contact"
+      "name": "Контакты"
     },
     "search": {
-      "name": "Search"
+      "name": "Поиск"
     },
     "legal": {
       "title": "Legal disclaimer"

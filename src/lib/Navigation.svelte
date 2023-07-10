@@ -36,25 +36,38 @@
   nav {
     .hamburger-wrap {
       display: block;
-      margin-top: -.3vw;
-      margin-right: -5vw;
+      margin-top: -.1vw;
+      margin-right: -3.8vw;
+      z-index: 2;
+      position: relative;
     }
 
     .items {
-      display: flex;
+      display: none;
+
+      &.open {
+        display: flex;
+      }
+
       font-family: 'Montserrat', 'sans-serif';
-      padding-top: 73px;
       flex-direction: column;
-      row-gap: 42px;
+      row-gap: 10.8vw;
       position: absolute;
       top: 100%;
       right: 0;
       background-color: white;
       width: 100vw;
-      height: 100vh;
+      min-height: 100vh;
       align-items: center;
-      font-size: 19px;
-      letter-spacing: 0.15em;
+      font-size: 4.9vw;
+      letter-spacing: .15em;
+      padding: 26.6vw 0;
+
+      a, button {
+        background-color: white;
+        text-transform: uppercase;
+        margin-left: -1.6vw;
+      }
 
       & > * {
         &:hover {
@@ -71,6 +84,10 @@
       }
 
       .items {
+        &.open {
+          display: flex;
+        }
+
         display: flex;
         flex-direction: row;
         column-gap: 2.4rem;
@@ -92,6 +109,7 @@
             color: black;
           }
         }
+
         button {
           margin-left: 1.8rem;
         }
