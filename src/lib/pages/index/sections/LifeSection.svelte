@@ -46,13 +46,12 @@
   section.life {
     margin-top: 20.3vw;
     display: block;
+    text-align: center;
 
     & > div > img, figure.afisha > img {
       box-shadow: 0 0 3vw rgb(93 93 93 / 24%);
       max-width: 100%;
     }
-
-    text-align: center;
 
     .lastclear {
       display: block;
