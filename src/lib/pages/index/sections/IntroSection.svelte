@@ -50,27 +50,39 @@
       }
     }
 
-    @media screen and (min-width: 1680px) {
+    @media screen and (min-device-width: 1680px) {
+      margin-top: 138px;
       display: grid;
       grid-template-columns: max-content 1fr;
       grid-template-rows: min-content min-content 1fr;
+
       .top {
-        margin-top: 98px;
-        margin-bottom: 173px;
+        margin-top: 112px;
+        font-size: 32px;
+        max-width: 37rem;
+        letter-spacing: 0.02em;
+        line-height: 2.4rem;
+        grid-column: 1;
+        grid-row: 1;
       }
+
       .bottom {
+        margin-top: 141px;
         max-width: 36rem;
         font-size: 15px;
         line-height: 20px;
         letter-spacing: 0.45px;
+        grid-column: 1;
+        grid-row: 2;
       }
+
       figure {
         margin: auto 0-$bodyPadding auto auto;
         display: flex;
         flex-direction: column;
         align-items: end;
         height: auto;
-        grid-row: span 3;
+        grid-row: 1/3;
         font-size: 0; // Remove newline
         img.image-right {
           max-width: min(100%, 37vw);
@@ -78,10 +90,11 @@
         }
 
         figcaption {
-          line-height: 14.7px;
+          line-height: 16px;
           letter-spacing: 0.6px;
-          padding-right: 18px;
-          padding-top: 19px;
+          padding-right: 19px;
+          padding-top: 20px;
+          font-size: 11px;
         }
       }
     }
