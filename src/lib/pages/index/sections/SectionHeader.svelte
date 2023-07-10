@@ -29,6 +29,8 @@
     @media screen and (min-device-width: 1680px) {
       font-size: 34px;
       letter-spacing: .159em;
+      margin-left: 10px;
+      margin-top: 13px;
       img {
         margin-left: 3px;
       }

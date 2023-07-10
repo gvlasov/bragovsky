@@ -145,7 +145,6 @@
       margin-top: 480px;
 
       .section-header {
-        margin-left: -2px;
         grid-column: 1/3;
         grid-row: 1;
       }
@@ -158,7 +157,8 @@
         grid-column: 4;
         grid-row: 1/6;
         float: right;
-        margin-top: -3.9vw;
+        width: 100%;
+        margin-top: -9%;
 
         figcaption {
           display: none;
@@ -166,57 +166,65 @@
       }
 
       & > div {
+        max-width: initial !important;
+        padding: 0;
 
         &.photo1 {
-          max-width: initial;
           grid-column: 1;
           grid-row: 2/4;
-          padding-top: 32.5%;
+          padding-top: 29.5%;
           padding-right: 13.8%;
         }
 
         &.photo2 {
           grid-column: 1;
           grid-row: 4/6;
-          padding-top: 10.5%;
+          padding-top: 10%;
           padding-right: 24%;
+          width: 100%;
         }
 
         &.photo3 {
           grid-column: 3;
           grid-row: 4/6;
-          padding-top: 10%;
+          padding-top: 5.5%;
           padding-left: 11.5%;
           padding-right: 32.4%;
+          width: 100%;
         }
 
         &.photo4 {
           grid-column: 2;
           grid-row: 2;
-          padding-top: 34.3%;
+          padding-top: 27%;
           padding-left: 15%;
           padding-right: 2%;
+          width: 100%;
         }
 
         &.photo5 {
           grid-column: 3;
           grid-row: 2/4;
-          padding-top: 43%;
+          padding-top: 39%;
           padding-right: 23.4%;
           padding-left: 11.5%;
+          width: 100%;
         }
 
         &.photo6 {
           grid-column: 2;
           grid-row: 3/5;
-          padding-top: 12%;
+          padding-top: 7.5%;
+          margin-left: 0%;
+          width: 100%;
         }
 
         &.photo7 {
           grid-column: 2;
           grid-row: 5/6;
-          padding-top: 6.6%;
+          padding-top: 4.6%;
           padding-left: 21%;
+          width: 100%;
         }
       }
 
