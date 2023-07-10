@@ -19,7 +19,7 @@
     }
 
 </script>
-<nav>
+<nav class:sticky={$open}>
     <div class="hamburger-wrap">
         <HamburgerToCross open={$open} on:click={ () => open.update(n => !n) }/>
     </div>
@@ -43,10 +43,13 @@
     }
 
     .items {
-      display: none;
+      display: flex;
+      transition: opacity 0.2s ease;
+      opacity: 0;
 
       &.open {
         display: flex;
+        opacity: 1;
       }
 
       font-family: 'Montserrat', 'sans-serif';
@@ -82,11 +85,15 @@
       .hamburger-wrap {
         display: none;
       }
+      &.sticky {
+        position: static;
+      }
 
       .items {
         &.open {
           display: flex;
         }
+
         min-height: initial;
         padding: 0 0;
 

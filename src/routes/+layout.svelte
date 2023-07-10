@@ -2,11 +2,10 @@
     import '../app.scss'
     import Header from "../lib/Header.svelte";
     import Footer from "../lib/Footer.svelte";
-    import {menuOpen} from "../lib/store.js";
 </script>
 
 <Header/>
-<div class="content" class:hidden={$menuOpen}>
+<div class="content">
     <slot/>
 </div>
 <Footer/>
