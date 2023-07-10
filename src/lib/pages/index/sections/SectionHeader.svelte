@@ -18,6 +18,7 @@
     gap: 1em;
     align-items: start;
     font-size: 5.0vw;
+    margin-left: -0.35em;
 
     text-transform: uppercase;
     letter-spacing: .175em;

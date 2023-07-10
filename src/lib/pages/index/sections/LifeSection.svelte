@@ -46,7 +46,7 @@
   @import "../../../../variables";
 
   section.life {
-    margin-top: 20.3vw;
+    margin-top: 18.6vw;
     display: block;
     text-align: center;
 
@@ -62,7 +62,7 @@
 
     figure.afisha {
       float: right;
-      margin-top: -3.7vw;
+      margin-top: -6.0%;
       width: 54%;
 
       figcaption {
