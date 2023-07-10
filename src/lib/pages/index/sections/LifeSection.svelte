@@ -179,7 +179,7 @@
         &.photo2 {
           grid-column: 1;
           grid-row: 4/6;
-          padding-top: 10%;
+          padding-top: 9%;
           padding-right: 24%;
           width: 100%;
         }

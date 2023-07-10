@@ -103,7 +103,7 @@
     .photo5 {
       grid-column: 4;
       grid-row: 1/5;
-      margin-top: 4.1%;
+      margin-top: -6%;
     }
 
     .photo6 {
@@ -146,8 +146,46 @@
       margin-right: 26.8%;
     }
 
-  }
+    @media screen and (min-device-width: 1680px) {
+      .section-header {
+        margin-top: -1.3%;
+      }
+      .photo1 {
+        margin-top: 17%;
+      }
+      .photo2 {
+        margin-top: -6%;
+      }
+      .photo3 {
+        margin-top: -3%;
+      }
+      .photo4 {
+        margin-top: -36%;
+      }
+      .photo5 {
+      }
+      .photo6 {
+        margin-top: 1.5%;
+      }
+      .photo7 {
+        margin-top: 6%;
+        margin-left: -8.5%;
+      }
+      .photo8 {
+        margin-top: 10%;
+        margin-right: 0.5%;
+      }
+      .photo9 {
+        margin-top: 20.3%;
+        margin-left: 5%;
+      }
+      .photo10 {
+        margin-top: 7.7%;
+        margin-right: 23.4%;
+      }
+    }
 
+  }
 
 
 </style>
