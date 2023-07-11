@@ -17,34 +17,34 @@
         <SectionHeader pageName="work"/>
     </div>
     <figure class="photo1">
-        <img class="shadowed" src="{photo1}"/>
+        <img class="shadow-a" src="{photo1}"/>
     </figure>
     <figure class="photo2">
-        <img class="shadowed" src="{photo2}"/>
+        <img class="shadow-a" src="{photo2}"/>
     </figure>
     <figure class="photo3">
-        <img src="{photo3}"/>
+        <img class="shadow-a" src="{photo3}"/>
     </figure>
     <figure class="photo4">
-        <img src="{photo4}"/>
+        <img class="shadow-a" src="{photo4}"/>
     </figure>
     <figure class="photo5">
-        <img class="shadowed" src="{photo5}"/>
+        <img class="shadow-b" src="{photo5}"/>
     </figure>
     <figure class="photo6">
-        <img class="shadowed" src="{photo6}"/>
+        <img class="shadow-b" src="{photo6}"/>
     </figure>
     <figure class="photo7">
-        <img class="shadowed" src="{photo7}"/>
+        <img class="shadow-b" src="{photo7}"/>
     </figure>
     <figure class="photo8">
-        <img class="shadowed" src="{photo8}"/>
+        <img class="shadow-b" src="{photo8}"/>
     </figure>
     <figure class="photo9">
-        <img class="shadowed" src="{photo9}"/>
+        <img class="shadow-b" src="{photo9}"/>
     </figure>
     <figure class="photo10">
-        <img class="shadowed" src="{photo10}"/>
+        <img class="shadow-b" src="{photo10}"/>
     </figure>
 </section>
 <style lang="scss">
@@ -60,10 +60,13 @@
     row-gap: 1vw;
     width: 100%;
 
-    & > figure > img {
-      box-shadow: 0 0 3vw rgb(93 93 93 / 24%);
+    .shadow-a {
+      box-shadow: 0 0 1.5vw 0 rgba(196, 195, 195, 0.5);
     }
 
+    .shadow-b {
+      box-shadow: 0 0 1.4vw 0 rgba(137, 136, 136, 0.5);
+    }
 
     .section-header {
       grid-column: 1/3;
