@@ -52,14 +52,14 @@
     }
 
     @include for-widescreen {
-      margin-top: 138px;
+      margin-top: 7.1vw;
       display: grid;
       grid-template-columns: max-content 1fr;
       grid-template-rows: min-content min-content 1fr;
 
       .top {
         margin-top: 6vw;
-        font-size: 1.6vw;
+        font-size: 30.7px;
         max-width: 32vw;
         letter-spacing: 0.045em;
         line-height: 1.22em;
@@ -68,10 +68,10 @@
       }
 
       .bottom {
-        margin-top: 7.42vw;
-        max-width: 32vw;
-        font-size: 0.8vw;
-        line-height: 1.05vw;
+        margin-top: 6.8vw;
+        max-width: 35vw;
+        font-size: 15.35px;
+        line-height: 1.32em;
         letter-spacing: 0.0165em;
         grid-column: 1;
         grid-row: 2;
@@ -94,7 +94,7 @@
           line-height: 16px;
           letter-spacing: 0.6px;
           padding-right: 19px;
-          padding-top: 21px;
+          padding-top: 1.6em;
           font-size: 11px;
         }
       }

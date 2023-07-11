@@ -151,6 +151,7 @@
     }
 
     @include for-widescreen {
+      margin-top: 11.6vw;
       .section-header {
         margin-top: -1.3%;
       }
@@ -167,7 +168,7 @@
         margin-top: -36%;
       }
       .photo5 {
-        margin-top: -6%;
+        margin-top: -4.5%;
       }
       .photo6 {
         margin-top: 1.5%;
@@ -177,11 +178,11 @@
         margin-left: -8.5%;
       }
       .photo8 {
-        margin-top: 10%;
+        margin-top: 9.5%;
         margin-right: 0.5%;
       }
       .photo9 {
-        margin-top: 20.3%;
+        margin-top: 20.0%;
         margin-left: 5%;
       }
       .photo10 {

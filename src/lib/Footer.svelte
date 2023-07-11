@@ -28,7 +28,7 @@
 
     @include for-widescreen {
       font-size: 13px;
-      padding-top: 13em;
+      padding-top: 11.2em;
       padding-bottom: 7.55em;
       a {
         letter-spacing: 0.025em;

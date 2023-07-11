@@ -3,6 +3,9 @@
     import ShadowedContainer from "$lib/ShadowedContainer.svelte";
     import pinkVolkhov from '$assets/Сайт_optimal/Статьи/Этюд. Розовый волхов 6.jpg'
     import blueVolkhov from '$assets/Сайт_optimal/Живопись/_s-2901-2. Resolution 65.jpg'
+    import petyaFruit from '$assets/Сайт_optimal/Статьи/Оригинал/Петя и фрукты 1970 (4).jpg'
+    import art1 from '$assets/Сайт_optimal/Статьи/Творчество 1.jpg'
+    import art2 from '$assets/Сайт_optimal/Статьи/Оригинал/Творчество 4.2.png'
 </script>
 
 <div class="content">
@@ -29,6 +32,17 @@
                     <figcaption>{$_('page.life_truth.images.blueVolkhov.caption')}</figcaption>
                 </figure>
                 {@html $_('page.life_truth.text.part3')}
+            </div>
+            <div class="part part4">
+                <figure>
+                    <img src="{petyaFruit}"/>
+                    <figcaption>{$_('page.life_truth.images.petyaFruit.caption')}</figcaption>
+                </figure>
+                {@html $_('page.life_truth.text.part4')}
+            </div>
+            <div class="footer">
+                <img src="{art1}"/>
+                <img src="{art2}"/>
             </div>
         </article>
     </ShadowedContainer>
@@ -58,19 +72,19 @@
         }
 
         :global(h2) {
-          font-size: 25px;
-          line-height: 48px;
-          letter-spacing: 0.61px;
+          font-size: 1.488vw;
+          line-height: 1.91em;
+          letter-spacing: 0.023em;
           max-width: 10em;
           margin-top: 7em;
           margin-left: 1.35em;
         }
 
         :global(h3) {
-          font-size: 25px;
+          font-size: 1.488vw;
           font-weight: 300;
-          line-height: 17px;
-          letter-spacing: 0.6px;
+          line-height: 0.8em;
+          letter-spacing: 0.026em;
           margin-top: 5.87em;
           margin-left: 1.3em;
           margin-bottom: 12em;
@@ -78,9 +92,9 @@
       }
 
       :global(p) {
-        font-size: 17px;
-        line-height: 43.4px;
-        letter-spacing: 0.58px;
+        font-size: 1.012vw;
+        line-height: 2.553em;
+        letter-spacing: 0.035em;
         margin: 0 0 1.8em 0;
       }
 
@@ -100,7 +114,7 @@
           figcaption {
             font-size: 0.952vw;
             line-height: 1.190vw;
-            letter-spacing: 2.2px;
+            letter-spacing: 0.138em;
             text-align: right;
             margin-top: 2.6em;
           }
@@ -124,6 +138,39 @@
             text-align: right;
             margin-top: 2.6em;
           }
+        }
+      }
+
+      .part4 {
+
+        padding-top: 0.5em;
+        figure {
+          margin-top: 0.8em;
+          float: left;
+          max-width: 37.1vw;
+          margin-right: 4.2vw;
+          margin-bottom: 1em;
+
+          figcaption {
+            font-size: 0.952vw;
+            line-height: 1.190vw;
+            letter-spacing: 0.138em;
+            text-align: right;
+            margin-top: 2.6em;
+          }
+        }
+      }
+      .footer {
+        margin-top: 15em;
+        display: flex;
+        justify-content: space-around;
+        img:nth-child(1) {
+          width: 21vw;
+          height: auto;
+        }
+        img:nth-child(2) {
+          width: 33vw;
+          height: auto;
         }
       }
     }

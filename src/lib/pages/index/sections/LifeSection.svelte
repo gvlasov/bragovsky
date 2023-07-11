@@ -149,7 +149,7 @@
       display: grid;
       grid-template-columns: 18.25% 1fr 1fr 39%;
       grid-template-rows: repeat(5, max-content);
-      margin-top: 25vw;
+      margin-top: 24.75vw;
 
       .section-header {
         grid-column: 1/3;
@@ -179,7 +179,7 @@
         &.photo1 {
           grid-column: 1;
           grid-row: 2/4;
-          padding-top: 29.5%;
+          padding-top: 27.5%;
           padding-right: 13.8%;
         }
 
@@ -203,7 +203,7 @@
         &.photo4 {
           grid-column: 2;
           grid-row: 2;
-          padding-top: 27%;
+          padding-top: 25%;
           padding-left: 15%;
           padding-right: 2%;
           width: 100%;
@@ -212,7 +212,7 @@
         &.photo5 {
           grid-column: 3;
           grid-row: 2/4;
-          padding-top: 39%;
+          padding-top: 37%;
           padding-right: 23.4%;
           padding-left: 11.5%;
           width: 100%;
