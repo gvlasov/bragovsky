@@ -1,6 +1,6 @@
 <script lang="ts">
     import {_} from 'svelte-i18n'
-    import imageRight from '$assets/Сайт_optimal/Фото/pap23-pl01-06.jpg'
+    import imageRight from '$assets/Сайт/Фото/pap23-pl01-06.jpg' // Not optimal on purpose, not used anywhere else
 </script>
 
 <section class="intro">

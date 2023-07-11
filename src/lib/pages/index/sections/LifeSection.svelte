@@ -1,7 +1,7 @@
 <script lang="ts">
     import SectionHeader from "./SectionHeader.svelte";
     import {_} from 'svelte-i18n'
-    import afisha from '$assets/Сайт_optimal/Фото/_MG_1565-2.jpg'
+    import afisha from '$assets/Сайт/Фото/_MG_1565-2.jpg' // Not optimal on purpose, not used anywhere else
     import photo1 from '$assets/Сайт_optimal/Фото/Пишет.jpg'
     import photo2 from '$assets/Сайт_optimal/Фото/С Папикяном-5.jpg'
     import photo3 from '$assets/Сайт_optimal/Фото/На льду 1.jpg'
