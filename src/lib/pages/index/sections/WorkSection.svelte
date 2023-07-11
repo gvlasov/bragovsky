@@ -52,7 +52,7 @@
   @import "../../../../mixins";
 
   section.work {
-    margin-top: 12vw;
+    margin-top: 10.4vw;
     display: grid;
     grid-template-columns: auto 16.85% 16.99% 32.53%;
     grid-template-rows: repeat(6, min-content);
@@ -77,7 +77,7 @@
     .photo1 {
       grid-column: 1;
       grid-row: 2;
-      margin-top: 54.0%;
+      margin-top: 55.0%;
       margin-right: 2.2%;
       margin-left: 1.3%;
     }
@@ -85,7 +85,7 @@
     .photo2 {
       grid-column: 1;
       grid-row: 3;
-      margin-top: 5.3%;
+      margin-top: -5.3%;
       border-right: .38vw solid transparent;
       margin-left: 1.3%;
     }
@@ -113,7 +113,7 @@
     .photo6 {
       grid-column: 1/4;
       grid-row: 4/6;
-      margin-top: 5.0%;
+      margin-top: 3.0%;
       margin-right: 7%;
     }
 
@@ -130,7 +130,7 @@
     .photo8 {
       grid-column: 1/3;
       grid-row: 6;
-      margin-top: 8.2%;
+      margin-top: 4.2%;
       margin-left: 12.9%;
       margin-right: -3%;
     }
@@ -138,14 +138,14 @@
     .photo9 {
       grid-column: 3/5;
       grid-row: 6;
-      margin-top: 14.6%;
+      margin-top: 11%;
       margin-left: 2.5%;
     }
 
     .photo10 {
       grid-column: 1/5;
       grid-row: 7;
-      margin-top: 3.4%;
+      margin-top: 1.7%;
       margin-left: 8.26%;
       margin-right: 26.8%;
     }

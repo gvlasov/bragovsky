@@ -19,6 +19,7 @@
     gap: 1em;
     align-items: start;
     font-size: 5.06vw;
+    margin-left: -0.4em;
 
     text-transform: uppercase;
     letter-spacing: .161em;
@@ -30,6 +31,7 @@
     }
 
     @include for-widescreen {
+      margin-left: 0.3em;
       font-size: 34px;
       letter-spacing: .159em;
       margin-top: 13px;

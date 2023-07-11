@@ -11,9 +11,9 @@
   @import "../mixins";
   footer {
     text-align: center;
-    padding-top: 7.1vw;
+    padding-top: 2.3em;
     padding-bottom: 2em;
-    font-size: 2.60vw;
+    font-size: 10px;
     text-transform: uppercase;
 
     a {

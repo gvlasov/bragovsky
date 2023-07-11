@@ -23,9 +23,9 @@
     width: 100%;
 
     .top {
-      font-size: 5.0vw;
-      letter-spacing: 0.034em;
-      line-height: 7.68vw;
+      font-size: 20px;
+      letter-spacing: 0.019em;
+      line-height: 1.5em;
     }
 
     .bottom, .years {
@@ -44,10 +44,10 @@
 
       figcaption {
         text-align: right;
-        font-size: 2.05vw;
+        font-size: 8px;
         letter-spacing: 0.0571em;
         padding-right: 2.2vw;
-        padding-top: 2.1vw;
+        padding-top: 0.4em;
       }
     }
 
@@ -88,6 +88,7 @@
         img.image-right {
           max-width: min(100%, 37vw);
           margin-left: auto;
+          min-width: 469px;
         }
 
         figcaption {

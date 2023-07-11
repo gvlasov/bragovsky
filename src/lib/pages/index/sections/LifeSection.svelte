@@ -98,7 +98,7 @@
       &.photo2 {
         padding-left: 0;
         padding-right: 2%;
-        padding-top: 2%;
+        padding-top: 0%;
         width: 34.7%;
         margin-top: 1.3%;
         float: left;
@@ -108,21 +108,21 @@
         width: 26.6%;
         float: right;
         padding-right: 0;
-        margin-top: 4.2%;
+        margin-top: 2.6%;
         padding-left: 0%;
       }
 
       &.photo4 {
         width: 34%;
         margin-right: 3.3%;
-        margin-top: 6.4%;
+        margin-top: 4.8%;
         margin-bottom: 1.6%;
         float: right;
       }
 
       &.photo5 {
         width: 24.5%;
-        margin-top: 3.2%;
+        margin-top: 2.2%;
         float: left;
         padding-left: 0;
         padding-top: 0%;
@@ -131,7 +131,7 @@
 
       &.photo6 {
         width: 40.7%;
-        margin-top: 3.4%;
+        margin-top: 1.5%;
         margin-left: 2%;
         float: left;
       }
@@ -140,7 +140,7 @@
         padding-left: 0;
         width: 32.8%;
         margin-right: -2.0%;
-        margin-top: 2.0%;
+        margin-top: 0.2%;
         float: right;
       }
     }
