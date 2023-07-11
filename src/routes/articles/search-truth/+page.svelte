@@ -144,6 +144,7 @@
       .part4 {
 
         padding-top: 0.5em;
+
         figure {
           margin-top: 0.8em;
           float: left;
@@ -160,16 +161,20 @@
           }
         }
       }
+
       .footer {
-        margin-top: 15em;
+        margin-top: 16.3em;
+        margin-bottom: 3em;
         display: flex;
         justify-content: space-around;
+
         img:nth-child(1) {
-          width: 21vw;
+          width: 20.6vw;
           height: auto;
         }
+
         img:nth-child(2) {
-          width: 33vw;
+          width: 41vw;
           height: auto;
         }
       }
