@@ -51,10 +51,16 @@
     display: block;
     text-align: center;
 
-    & > div > img, figure.afisha > img {
-      box-shadow: 0 0 3vw rgb(93 93 93 / 24%);
+    & > div > img  {
+      box-shadow: 0px 0px 1vw 0px rgba(93, 93, 93, 0.24);
       max-width: 100%;
     }
+
+    figure.afisha > img {
+      box-shadow: 0px 0px 1vw 0px rgba(186, 186, 186, 0.5);
+      max-width: 100%;
+    }
+
 
     .lastclear {
       display: block;
