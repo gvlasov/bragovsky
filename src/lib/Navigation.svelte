@@ -44,8 +44,8 @@
     }
 
     .items {
-      will-change: opacity;
       display: flex;
+      will-change: opacity;
       transition: opacity 0.2s ease;
       opacity: 0;
 
@@ -112,6 +112,7 @@
 
       .items {
         opacity: initial;
+        transition-property: none;
         &.open {
           display: flex;
         }
@@ -130,6 +131,7 @@
 
         a, button {
           opacity: initial;
+          transition-property: none;
           font-size: .98rem;
           cursor: pointer;
           text-transform: uppercase;
