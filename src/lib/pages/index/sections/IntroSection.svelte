@@ -62,16 +62,16 @@
         font-size: 1.6vw;
         max-width: 32vw;
         letter-spacing: 0.045em;
-        line-height: 1.95vw;
+        line-height: 1.22em;
         grid-column: 1;
         grid-row: 1;
       }
 
       .bottom {
-        margin-top: 9.42vw;
+        margin-top: 7.42vw;
         max-width: 32vw;
         font-size: 0.8vw;
-        line-height: 1.03vw;
+        line-height: 1.05vw;
         letter-spacing: 0.0165em;
         grid-column: 1;
         grid-row: 2;

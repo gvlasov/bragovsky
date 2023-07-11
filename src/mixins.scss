@@ -1,6 +1,6 @@
 $bodyPadding: 7.2vw;
 $narrowBodyPadding: 6.2vw;
 @mixin for-widescreen {
-  @media screen and (pointer: fine) and (min-width: 800px) { @content; }
+  @media screen and (pointer: fine) and (min-width: 968px) { @content; }
   //@media print { @content; }
 }

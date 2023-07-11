@@ -50,9 +50,6 @@
     margin-top: 18.65vw;
     display: block;
     text-align: center;
-    .section-header {
-      margin-left: -1.2em;
-    }
 
     & > div > img  {
       box-shadow: 0px 0px 1vw 0px rgba(93, 93, 93, 0.24);
@@ -152,7 +149,7 @@
       display: grid;
       grid-template-columns: 18.25% 1fr 1fr 39%;
       grid-template-rows: repeat(5, max-content);
-      margin-top: 480px;
+      margin-top: 25vw;
 
       .section-header {
         grid-column: 1/3;
