@@ -195,7 +195,7 @@
         &.photo3 {
           grid-column: 3;
           grid-row: 4/6;
-          padding-top: 5.5%;
+          padding-top: 7.5%;
           padding-left: 11.5%;
           padding-right: 32.4%;
           width: 100%;
@@ -204,7 +204,7 @@
         &.photo4 {
           grid-column: 2;
           grid-row: 2;
-          padding-top: 25%;
+          padding-top: 27%;
           padding-left: 15%;
           padding-right: 2%;
           width: 100%;
@@ -213,7 +213,7 @@
         &.photo5 {
           grid-column: 3;
           grid-row: 2/4;
-          padding-top: 37%;
+          padding-top: 38%;
           padding-right: 23.4%;
           padding-left: 11.5%;
           width: 100%;
@@ -222,7 +222,7 @@
         &.photo6 {
           grid-column: 2;
           grid-row: 3/5;
-          padding-top: 7.5%;
+          padding-top: 8.5%;
           margin-left: 0%;
           width: 100%;
         }
@@ -230,7 +230,7 @@
         &.photo7 {
           grid-column: 2;
           grid-row: 5/6;
-          padding-top: 4.6%;
+          padding-top: 6.6%;
           padding-left: 21%;
           width: 100%;
         }
