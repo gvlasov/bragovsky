@@ -60,7 +60,7 @@
     row-gap: 1vw;
     width: 100%;
 
-    & > figure > img, & > img {
+    & > figure > img {
       box-shadow: 0 0 3vw rgb(93 93 93 / 24%);
     }
 
