@@ -168,7 +168,8 @@
         margin-top: -9%;
 
         figcaption {
-          display: none;
+          font-size: 11px;
+          margin-top: 0.8em;
         }
       }
 
