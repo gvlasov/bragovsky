@@ -16,7 +16,7 @@
     white-space: nowrap;
     @include for-widescreen {
       font-size: 14px;
-      letter-spacing: .208vw;
+      letter-spacing: .238vw;
     }
   }
 </style>
