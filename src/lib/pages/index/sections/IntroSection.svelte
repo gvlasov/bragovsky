@@ -58,21 +58,21 @@
       grid-template-rows: min-content min-content 1fr;
 
       .top {
-        margin-top: 112px;
-        font-size: 32px;
-        max-width: 37rem;
-        letter-spacing: 0.02em;
+        margin-top: 6vw;
+        font-size: 1.6vw;
+        max-width: 38vw;
+        letter-spacing: 0.045em;
         line-height: 2.4rem;
         grid-column: 1;
         grid-row: 1;
       }
 
       .bottom {
-        margin-top: 141px;
+        margin-top: 9.1vw;
         max-width: 36rem;
-        font-size: 15px;
-        line-height: 20px;
-        letter-spacing: 0.45px;
+        font-size: 0.8vw;
+        line-height: 1.05vw;
+        letter-spacing: 0.017em;
         grid-column: 1;
         grid-row: 2;
       }
@@ -94,7 +94,7 @@
           line-height: 16px;
           letter-spacing: 0.6px;
           padding-right: 19px;
-          padding-top: 20px;
+          padding-top: 21px;
           font-size: 11px;
         }
       }
