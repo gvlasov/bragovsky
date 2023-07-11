@@ -18,16 +18,18 @@
     display: flex;
     gap: 1em;
     align-items: start;
-    font-size: 5.0vw;
-    margin-left: -0.35em;
+    font-size: 5.06vw;
+    margin-left: -0.1em;
 
     text-transform: uppercase;
-    letter-spacing: .175em;
+    letter-spacing: .161em;
 
     img {
-      height: 1.00em;
-      margin-left: -0.09em;
+      height: 0.96em;
+      margin-left: -0.06em;
+      margin-top: 0.09em;
     }
+
     @include for-widescreen {
       font-size: 34px;
       letter-spacing: .159em;
@@ -35,6 +37,7 @@
       margin-top: 13px;
       img {
         margin-left: 3px;
+        margin-top: 0.12em;
       }
     }
 

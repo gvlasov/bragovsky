@@ -47,9 +47,12 @@
   @import "../../../../mixins";
 
   section.life {
-    margin-top: 18.6vw;
+    margin-top: 18.65vw;
     display: block;
     text-align: center;
+    .section-header {
+      margin-left: -1.2em;
+    }
 
     & > div > img  {
       box-shadow: 0px 0px 1vw 0px rgba(93, 93, 93, 0.24);

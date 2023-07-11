@@ -71,7 +71,7 @@
     .section-header {
       grid-column: 1/3;
       grid-row: 1;
-      margin-left: 1.7em;
+      margin-left: 0.5em;
     }
 
     .photo1 {
