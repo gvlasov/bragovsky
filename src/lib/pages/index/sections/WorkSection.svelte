@@ -1,15 +1,15 @@
 <script lang="ts">
     import SectionHeader from "./SectionHeader.svelte";
-    import photo1 from '$assets/Сайт/Графика/Графика 18. Resolution 40.jpg'
-    import photo2 from '$assets/Сайт/Графика/Графика 30. Resolution 40.jpg'
-    import photo3 from '$assets/Сайт/Графика/Графика 9. Resolution 20.jpg'
-    import photo4 from '$assets/Сайт/Графика/Графика 3. Resolution 15.jpg'
-    import photo5 from '$assets/Сайт/Живопись/Автопортет 60.jpg'
-    import photo6 from '$assets/Сайт/Живопись/b-s-012. Resolution 115.jpg'
-    import photo7 from '$assets/Сайт/Живопись/031. Resolution 80.jpg'
-    import photo8 from '$assets/Сайт/Живопись/В список. Resolution 50.jpg'
-    import photo9 from '$assets/Сайт/Живопись/b-s-096-2. Resolution 110.jpg'
-    import photo10 from '$assets/Сайт/Живопись/IMG_2407 Resolution 40.jpg'
+    import photo1 from '$assets/Сайт_optimal/Графика/Графика 18. Resolution 40.jpg'
+    import photo2 from '$assets/Сайт_optimal/Графика/Графика 30. Resolution 40.jpg'
+    import photo3 from '$assets/Сайт_optimal/Графика/Графика 9. Resolution 20.jpg'
+    import photo4 from '$assets/Сайт_optimal/Графика/Графика 3. Resolution 15.jpg'
+    import photo5 from '$assets/Сайт_optimal/Живопись/Автопортет 60.jpg'
+    import photo6 from '$assets/Сайт_optimal/Живопись/b-s-012. Resolution 115.jpg'
+    import photo7 from '$assets/Сайт_optimal/Живопись/031. Resolution 80.jpg'
+    import photo8 from '$assets/Сайт_optimal/Живопись/В список. Resolution 50.jpg'
+    import photo9 from '$assets/Сайт_optimal/Живопись/b-s-096-2. Resolution 110.jpg'
+    import photo10 from '$assets/Сайт_optimal/Живопись/IMG_2407 Resolution 40.jpg'
 </script>
 
 <section class="work">

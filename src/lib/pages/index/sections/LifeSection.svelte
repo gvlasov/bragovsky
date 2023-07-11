@@ -1,14 +1,14 @@
 <script lang="ts">
     import SectionHeader from "./SectionHeader.svelte";
     import {_} from 'svelte-i18n'
-    import afisha from '$assets/Сайт/Фото/_MG_1565-2.jpg'
-    import photo1 from '$assets/Сайт/Фото/Пишет.jpg'
-    import photo2 from '$assets/Сайт/Фото/С Папикяном-5.jpg'
-    import photo3 from '$assets/Сайт/Фото/На льду 1.jpg'
-    import photo4 from '$assets/Сайт/Фото/Выставка 2.1.jpg'
-    import photo5 from '$assets/Сайт/Фото/Храм в Армении 1.jpg'
-    import photo6 from '$assets/Сайт/Фото/Портрет 5.jpg'
-    import photo7 from '$assets/Сайт/Фото/Э. Браговский.jpg'
+    import afisha from '$assets/Сайт_optimal/Фото/_MG_1565-2.jpg'
+    import photo1 from '$assets/Сайт_optimal/Фото/Пишет.jpg'
+    import photo2 from '$assets/Сайт_optimal/Фото/С Папикяном-5.jpg'
+    import photo3 from '$assets/Сайт_optimal/Фото/На льду 1.jpg'
+    import photo4 from '$assets/Сайт_optimal/Фото/Выставка 2.1.jpg'
+    import photo5 from '$assets/Сайт_optimal/Фото/Храм в Армении 1.jpg'
+    import photo6 from '$assets/Сайт_optimal/Фото/Портрет 5.jpg'
+    import photo7 from '$assets/Сайт_optimal/Фото/Э. Браговский.jpg'
 </script>
 
 <section class="life">
