@@ -153,25 +153,27 @@
     @include for-widescreen {
       margin-top: 11.6vw;
       .section-header {
-        margin-top: -1.3%;
+        margin-top: -0.7%;
+        margin-left: -0.4%;
       }
       .photo1 {
-        margin-top: 17%;
+        margin-top: 5%;
       }
       .photo2 {
-        margin-top: -6%;
+        margin-top: -16%;
       }
       .photo3 {
-        margin-top: -3%;
+        margin-top: -16%;
       }
       .photo4 {
-        margin-top: -36%;
+        margin-top: -48%;
       }
       .photo5 {
         margin-top: -4.5%;
       }
       .photo6 {
-        margin-top: 1.5%;
+        margin-top: -4.5%;
+        transform: translateY(3.5%);
       }
       .photo7 {
         margin-top: 6%;
