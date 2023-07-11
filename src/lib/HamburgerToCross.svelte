@@ -34,11 +34,11 @@
     &.open {
 
       &:before {
-        transform: translateY($hamburgerHeight/2-$hamburgerWeight/2) rotate(-45deg);
+        transform: translateY(calc($hamburgerHeight/2) - calc($hamburgerWeight/2)) rotate(-45deg);
       }
 
       &:after {
-        transform: translateY(-($hamburgerHeight/2-$hamburgerWeight/2)) rotate(45deg);
+        transform: translateY(-(calc($hamburgerHeight/2) - calc($hamburgerWeight/2))) rotate(45deg);
       }
 
     }
