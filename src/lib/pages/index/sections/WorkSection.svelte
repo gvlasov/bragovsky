@@ -61,11 +61,11 @@
     width: 100%;
 
     .shadow-a {
-      box-shadow: 0 0 1.5vw 0 rgba(196, 195, 195, 0.5);
+      box-shadow: 0 0 4.5vw 0 rgba(196, 195, 195, 0.5);
     }
 
     .shadow-b {
-      box-shadow: 0 0 1.4vw 0 rgba(137, 136, 136, 0.5);
+      box-shadow: 0 0 4.5vw 0 rgba(137, 136, 136, 0.5);
     }
 
     .section-header {
