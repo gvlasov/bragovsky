@@ -60,7 +60,7 @@
       .top {
         margin-top: 6vw;
         font-size: 1.6vw;
-        max-width: 38vw;
+        max-width: 32vw;
         letter-spacing: 0.045em;
         line-height: 1.95vw;
         grid-column: 1;
