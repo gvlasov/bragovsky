@@ -30,9 +30,9 @@
 
     .bottom, .years {
       margin-top: 6.42vw;
-      font-size: 3.06vw;
-      line-height: 5.89vw;
-      letter-spacing: 0.028em;
+      font-size: 12px;
+      line-height: 1.92em;
+      letter-spacing: 0.025em;
     }
 
     figure {
@@ -46,7 +46,7 @@
         text-align: right;
         font-size: 8px;
         letter-spacing: 0.0571em;
-        padding-right: 2.2vw;
+        padding-right: 1em;
         padding-top: 0.4em;
       }
     }
