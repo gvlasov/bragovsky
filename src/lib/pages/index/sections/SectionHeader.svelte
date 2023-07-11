@@ -27,7 +27,7 @@
     img {
       height: 0.96em;
       margin-left: -0.06em;
-      margin-top: 0.09em;
+      margin-top: 0.06em;
     }
 
     @include for-widescreen {
