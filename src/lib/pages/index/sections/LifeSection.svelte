@@ -92,7 +92,7 @@
         padding-left: 0;
         padding-top: 4.3%;
         max-width: 33%;
-        margin-top: 1.7%;
+        margin-top: 7.7%;
         padding-right: 3.6%;
       }
 
@@ -109,14 +109,14 @@
         width: 26.6%;
         float: right;
         padding-right: 0;
-        margin-top: 3.7%;
+        margin-top: 3.9%;
         padding-left: 0%;
       }
 
       &.photo4 {
         width: 34%;
         margin-right: 3.3%;
-        margin-top: 5.9%;
+        margin-top: 6.1%;
         margin-bottom: 1.6%;
         float: right;
       }
