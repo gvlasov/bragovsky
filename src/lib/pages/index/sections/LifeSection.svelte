@@ -47,9 +47,12 @@
   @import "../../../../mixins";
 
   section.life {
-    margin-top: 18.65vw;
+    margin-top: 71px;
     display: block;
     text-align: center;
+    .section-header {
+      margin-left: -6px;
+    }
 
     & > div > img  {
       box-shadow: 0px 0px 1.042vw 0px rgba(93, 93, 93, 0.24);
@@ -60,7 +63,6 @@
       box-shadow: 0px 0px 1.042vw 0px rgba(186, 186, 186, 0.5);
       max-width: 100%;
     }
-
 
     .lastclear {
       display: block;
@@ -78,7 +80,7 @@
         font-size: 8px;
         letter-spacing: 0.057em;
         padding-top: 0.44em;
-        padding-right: .65vw;
+        padding-right: 2px;
       }
     }
 

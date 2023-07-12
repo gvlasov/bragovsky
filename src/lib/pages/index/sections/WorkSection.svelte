@@ -52,12 +52,12 @@
   @import "../../../../mixins";
 
   section.work {
-    margin-top: 10.4vw;
+    margin-top: 41px;
     display: grid;
     grid-template-columns: auto 16.85% 16.99% 32.53%;
     grid-template-rows: repeat(6, min-content);
     column-gap: 5%;
-    row-gap: 1vw;
+    row-gap: 1%;
     width: 100%;
 
     .shadow-a {
@@ -71,7 +71,7 @@
     .section-header {
       grid-column: 1/3;
       grid-row: 1;
-      margin-left: 0.5em;
+      margin-left: 0px;
     }
 
     .photo1 {

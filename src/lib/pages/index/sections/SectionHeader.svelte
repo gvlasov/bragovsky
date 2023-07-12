@@ -18,11 +18,12 @@
     display: flex;
     gap: 1em;
     align-items: start;
-    font-size: 5.06vw;
-    margin-left: -0.4em;
+
 
     text-transform: uppercase;
-    letter-spacing: .161em;
+    font-size: 20px;
+    letter-spacing: 0.15em;
+    text-align: left;
 
     img {
       height: 0.96em;

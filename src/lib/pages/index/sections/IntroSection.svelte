@@ -33,8 +33,10 @@
     .bottom, .years {
       margin-top: 6.42vw;
       font-size: 12px;
-      line-height: 1.92em;
+      font-weight: 400;
+      line-height: 23px;
       letter-spacing: 0.025em;
+      text-align: left;
     }
 
     figure {
