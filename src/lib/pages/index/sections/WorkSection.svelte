@@ -164,26 +164,27 @@
       }
 
       .photo1 {
-        margin-top: 5%;
+        margin-top: 13%;
       }
       .photo2 {
-        margin-top: -16%;
+        margin-top: -8%;
       }
       .photo3 {
-        margin-top: -16%;
+        margin-top: -7%;
       }
       .photo4 {
-        margin-top: -48%;
+        margin-top: -40%;
       }
       .photo5 {
         margin-top: -4.5%;
       }
       .photo6 {
-        margin-top: -4.5%;
-        transform: translateY(3.5%);
+        margin-top: 0;
+        transform: translateY(1.0%);
       }
       .photo7 {
-        margin-top: 6%;
+        margin-top: 27%;
+        transform: translateY(-5.0%);
         margin-left: -8.5%;
       }
       .photo8 {
@@ -195,7 +196,7 @@
         margin-left: 5%;
       }
       .photo10 {
-        margin-top: 7.7%;
+        margin-top: 8.8%;
         margin-right: 23.4%;
       }
     }
