@@ -14,7 +14,7 @@
     z-index: 2;
     position: relative;
     display: flex;
-    padding: 8.94vw 15.8vw 0 6.2vw;
+    padding: 34px 15.8vw 0 24px;
     justify-content: space-between;
     align-items: center;
     @include for-widescreen {

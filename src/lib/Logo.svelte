@@ -9,11 +9,13 @@
 <style lang="scss">
   @import "../mixins";
   a {
-    font-size: 3.45vw;
     font-family: 'Montserrat', 'sans-serif';
     text-transform: uppercase;
-    letter-spacing: .765vw;
     white-space: nowrap;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.186em;
+    text-align: left;
     @include for-widescreen {
       font-size: 14px;
       letter-spacing: .238vw;
