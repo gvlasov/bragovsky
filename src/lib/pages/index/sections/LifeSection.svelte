@@ -155,6 +155,7 @@
       .section-header {
         grid-column: 1/3;
         grid-row: 1;
+        margin-left: -2px;
       }
 
       .firstclear, .lastclear {
@@ -170,7 +171,8 @@
 
         figcaption {
           font-size: 11px;
-          margin-top: 0.8em;
+          margin-top: 15px;
+          margin-right: 8px;
         }
       }
 
@@ -181,7 +183,7 @@
         &.photo1 {
           grid-column: 1;
           grid-row: 2/4;
-          padding-top: 27.5%;
+          padding-top: 21.5%;
           padding-right: 13.8%;
         }
 
