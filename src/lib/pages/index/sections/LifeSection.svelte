@@ -55,12 +55,12 @@
     }
 
     & > div > img  {
-      box-shadow: 0px 0px 1.042vw 0px rgba(93, 93, 93, 0.24);
+      box-shadow: 0px 0px 20px 0px rgba(93, 93, 93, 0.24);
       max-width: 100%;
     }
 
     figure.afisha > img {
-      box-shadow: 0px 0px 1.042vw 0px rgba(186, 186, 186, 0.5);
+      box-shadow: 0px 0px 20px 0px rgba(186, 186, 186, 0.5);
       max-width: 100%;
     }
 

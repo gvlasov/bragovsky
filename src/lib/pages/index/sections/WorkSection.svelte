@@ -156,11 +156,11 @@
       }
 
       .shadow-a {
-        box-shadow: 0 0 1.563vw 0 rgba(196, 195, 195, 0.5);
+        box-shadow: 0px 0px 26.25px 0px rgba(196, 195, 195, 0.5);
       }
 
       .shadow-b {
-        box-shadow: 0 0 1.563vw 0 rgba(137, 136, 136, 0.5);
+        box-shadow: 0px 0px 26.25px 0px rgba(137, 136, 136, 0.5);
       }
 
       .photo1 {
