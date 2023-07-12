@@ -23,7 +23,7 @@
 
 <style lang="scss">
   article {
-    font-family: Bruta Glb Regular, sans-serif;
+    font-family: Bruta Global Regular, sans-serif;
     padding: 4.15em 4.1em 4.15em 4.1em;
     font-size: 1.012vw;
 

@@ -18,14 +18,16 @@
 
   section.intro {
     margin-top: 7.9vw;
-    font-family: Bruta Glb, sans-serif;
+    font-family: Bruta Global Regular, sans-serif;
     max-width: 100vw;
     width: 100%;
 
     .top {
-      font-size: 20px;
-      letter-spacing: 0.019em;
-      line-height: 1.5em;
+      font-size: 19px;
+      font-weight: 400;
+      line-height: 30px;
+      letter-spacing: 0.05em;
+      text-align: left;
     }
 
     .bottom, .years {

@@ -11,7 +11,7 @@
   $hamburgerWeight: .28vw;
   button {
     font-weight: 400;
-    font-family: "Bruta Glb", Arial, sans-serif;
+    font-family: "Bruta Global", Arial, sans-serif;
     display: block;
     position: relative;
     width: 7.1vw;
@@ -46,7 +46,7 @@
     span {
       display: none;
       font-weight: 400;
-      font-family: "Bruta Glb", Arial, sans-serif;
+      font-family: "Bruta Global", Arial, sans-serif;
       cursor: pointer;
       left: 0;
       position: absolute;
