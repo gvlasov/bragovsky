@@ -19,7 +19,8 @@ const config = {
 			$app: 'src',
 			$assets: 'src/assets',
 			$images: 'src/assets/Сайт',
-			$imagesOptimized: 'src/assets/Сайт_optimal'
+			$imagesOptimized: 'src/assets/Сайт_optimal',
+			$lib: 'src/lib',
 		},
 		paths: {
 			base: process.env.NODE_ENV === 'production' ? '/sveltekit-github-pages' : '',

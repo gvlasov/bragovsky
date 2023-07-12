@@ -6,11 +6,11 @@
     import lentulovSquare from '$assets/Сайт_optimal/Статьи/лентулов-057.jpg'
     import art1 from '$imagesOptimized/Статьи/Каталог 3.jpg'
     import art2 from '$imagesOptimized//Статьи/Юный Художник 1.jpg'
-    import Article from "$lib/pages/articles/Article.svelte";
+    import FootnotesArticle from "$lib/pages/articles/FootnotesArticle.svelte";
 </script>
 
 <div class="content">
-    <Article>
+    <FootnotesArticle>
         <svelte:fragment slot="h1">{@html $_('page.life_lessons.heading1')}</svelte:fragment>
         <svelte:fragment slot="h2">{@html $_('page.life_lessons.heading2')}</svelte:fragment>
         <svelte:fragment slot="author">{@html $_('page.life_lessons.author')}</svelte:fragment>
@@ -51,7 +51,7 @@
                 <img src="{art2}"/>
             </div>
         </svelte:fragment>
-    </Article>
+    </FootnotesArticle>
 </div>
 
 

@@ -1,10 +1,10 @@
 <script lang="ts">
     import {_} from 'svelte-i18n'
-    import pinkVolkhov from '$imagesOptimized/Статьи/Этюд. Розовый волхов 6.jpg'
-    import blueVolkhov from '$imagesOptimized/Живопись/_s-2901-2. Resolution 65.jpg'
-    import petyaFruit from '$imagesOptimized/Статьи/Оригинал/Петя и фрукты 1970 (4).jpg'
-    import art1 from '$imagesOptimized/Статьи/Творчество 1.jpg'
-    import art2 from '$imagesOptimized/Статьи/Оригинал/Творчество 4.2.jpg'
+    import pinkVolkhov from '$assets/Сайт_optimal/Статьи/Этюд. Розовый волхов 6.jpg'
+    import blueVolkhov from '$assets/Сайт_optimal/Живопись/_s-2901-2. Resolution 65.jpg'
+    import petyaFruit from '$assets/Сайт_optimal/Статьи/Оригинал/Петя и фрукты 1970 (4).jpg'
+    import art1 from '$assets/Сайт_optimal/Статьи/Творчество 1.jpg'
+    import art2 from '$assets/Сайт_optimal/Статьи/Оригинал/Творчество 4.2.jpg'
     import FootnotesArticle from "$lib/pages/articles/FootnotesArticle.svelte";
 </script>
 
