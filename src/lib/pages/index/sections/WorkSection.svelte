@@ -156,6 +156,15 @@
         margin-top: -0.7%;
         margin-left: -0.4%;
       }
+
+      .shadow-a {
+        box-shadow: 0 0 1.563vw 0 rgba(196, 195, 195, 0.5);
+      }
+
+      .shadow-b {
+        box-shadow: 0 0 1.563vw 0 rgba(137, 136, 136, 0.5);
+      }
+
       .photo1 {
         margin-top: 5%;
       }
