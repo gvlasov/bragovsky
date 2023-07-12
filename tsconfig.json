@@ -10,7 +10,10 @@
 		"sourceMap": true,
 		"strict": true,
 		"paths": {
-			"$assets/*": ["./src/assets/*"]
+			"$assets/*": ["./src/assets/*"],
+			"$images/*": ["./src/assets/Сайт/*"],
+			"$imagesOptimized/*": ["./src/assets/Сайт_optimal/*"],
+			"$lib": ["./src/lib"],
 		}
 	}
 	// Path aliases are handled by https://kit.svelte.dev/docs/configuration#alias

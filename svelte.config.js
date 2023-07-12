@@ -17,7 +17,9 @@ const config = {
 		}),
 		alias: {
 			$app: 'src',
-			$assets: 'src/assets'
+			$assets: 'src/assets',
+			$images: 'src/assets/Сайт',
+			$imagesOptimized: 'src/assets/Сайт_optimal'
 		},
 		paths: {
 			base: process.env.NODE_ENV === 'production' ? '/sveltekit-github-pages' : '',

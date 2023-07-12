@@ -10,9 +10,9 @@
 
 <div class="content">
     <Article>
-        <svelte:fragment slot="h1">{$_('page.life_truth.heading1')}</svelte:fragment>
-        <svelte:fragment slot="h2">{$_('page.life_truth.heading2')}</svelte:fragment>
-        <svelte:fragment slot="author">{$_('page.life_truth.author')}</svelte:fragment>
+        <svelte:fragment slot="h1">{@html $_('page.life_truth.heading1')}</svelte:fragment>
+        <svelte:fragment slot="h2">{@html $_('page.life_truth.heading2')}</svelte:fragment>
+        <svelte:fragment slot="author">{@html $_('page.life_truth.author')}</svelte:fragment>
         <svelte:fragment slot="content">
             <div class="part part1">
                 {@html $_('page.life_truth.text.part1')}

@@ -5,15 +5,17 @@
 <ShadowedContainer>
     <article>
         <div class="description">
-            <h1>
-                <slot name="h1"/>
-            </h1>
-            <h2>
-                <slot name="h2"/>
-            </h2>
-            <h3>
-                <slot name="author"/>
-            </h3>
+            <div class="headings">
+                <h1>
+                    <slot name="h1"/>
+                </h1>
+                <h2>
+                    <slot name="h2"/>
+                </h2>
+                <h3>
+                    <slot name="author"/>
+                </h3>
+            </div>
         </div>
         <slot name="content"/>
     </article>
@@ -27,34 +29,44 @@
 
     .description {
       float: left;
-      padding-left: 3.5em;
-      padding-right: 3.6em;
+      width: 24.2vw;
+      text-align: center;
 
-      :global(h1) {
-        font-size: 0.952vw;
-        line-height: 1.547em;
-        letter-spacing: 0.010em;
-        margin-top: 4.5em;
-        margin-left: 2.1em;
+      & > * {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: left;
       }
 
-      :global(h2) {
-        font-size: 1.488vw;
-        line-height: 1.91em;
-        letter-spacing: 0.023em;
-        max-width: 10em;
-        margin-top: 7em;
-        margin-left: 1.35em;
-      }
+      .headings {
+        display: inline-grid;
+        grid-template-columns: max-content;
+        grid-template-rows: min-content min-content min-content;
+        :global(h1) {
+          font-size: 0.952vw;
+          line-height: 1.547em;
+          letter-spacing: 0.010em;
+          margin-top: 4.5em;
+          max-width: max-content;
+        }
 
-      :global(h3) {
-        font-size: 1.488vw;
-        font-weight: 300;
-        line-height: 0.8em;
-        letter-spacing: 0.026em;
-        margin-top: 5.87em;
-        margin-left: 1.3em;
-        margin-bottom: 12em;
+        :global(h2) {
+          font-size: 1.488vw;
+          line-height: 1.91em;
+          letter-spacing: 0.023em;
+          max-width: max-content;
+          margin-top: 7em;
+        }
+
+        :global(h3) {
+          font-size: 1.488vw;
+          font-weight: 300;
+          line-height: 0.8em;
+          letter-spacing: 0.026em;
+          margin-top: 5.87em;
+          margin-bottom: 12em;
+          max-width: max-content;
+        }
       }
     }
 
