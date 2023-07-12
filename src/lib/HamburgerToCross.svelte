@@ -7,14 +7,14 @@
 </button>
 
 <style lang="scss">
-  $hamburgerHeight: 3.22vw;
+  $hamburgerHeight: 3.25vw;
   $hamburgerWeight: .28vw;
   button {
     font-weight: 400;
     font-family: "Bruta Global", Arial, sans-serif;
     display: block;
     position: relative;
-    width: 7.1vw;
+    width: 9.1vw;
     height: $hamburgerHeight;
     cursor: pointer;
     margin-left: auto;
