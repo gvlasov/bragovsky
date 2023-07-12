@@ -11,7 +11,7 @@
   @import "../mixins";
   footer {
     text-align: center;
-    padding-top: 10px;
+    padding-top: 22px;
     padding-bottom: 2em;
     font-size: 10px;
     text-transform: uppercase;
@@ -19,7 +19,10 @@
     a {
       border-bottom: .05em solid black;
       padding-bottom: .24em;
-      letter-spacing: 0.050em;
+      letter-spacing: 0.06em;
+
+      font-size: 10px;
+      text-align: center;
 
       &:hover {
         border-bottom: 0;

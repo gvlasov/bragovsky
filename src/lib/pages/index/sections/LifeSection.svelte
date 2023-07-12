@@ -92,7 +92,6 @@
         padding-left: 0;
         padding-top: 4.3%;
         max-width: 33%;
-        float: left;
         margin-top: 1.7%;
         padding-right: 3.6%;
       }
