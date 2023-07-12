@@ -17,7 +17,7 @@
   @import "../../../../mixins";
 
   section.intro {
-    margin-top: 7.9vw;
+    margin-top: 30px;
     font-family: Bruta Global Regular, sans-serif;
     max-width: 100vw;
     width: 100%;
