@@ -155,7 +155,7 @@
       .section-header {
         grid-column: 1/3;
         grid-row: 1;
-        margin-left: 2px;
+        margin-left: 6px;
       }
 
       .firstclear, .lastclear {
@@ -167,12 +167,12 @@
         grid-row: 1/6;
         float: right;
         width: 100%;
-        margin-top: -9%;
+        margin-top: -5%;
 
         figcaption {
           font-size: 11px;
-          margin-top: 15px;
-          margin-right: 8px;
+          margin-top: 5px;
+          margin-right: 6px;
         }
       }
 
@@ -190,7 +190,7 @@
         &.photo2 {
           grid-column: 1;
           grid-row: 4/6;
-          padding-top: 9%;
+          padding-top: 7%;
           padding-right: 24%;
           width: 100%;
         }
@@ -198,7 +198,7 @@
         &.photo3 {
           grid-column: 3;
           grid-row: 4/6;
-          padding-top: 7.5%;
+          padding-top: 5.5%;
           padding-left: 11.5%;
           padding-right: 32.4%;
           margin-top: 2.6%;
@@ -208,38 +208,34 @@
         &.photo4 {
           grid-column: 2;
           grid-row: 2;
-          padding-top: 27%;
           padding-left: 15%;
           padding-right: 2%;
-          margin-top: 4.8%;
+          margin-top: 31%;
           width: 100%;
         }
 
         &.photo5 {
           grid-column: 3;
           grid-row: 2/4;
-          padding-top: 38%;
           padding-right: 23.4%;
           padding-left: 11.5%;
           width: 100%;
-          margin-top: 2.2%;
+          margin-top: 40%;
         }
 
         &.photo6 {
           grid-column: 2;
           grid-row: 3/5;
-          padding-top: 8.5%;
+          margin-top: 9%;
           margin-left: 0%;
-          margin-top: 1.5%;
           width: 100%;
         }
 
         &.photo7 {
           grid-column: 2;
           grid-row: 5/6;
-          padding-top: 6.6%;
           padding-left: 21%;
-          margin-top: 0.2%;
+          margin-top: 4.8%;
           width: 100%;
         }
       }
