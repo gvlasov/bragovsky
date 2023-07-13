@@ -56,15 +56,15 @@
     }
 
     @include for-widescreen {
-      margin-top: 99px;
+      margin-top: 125px;
       display: grid;
       grid-template-columns: 1fr 1fr;
-      grid-template-rows: min-content min-content 1fr;
+      grid-template-rows: 1fr 1fr;
       position: relative;
+      align-items: center;
 
       .top {
-        margin-top: 45px;
-        margin-left: 17px;
+        margin-top: 49px;
         font-size: 30px;
         max-width: 19em;
         min-width: 15em;
@@ -75,9 +75,8 @@
       }
 
       .bottom {
-        margin-top: 54px;
-        margin-left: 17px;
-        max-width: 42em;
+        margin-top: 70px;
+        max-width: 600px;
         min-width: 361px;
         margin-right: 81px;
         font-size: 15px;
@@ -101,9 +100,10 @@
         position: relative;
 
         img.image-right {
-          width: auto;
           min-width: 531.75px;
           max-width: min(100%, 709px);
+          width: 37vw;
+          margin-left: auto;
         }
 
         figcaption {

@@ -149,9 +149,9 @@
     }
 
     @include for-widescreen {
-      margin-top: 92px;
+      margin-top: 12.6vw;
       .section-header {
-        margin-left: 6px;
+        margin-left: 9px;
       }
 
       .shadow-a {
@@ -175,7 +175,7 @@
         margin-top: -36%;
       }
       .photo5 {
-        margin-top: 2%;
+        margin-top: -18%;
       }
       .photo6 {
         margin-top: 0;

@@ -17,7 +17,7 @@
     text-transform: uppercase;
 
     a {
-      border-bottom: .05em solid black;
+      border-bottom: 1px solid black;
       padding-bottom: .24em;
       letter-spacing: 0.06em;
 
@@ -30,13 +30,12 @@
     }
 
     @include for-widescreen {
-      font-size: 13px;
-      padding-top: 78px;
-      padding-bottom: 78px;
-      letter-spacing: 0.4px;
       text-align: center;
+      padding-top: 9vw;
+      padding-bottom: 9vw;
       a {
-        letter-spacing: 0.025em;
+        font-size: 13px;
+        letter-spacing: 0.4px;
       }
     }
 

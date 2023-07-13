@@ -150,12 +150,12 @@
       display: grid;
       grid-template-columns: 18.25% 1fr 1fr 39%;
       grid-template-rows: repeat(5, max-content);
-      margin-top: 165px;
+      margin-top: 25.5vw;
 
       .section-header {
         grid-column: 1/3;
         grid-row: 1;
-        margin-left: 6px;
+        margin-left: 9px;
       }
 
       .firstclear, .lastclear {
@@ -167,7 +167,7 @@
         grid-row: 1/6;
         float: right;
         width: 100%;
-        margin-top: -5%;
+        margin-top: -11%;
 
         figcaption {
           font-size: 11px;
