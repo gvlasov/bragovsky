@@ -149,10 +149,9 @@
     }
 
     @include for-widescreen {
-      margin-top: 11.6vw;
+      margin-top: 92px;
       .section-header {
-        margin-top: -0.7%;
-        margin-left: -0.4%;
+        margin-left: 6px;
       }
 
       .shadow-a {
@@ -173,30 +172,30 @@
         margin-top: -7%;
       }
       .photo4 {
-        margin-top: -40%;
+        margin-top: -36%;
       }
       .photo5 {
-        margin-top: -4.5%;
+        margin-top: 2%;
       }
       .photo6 {
         margin-top: 0;
-        transform: translateY(1.0%);
+        transform: translateY(0.0%);
       }
       .photo7 {
         margin-top: 27%;
-        transform: translateY(-5.0%);
+        transform: translateY(-6.0%);
         margin-left: -8.5%;
       }
       .photo8 {
-        margin-top: 9.5%;
+        margin-top: 8%;
         margin-right: 0.5%;
       }
       .photo9 {
-        margin-top: 20.0%;
+        margin-top: 18.5%;
         margin-left: 5%;
       }
       .photo10 {
-        margin-top: 8.8%;
+        margin-top: 8.5%;
         margin-right: 23.4%;
       }
     }
