@@ -43,7 +43,7 @@
       margin: 5.5vw 0-$narrowBodyPadding 0 0-$narrowBodyPadding;
 
       img.image-right {
-        width: 100%;
+        max-width: 100%;
       }
 
       figcaption {
@@ -56,15 +56,17 @@
     }
 
     @include for-widescreen {
-      margin-top: 7.1vw;
+      margin-top: 68.16px;
       display: grid;
-      grid-template-columns: max-content 1fr;
+      grid-template-columns: min-content 1fr;
       grid-template-rows: min-content min-content 1fr;
+      position: relative;
 
       .top {
-        margin-top: 6vw;
+        margin-top: 57.6px;
         font-size: 30.7px;
         max-width: 19em;
+        min-width: 14em;
         letter-spacing: 0.045em;
         line-height: 1.22em;
         grid-column: 1;
@@ -72,8 +74,9 @@
       }
 
       .bottom {
-        margin-top: 7vw;
+        margin-top: 67.2px;
         max-width: 39em;
+        min-width: 14em;
         font-size: 15.35px;
         line-height: 1.32em;
         letter-spacing: 0.0165em;
@@ -86,9 +89,14 @@
         display: flex;
         flex-direction: column;
         align-items: end;
-        height: auto;
+        grid-column: 2;
         grid-row: 1/3;
+        width: 100%;
         font-size: 0; // Remove newline
+        text-align: right;
+        overflow: hidden;
+        position: absolute;
+        right: 0;
         img.image-right {
           max-width: min(100%, 37vw);
           margin-left: auto;
