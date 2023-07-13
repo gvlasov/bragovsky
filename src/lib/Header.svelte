@@ -18,7 +18,7 @@
     justify-content: space-between;
     align-items: center;
     @include for-widescreen {
-      padding: 34px 34px 0 46px
+      padding: 2.321vw 3.036vw 0 3.155vw;
     }
   }
 </style>

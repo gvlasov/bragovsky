@@ -122,7 +122,7 @@
 
         display: flex;
         flex-direction: row;
-        column-gap: 37px;
+        column-gap: 2.917vw;
         position: static;
         width: auto;
         height: auto;
@@ -144,7 +144,7 @@
         }
 
         button {
-          margin-left: 13px;
+          margin-left: 0.119vw;
         }
       }
     }
