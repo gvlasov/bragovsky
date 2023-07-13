@@ -56,7 +56,7 @@
     }
 
     @include for-widescreen {
-      margin-top: 125px;
+      margin-top: 7.083vw;
       display: grid;
       grid-template-columns: 1fr 1fr;
       grid-template-rows: 1fr 1fr;
@@ -64,7 +64,7 @@
       align-items: center;
 
       .top {
-        margin-top: 49px;
+        margin-top: 2.976vw;
         font-size: 30px;
         max-width: 19em;
         min-width: 15em;
@@ -75,7 +75,7 @@
       }
 
       .bottom {
-        margin-top: 70px;
+        margin-top: 4.286vw;
         max-width: 600px;
         min-width: 361px;
         margin-right: 81px;
