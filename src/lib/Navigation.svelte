@@ -122,7 +122,7 @@
 
         display: flex;
         flex-direction: row;
-        column-gap: 3.05rem;
+        column-gap: 37px;
         position: static;
         width: auto;
         height: auto;
@@ -132,7 +132,7 @@
         a, button {
           opacity: initial;
           transition-property: none;
-          font-size: .98rem;
+          font-size: 15.61px;
           cursor: pointer;
           text-transform: uppercase;
           letter-spacing: 0.15em;
@@ -144,7 +144,7 @@
         }
 
         button {
-          margin-left: 0.1rem;
+          margin-left: 13px;
         }
       }
     }

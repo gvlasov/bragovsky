@@ -8,6 +8,7 @@
 
 <style lang="scss">
   @import "../mixins";
+
   a {
     font-family: 'Montserrat', 'sans-serif';
     text-transform: uppercase;
@@ -18,7 +19,7 @@
     text-align: left;
     @include for-widescreen {
       font-size: 14px;
-      letter-spacing: .238vw;
+      letter-spacing: 4px;
     }
   }
 </style>

@@ -56,30 +56,33 @@
     }
 
     @include for-widescreen {
-      margin-top: 68.16px;
+      margin-top: 99px;
       display: grid;
-      grid-template-columns: min-content 1fr;
+      grid-template-columns: 1fr 1fr;
       grid-template-rows: min-content min-content 1fr;
       position: relative;
 
       .top {
-        margin-top: 57.6px;
-        font-size: 30.7px;
+        margin-top: 45px;
+        margin-left: 17px;
+        font-size: 30px;
         max-width: 19em;
-        min-width: 14em;
-        letter-spacing: 0.045em;
-        line-height: 1.22em;
+        min-width: 15em;
+        letter-spacing: 0.06em;
+        line-height: 38px;
         grid-column: 1;
         grid-row: 1;
       }
 
       .bottom {
-        margin-top: 67.2px;
-        max-width: 39em;
-        min-width: 14em;
-        font-size: 15.35px;
-        line-height: 1.32em;
-        letter-spacing: 0.0165em;
+        margin-top: 54px;
+        margin-left: 17px;
+        max-width: 42em;
+        min-width: 361px;
+        margin-right: 81px;
+        font-size: 15px;
+        line-height: 20px;
+        letter-spacing: 0.03em;
         grid-column: 1;
         grid-row: 2;
       }
@@ -88,27 +91,28 @@
         margin: auto 0-$bodyPadding auto auto;
         display: flex;
         flex-direction: column;
-        align-items: end;
+        align-items: center;
+        align-content: center;
         grid-column: 2;
         grid-row: 1/3;
         width: 100%;
         font-size: 0; // Remove newline
-        text-align: right;
         overflow: hidden;
-        position: absolute;
-        right: 0;
+        position: relative;
+
         img.image-right {
-          max-width: min(100%, 37vw);
-          margin-left: auto;
-          min-width: 469px;
+          width: auto;
+          min-width: 531.75px;
+          max-width: min(100%, 709px);
         }
 
         figcaption {
           line-height: 16px;
           letter-spacing: 0.6px;
           padding-right: 19px;
-          padding-top: 1.6em;
+          padding-top: 16px;
           font-size: 11px;
+          width: 100%;
         }
       }
     }
