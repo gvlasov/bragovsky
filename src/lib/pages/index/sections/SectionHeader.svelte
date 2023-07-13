@@ -32,13 +32,12 @@
     }
 
     @include for-widescreen {
-      margin-left: 0.3em;
       font-size: 34px;
       letter-spacing: .159em;
-      margin-top: 13px;
       img {
-        margin-left: 3px;
-        margin-top: 0.12em;
+        margin-left: -10px;
+        margin-top: 4px;
+        height: 28.17px;
       }
     }
 
