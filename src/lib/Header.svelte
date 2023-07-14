@@ -19,7 +19,7 @@
     align-items: center;
     @include for-widescreen {
       padding-top: max(2.321vw, 34px);
-      padding-right: max(3.124761904vw, 33px);
+      padding-right: max(3.06vw, 33px);
       padding-left: max(3.095238095vw, 45px);
       padding-bottom: 0;
     }

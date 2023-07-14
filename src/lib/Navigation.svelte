@@ -128,6 +128,7 @@
         right: initial;
 
         a, button {
+          margin: 0;
           opacity: initial;
           transition-property: none;
           font-size: 15.61px;
