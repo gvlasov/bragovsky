@@ -20,16 +20,31 @@
       color: #262626;
       font-weight: 600;
       text-align: right;
+
     }
 
     :global(h1) {
-      font-weight: 600;
+      margin-top: 20px;
       color: #262626;
+      font-size: 19px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 20px;
+      letter-spacing: 0.57px;
     }
 
     :global(p) {
       color: #262626;
       margin-top: 2em;
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 35px;
+      letter-spacing: 0.225px;
+    }
+
+    .author {
+      margin-top: 1em;
     }
 
     @include for-widescreen {
@@ -45,10 +60,12 @@
       }
 
       :global(h1) {
+        margin-top: 0;
         font-size: 25.15px;
         line-height: 43.4px;
         letter-spacing: 0.5px;
         margin-bottom: 10px;
+        font-weight: 600;
       }
 
       :global(p) {
