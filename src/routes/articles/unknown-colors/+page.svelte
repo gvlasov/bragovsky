@@ -1,49 +1,14 @@
 <script lang="ts">
+    import Article from "$lib/pages/articles/Article.svelte";
     import {_} from 'svelte-i18n'
-    import pinkVolkhov from '$assets/Сайт_optimal/Статьи/Этюд. Розовый волхов 6.jpg'
-    import blueVolkhov from '$assets/Сайт_optimal/Живопись/_s-2901-2. Resolution 65.jpg'
-    import petyaFruit from '$assets/Сайт_optimal/Статьи/Оригинал/Петя и фрукты 1970 (4).jpg'
-    import art1 from '$assets/Сайт_optimal/Статьи/Творчество 1.jpg'
-    import art2 from '$assets/Сайт_optimal/Статьи/Оригинал/Творчество 4.2.jpg'
-    import FootnotesArticle from "$lib/pages/articles/FootnotesArticle.svelte";
 </script>
 
 <div class="content">
-    <FootnotesArticle>
-        <svelte:fragment slot="h1">{@html $_('page.life_truth.heading1')}</svelte:fragment>
-        <svelte:fragment slot="h2">{@html $_('page.life_truth.heading2')}</svelte:fragment>
-        <svelte:fragment slot="author">{@html $_('page.life_truth.author')}</svelte:fragment>
-        <svelte:fragment slot="content">
-            <div class="part part1">
-                {@html $_('page.life_truth.text.part1')}
-            </div>
-            <div class="part part2">
-                <figure>
-                    <img src="{pinkVolkhov}"/>
-                    <figcaption>{$_('page.life_truth.images.pinkVolkhov.caption')}</figcaption>
-                </figure>
-                {@html $_('page.life_truth.text.part2')}
-            </div>
-            <div class="part part3">
-                <figure>
-                    <img src="{blueVolkhov}"/>
-                    <figcaption>{$_('page.life_truth.images.blueVolkhov.caption')}</figcaption>
-                </figure>
-                {@html $_('page.life_truth.text.part3')}
-            </div>
-            <div class="part part4">
-                <figure>
-                    <img src="{petyaFruit}"/>
-                    <figcaption>{$_('page.life_truth.images.petyaFruit.caption')}</figcaption>
-                </figure>
-                {@html $_('page.life_truth.text.part4')}
-            </div>
-            <div class="footer">
-                <img src="{art1}"/>
-                <img src="{art2}"/>
-            </div>
-        </svelte:fragment>
-    </FootnotesArticle>
+    <Article name="unknown-colors">
+        <svelte:fragment slot="heading">{$_('page.unknown-colors.heading')}</svelte:fragment>
+        <svelte:fragment slot="content">{@html $_('page.unknown-colors.content')}</svelte:fragment>
+        <svelte:fragment slot="author">{$_('page.unknown-colors.author')}</svelte:fragment>
+    </Article>
 </div>
 
 
