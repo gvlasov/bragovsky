@@ -24,10 +24,12 @@
         <HamburgerToCross open={$open} on:click={ () => open.update(n => !n) }/>
     </div>
     <div class="items" class:open={$open}>
-        <a href="{base}/life" on:click={close}>{$_('page.life.name')}</a>
-        <a href="{base}/work" on:click={close}>{$_('page.work.name')}</a>
-        <a href="{base}/contacts" on:click={close}>{$_('page.contacts.name')}</a>
-        <a href="{base}/search" on:click={close}>{$_('page.search.name')}</a>
+        <div class="pages">
+            <a href="{base}/life" on:click={close}>{$_('page.life.name')}</a>
+            <a href="{base}/work" on:click={close}>{$_('page.work.name')}</a>
+            <a href="{base}/contacts" on:click={close}>{$_('page.contacts.name')}</a>
+            <a href="{base}/search" on:click={close}>{$_('page.search.name')}</a>
+        </div>
         <button on:click={toggleLanguage}>EN/RU</button>
     </div>
 </nav>
@@ -111,7 +113,11 @@
       }
 
       .items {
-        column-gap: max(1.488095238vw, 20px);
+        .pages {
+          display: flex;
+          column-gap: max(1.33vw, 29px);
+        }
+
         opacity: initial;
         transition-property: none;
         &.open {
@@ -143,7 +149,7 @@
         }
 
         button {
-          margin-left: max(1.480654762vw, 30px);
+          margin-left: max(2.95vw);
         }
       }
     }
