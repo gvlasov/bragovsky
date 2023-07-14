@@ -44,12 +44,14 @@
 
     .items {
       display: flex;
+      visibility: hidden;
       will-change: opacity;
-      transition: opacity 0.2s ease;
-      opacity: 0;
+      transition: visibility 0s, opacity 0.2s ease;
+      overflow: hidden;
 
       &.open {
         display: flex;
+        visibility: visible;
         opacity: 1;
         a, button {
           opacity: 1;

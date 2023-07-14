@@ -1,21 +1,18 @@
-<script lang="ts">
-    import ShadowedContainer from "$lib/ShadowedContainer.svelte";
-</script>
+<script lang="ts"></script>
 
-<ShadowedContainer>
-    <article>
-        <h1>
-            <slot name="heading"/>
-        </h1>
-        <slot name="content"/>
-        <div class="author">
-            <slot name="author"/>
-        </div>
-    </article>
-</ShadowedContainer>
+<article>
+    <h1>
+        <slot name="heading"/>
+    </h1>
+    <slot name="content"/>
+    <div class="author">
+        <slot name="author"/>
+    </div>
+</article>
 
 <style lang="scss">
   @import "../../../mixins";
+
   article {
     font-family: Bruta Global Regular, sans-serif;
 
@@ -36,6 +33,7 @@
     }
 
     @include for-widescreen {
+      box-shadow: 0 0 1vw 0 rgba(209, 207, 207, 0.5);
       padding: 7.15em 8.1em 7.15em 7.1em;
       font-size: 1.012vw;
 
