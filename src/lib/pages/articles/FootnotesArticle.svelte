@@ -22,35 +22,33 @@
   @import "../../../variables";
 
   article {
-    .description {
+    :global(.description) {
+      :global(.headings) {
+        :global(h1) {
+          margin-top: 56px;
+          font-size: 19px;
+          font-weight: 400;
+          line-height: 20px;
+          letter-spacing: 0.57px;
+        }
 
-    }
+        :global(h2) {
+          margin-top: 38px;
+          font-size: 13px;
+          font-weight: 400;
+          line-height: 20px;
+          letter-spacing: 0.39px;
+        }
 
-    .headings {
-      :global(h1) {
-        margin-top: 20px;
-        font-size: 19px;
-        font-weight: 400;
-        line-height: 20px;
-        letter-spacing: 0.57px;
-      }
-
-      :global(h2) {
-        margin-top: 38px;
-        font-size: 13px;
-        font-weight: 400;
-        line-height: 20px;
-        letter-spacing: 0.39px;
-      }
-
-      :global(h3) {
-        margin-top: 38px;
-        margin-bottom: 42px;
-        font-size: 13px;
-        font-weight: 300;
-        line-height: 20px;
-        letter-spacing: 0.39px;
-        text-transform: uppercase;
+        :global(h3) {
+          margin-top: 38px;
+          margin-bottom: 42px;
+          font-size: 13px;
+          font-weight: 300;
+          line-height: 20px;
+          letter-spacing: 0.39px;
+          text-transform: uppercase;
+        }
       }
     }
 
@@ -63,20 +61,20 @@
     }
 
     :global(figure) {
-      max-width: 100vw;
-      min-width: 100vw;
-      margin: 0 0-$mobileBodyPadding 0 0-$mobileBodyPadding;
+      max-width: 100%;
+      min-width: 100%;
 
       :global(img) {
         width: 100%;
       }
 
       :global(figcaption) {
+        margin-top: 18px;
         text-align: right;
         font-size: 12px;
         font-style: normal;
         font-weight: 400;
-        line-height: 20px; /* 166.667% */
+        line-height: 20px;
         letter-spacing: 1.8px;
       }
     }
@@ -143,6 +141,14 @@
         margin-top: 0.8em;
         max-width: 35.8vw;
         min-width: initial;
+
+        :global(figcaption) {
+          text-align: right;
+          font-size: 12px;
+          font-weight: 400;
+          line-height: 20px;
+          letter-spacing: 1.8px;
+        }
 
         :global(&.footnote-figure-left) {
           float: left;
