@@ -18,7 +18,10 @@
     justify-content: space-between;
     align-items: center;
     @include for-widescreen {
-      padding: max(2.321vw, 34px) 3.036vw 0 3.155vw;
+      padding-top: max(2.321vw, 34px);
+      padding-right: max(2.083333333vw, 30px);
+      padding-left: max(3.095238095vw, 45px);
+      padding-bottom: 0;
     }
   }
 </style>
