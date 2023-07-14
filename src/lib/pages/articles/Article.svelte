@@ -6,7 +6,7 @@
     </h1>
     <slot name="content"/>
     <div class="author">
-        <slot name="author"/>
+        <slot name="author"/>.
     </div>
 </article>
 

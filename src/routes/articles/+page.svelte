@@ -50,11 +50,11 @@
             </ShadowedContainer>
             <a href="{base}/articles/truth-search">{@html $_('page.articles.truth-search.caption')}</a>
         </div>
-        <div class="article article-konchin-simple-truths">
+        <div class="article article-simple-truths">
             <ShadowedContainer>
                 <img src="{konchinSimpleTruths}"/>
             </ShadowedContainer>
-            <a href="{base}/articles/konchin-simple-truths">{@html $_('page.articles.konchinSimpleTruths.caption')}</a>
+            <a href="{base}/articles/simple-truths">{@html $_('page.articles.konchinSimpleTruths.caption')}</a>
         </div>
     </div>
     <div class="right-column">
@@ -203,7 +203,7 @@
       }
     }
 
-    .article-konchin-simple-truths {
+    .article-simple-truths {
       margin-top: 9vw;
       img {
         width: 40.51vw
