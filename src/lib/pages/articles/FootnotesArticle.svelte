@@ -22,7 +22,6 @@
   @import "../../../variables";
 
   article {
-    margin-top: 130px;
     :global(.description) {
       :global(.headings) {
         :global(h1) {
@@ -81,14 +80,15 @@
     }
 
     @include for-widescreen {
+      margin: 124px 26px 0 26px;
       box-shadow: 0 0 1vw 0 rgba(209, 207, 207, 0.5);
       font-family: Bruta Global Regular, sans-serif;
-      padding: 4.15em 4.1em 4.15em 4.1em;
+      padding: 3.7em 4.2em 4.15em 4.2em;
       font-size: 1.012vw;
 
       .description {
         float: left;
-        width: 24.2vw;
+        width: 24.3vw;
         text-align: center;
 
         & > * {
@@ -113,10 +113,10 @@
 
           :global(h2) {
             max-width: 8em;
-            margin-top: 5.87em;
+            margin-top: 7em;
             font-size: 25.15px;
             font-weight: 400;
-            line-height: 50.3px;
+            line-height: 48.3px;
             letter-spacing: 0.5px;
           }
 
@@ -126,7 +126,7 @@
             font-weight: 300;
             line-height: 17.3px;
             letter-spacing: 0.5px;
-            margin-top: 5.87em;
+            margin-top: 5.89em;
             margin-bottom: 12em;
             max-width: max-content;
             text-transform: none;
