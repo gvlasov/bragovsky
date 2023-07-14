@@ -17,10 +17,14 @@
     font-family: Bruta Global Regular, sans-serif;
 
     .author {
+      margin-top: 1em;
       color: #262626;
-      font-weight: 600;
       text-align: right;
-
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 50px;
+      letter-spacing: 0.28px;
     }
 
     :global(h1) {
@@ -41,10 +45,6 @@
       font-weight: 400;
       line-height: 35px;
       letter-spacing: 0.225px;
-    }
-
-    .author {
-      margin-top: 1em;
     }
 
     @include for-widescreen {
