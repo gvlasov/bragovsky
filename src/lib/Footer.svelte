@@ -31,8 +31,8 @@
 
     @include for-widescreen {
       text-align: center;
-      padding-top: 9vw;
-      padding-bottom: 9vw;
+      padding-top: 77px;
+      padding-bottom: 62px;
       a {
         font-size: 13px;
         letter-spacing: 0.4px;
