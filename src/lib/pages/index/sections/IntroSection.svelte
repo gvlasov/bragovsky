@@ -40,7 +40,7 @@
     }
 
     figure {
-      margin: 5.5vw 0-$narrowBodyPadding 0 0-$narrowBodyPadding;
+      margin: 5.5vw 0-$mobileBodyPadding 0 0-$mobileBodyPadding;
 
       img.image-right {
         max-width: 100%;
@@ -87,7 +87,7 @@
       }
 
       figure {
-        margin: auto 0-$bodyPadding auto auto;
+        margin: auto 0-$desktopBodyPadding auto auto;
         display: flex;
         flex-direction: column;
         align-items: center;

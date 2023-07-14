@@ -14,9 +14,9 @@
   @import "../mixins";
 
   .content {
-    padding: 0 $narrowBodyPadding 0 $narrowBodyPadding;
+    padding: 0 $mobileBodyPadding 0 $mobileBodyPadding;
     @include for-widescreen {
-      padding: 0 $bodyPadding 0 $bodyPadding;
+      padding: 0 $desktopBodyPadding 0 $desktopBodyPadding;
     }
   }
   .hidden {
