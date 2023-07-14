@@ -112,6 +112,7 @@
       }
 
       .items {
+        visibility: visible;
         opacity: initial;
         transition-property: none;
         &.open {
