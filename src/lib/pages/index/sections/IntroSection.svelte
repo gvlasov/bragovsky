@@ -61,10 +61,12 @@
       grid-template-columns: 1fr 1fr;
       grid-template-rows: 1fr 1fr;
       position: relative;
-      align-items: center;
 
       .top {
-        margin-top: 2.976vw;
+        @media screen and (max-width: 1200px) {
+          margin-left: 17px;
+        }
+        margin-top: 2.95vw;
         font-size: 30px;
         max-width: 19em;
         min-width: 15em;
@@ -72,10 +74,16 @@
         line-height: 38px;
         grid-column: 1;
         grid-row: 1;
+        align-self: center;
       }
 
+
       .bottom {
-        margin-top: 4.286vw;
+        @media screen and (max-width: 1200px) {
+          margin-left: 17px;
+        }
+        margin-top: 0;
+        margin-bottom: 3.2vw;
         max-width: 600px;
         min-width: 361px;
         margin-right: 81px;
@@ -84,6 +92,7 @@
         letter-spacing: 0.03em;
         grid-column: 1;
         grid-row: 2;
+        align-self: end;
       }
 
       figure {
