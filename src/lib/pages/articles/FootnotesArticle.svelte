@@ -63,6 +63,7 @@
     :global(figure) {
       max-width: 100%;
       min-width: 100%;
+      margin-top: 3em;
 
       :global(img) {
         width: 100%;
@@ -70,6 +71,7 @@
 
       :global(figcaption) {
         margin-top: 18px;
+        margin-bottom: 12px;
         text-align: right;
         font-size: 12px;
         font-style: normal;
