@@ -38,7 +38,6 @@
     .hamburger-wrap {
       display: block;
       margin-top: -1px;
-      margin-right: -20px;
       z-index: 2;
       position: relative;
     }
