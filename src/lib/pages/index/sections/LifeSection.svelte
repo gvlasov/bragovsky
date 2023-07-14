@@ -116,7 +116,7 @@
       &.photo4 {
         width: 34%;
         margin-right: 3.3%;
-        margin-top: 7.1%;
+        margin-top: 8.1%;
         margin-bottom: 1.6%;
         float: right;
       }
