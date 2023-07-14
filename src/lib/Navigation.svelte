@@ -111,18 +111,16 @@
       }
 
       .items {
+        column-gap: max(1.488095238vw, 20px);
         opacity: initial;
         transition-property: none;
         &.open {
           display: flex;
         }
-
         min-height: initial;
         padding: 0 0;
-
         display: flex;
         flex-direction: row;
-        column-gap: 2.917vw;
         position: static;
         width: auto;
         height: auto;
@@ -139,12 +137,12 @@
           text-decoration: none;
 
           &:visited {
-            color: black;
+            color: #262626;
           }
         }
 
         button {
-          margin-left: 0.119vw;
+          margin-left: max(1.480654762vw, 30px);
         }
       }
     }
