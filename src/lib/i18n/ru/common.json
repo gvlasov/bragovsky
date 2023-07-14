@@ -83,6 +83,18 @@
     "articles": {
       "papikyan": {
         "caption": "Статья А. Папикяна"
+      },
+      "tutunov": {
+        "caption": "Статья А. Тутунова<br />к выставке 1982 года"
+      },
+      "bragovsky2": {
+        "caption": "Статья Э. Браговского"
+      },
+      "konchinSimpleTruths": {
+        "caption": "Статья Е. Кончина"
+      },
+      "nikonov": {
+        "caption": "Статья Э. Браговского к<br />выставке П. Никонова"
       }
     }
   },
