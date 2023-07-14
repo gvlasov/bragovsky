@@ -15,6 +15,8 @@
     import bragovsky1_b from '$imagesOptimized/Статьи/Юный Художник 1.jpg'
     import bragovsky1_c from '$imagesOptimized/Статьи/Юный Художник 3.jpg'
     import bragovsky1_d from '$imagesOptimized/Статьи/Юный Художник 2.jpg'
+    import kravchenko from '$imagesOptimized/Статьи/Кравченко 2.jpg'
+    import konchin75 from '$imagesOptimized/Статьи/75 лет 2.jpg'
 
     import {_} from 'svelte-i18n'
 </script>
@@ -62,7 +64,6 @@
             </ShadowedContainer>
             <a href="{base}/articles/nikonov">{@html $_('page.articles.nikonov.caption')}</a>
         </div>
-
         <div class="article article-bragovsky1">
             <ShadowedContainer>
                 <a class="thumbnails" href="{base}/articles/papikyan">
@@ -72,7 +73,19 @@
                     <img src="{bragovsky1_d}"/>
                 </a>
             </ShadowedContainer>
-            <a href="{base}/articles/papikyan">{$_('page.articles.papikyan.caption')}</a>
+            <a href="{base}/articles/papikyan">{$_('page.articles.bragovsky1.caption')}</a>
+        </div>
+        <div class="article article-kravchenko">
+            <ShadowedContainer>
+                <img src="{kravchenko}"/>
+            </ShadowedContainer>
+            <a href="{base}/articles/kravchenko">{@html $_('page.articles.kravchenko.caption')}</a>
+        </div>
+        <div class="article article-konchin-75-years">
+            <ShadowedContainer>
+                <img src="{konchin75}"/>
+            </ShadowedContainer>
+            <a href="{base}/articles/konchin-75-years">{@html $_('page.articles.konchin75Years.caption')}</a>
         </div>
     </div>
 </div>
@@ -83,14 +96,17 @@
     margin-left: 3em;
     display: grid;
     justify-content: space-between;
+
     .left-column, .right-column {
       width: 0;
       display: flex;
       flex-direction: column;
     }
+
     .left-column {
       grid-column: 1;
     }
+
     .right-column {
       grid-column: 2;
       align-items: end;
@@ -106,7 +122,7 @@
         line-height: 42px;
         letter-spacing: 2.6px;
         text-align: center;
-        margin-top: 3.8em;
+        margin-top: 2.67em;
         display: block;
         white-space: nowrap;
       }
@@ -119,16 +135,17 @@
     .article-papikyan {
       .thumbnails {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: max-content max-content;
+
         img {
           &:nth-of-type(1) {
             width: 14.44vw;
-            margin-right: 3.4vw;
           }
 
           &:nth-of-type(2) {
-            width: 21.8vw;
-            margin-top: 1.5vw;
+            width: 22.2vw;
+            margin-top: 1.3vw;
+            margin-left: .5vw;
           }
 
           &:nth-of-type(3) {
@@ -137,23 +154,26 @@
           }
 
           &:nth-of-type(4) {
-            width: 14vw;
-            margin-left: 4vw;
+            width: 19vw;
+            margin-left: 3.5vw;
           }
         }
       }
     }
 
     .article-tutunov {
+      margin-top: 11.4vw;
+      margin-left: 2.2vw;
       img {
-        width: 21.03vw;
+        width: 21.73vw;
       }
     }
 
     .article-bragovsky2 {
       .thumbnails {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: max-content max-content;
+        margin-top: 17.5vw;
 
         img {
           &:nth-of-type(1) {
@@ -161,51 +181,58 @@
             grid-column: 1;
             grid-row: 1;
             margin-bottom: 10%;
-            margin-left: 8%;
           }
 
           &:nth-of-type(2) {
             width: 20.8vw;
             grid-column: 2;
             grid-row: 1;
-            margin-top: 9%;
-            justify-self: center;
+            margin-top: 6%;
+            margin-left: 4vw;
           }
 
           &:nth-of-type(3) {
             width: 25.3vw;
             grid-column: 1/3;
             grid-row: 2;
-            justify-self: center
+            justify-self: center;
+            margin-top: .8vw;
+            margin-left: 2vw;
           }
         }
       }
     }
+
     .article-konchin-simple-truths {
+      margin-top: 9vw;
       img {
         width: 40.51vw
       }
     }
 
     .article-nikonov {
+      margin-top: 14vw;
+      margin-right: 5.5vw;
       img {
         width: 22.08vw;
       }
     }
 
     .article-bragovsky1 {
+      margin-top: 3.9vw;
+      margin-right: 2.5vw;
       .thumbnails {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: max-content max-content;
+
         img {
           &:nth-of-type(1) {
-            width: 14.44vw;
-            margin-right: 3.4vw;
+            width: 15.0vw;
           }
 
           &:nth-of-type(2) {
-            width: 21.8vw;
-            margin-top: 1.5vw;
+            width: 21.04vw;
+            margin-left: 1.9vw;
           }
 
           &:nth-of-type(3) {
@@ -214,10 +241,28 @@
           }
 
           &:nth-of-type(4) {
-            width: 16vw;
-            margin-left: 4vw;
+            width: 18.54vw;
+            margin-left: 4.2vw;
+            margin-top: -2.5vw;
+
           }
         }
+      }
+    }
+
+    .article-kravchenko {
+      margin-top: 22.2vw;
+      margin-right: 5.3vw;
+      img {
+        width: 22.89vw;
+      }
+    }
+
+    .article-konchin-75-years {
+      margin-top: 9.3vw;
+      margin-right: 2.6vw;
+      img {
+        width: 29.16vw;
       }
     }
   }
