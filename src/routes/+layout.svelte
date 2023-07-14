@@ -8,7 +8,6 @@
 <div class="content">
     <slot/>
 </div>
-<Footer/>
 <style lang="scss">
   @import "../variables";
   @import "../mixins";
