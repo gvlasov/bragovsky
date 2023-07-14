@@ -56,7 +56,7 @@
     }
 
     @include for-widescreen {
-      margin-top: 7.083vw;
+      margin-top: max(7.083vw, 99px);
       display: grid;
       grid-template-columns: 1fr 1fr;
       grid-template-rows: 1fr 1fr;
