@@ -22,6 +22,7 @@
   @import "../../../variables";
 
   article {
+    margin-top: 130px;
     :global(.description) {
       :global(.headings) {
         :global(h1) {
@@ -102,38 +103,45 @@
           grid-template-rows: min-content min-content min-content;
 
           :global(h1) {
-            font-size: 0.952vw;
-            line-height: 1.547em;
-            letter-spacing: 0.010em;
+            font-size: 15.61px;
+            font-weight: 400;
+            line-height: 26px;
+            letter-spacing: 0.3px;
             margin-top: 4.5em;
             max-width: max-content;
           }
 
           :global(h2) {
-            font-size: 1.488vw;
-            line-height: 1.91em;
-            letter-spacing: 0.023em;
-            max-width: max-content;
-            margin-top: 7em;
+            max-width: 8em;
+            margin-top: 5.87em;
+            font-size: 25.15px;
+            font-weight: 400;
+            line-height: 50.3px;
+            letter-spacing: 0.5px;
           }
 
           :global(h3) {
-            font-size: 1.488vw;
+            color: #262626;
+            font-size: 25.15px;
             font-weight: 300;
-            line-height: 0.8em;
-            letter-spacing: 0.026em;
+            line-height: 17.3px;
+            letter-spacing: 0.5px;
             margin-top: 5.87em;
             margin-bottom: 12em;
             max-width: max-content;
+            text-transform: none;
           }
         }
       }
 
       :global(p) {
-        font-size: 1.012vw;
-        line-height: 2.553em;
-        letter-spacing: 0.035em;
         margin: 0 0 1.8em 0;
+        font-family: Bruta Global Regular;
+        font-size: 17.34px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 43.4px; /* 250.288% */
+        letter-spacing: 0.4px;
       }
 
       :global(figure) {
@@ -143,31 +151,30 @@
         min-width: initial;
 
         :global(figcaption) {
-          text-align: right;
-          font-size: 12px;
+          font-size: 15.61px;
           font-weight: 400;
           line-height: 20px;
-          letter-spacing: 1.8px;
+          letter-spacing: 2.4px;
+          margin-bottom: 2em;
+        }
+      }
+      :global(figure.footnote-figure-left) {
+        float: left;
+        margin-right: 4.7vw;
+
+        :global(figcaption) {
+          text-align: left;
         }
 
-        :global(&.footnote-figure-left) {
-          float: left;
-          margin-right: 4.7vw;
 
-          :global(figcaption) {
-            text-align: left;
-          }
+      }
+      :global(figure.footnote-figure-right) {
+        float: right;
+        margin-left: 4.7vw;
+
+        :global(figcaption) {
+          text-align: right;
         }
-
-        :global(&.footnote-figure-right) {
-          float: right;
-          margin-left: 4.7vw;
-
-          :global(figcaption) {
-            text-align: right;
-          }
-        }
-
       }
     }
   }

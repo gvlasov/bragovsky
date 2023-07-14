@@ -48,7 +48,6 @@
 
 
 <style lang="scss">
-
   article {
     .part1 {
       margin-bottom: 2.3em;
