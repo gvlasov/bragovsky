@@ -38,7 +38,7 @@
             <ShadowedContainer>
                 <img src="{tutunov}"/>
             </ShadowedContainer>
-            <a href="{base}/articles/papikyan">{@html $_('page.articles.tutunov.caption')}</a>
+            <a href="{base}/articles/tutunov">{@html $_('page.articles.tutunov.caption')}</a>
         </div>
         <div class="article article-bragovsky2">
             <ShadowedContainer>
