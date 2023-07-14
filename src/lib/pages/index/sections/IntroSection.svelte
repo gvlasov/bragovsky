@@ -112,7 +112,7 @@
           min-width: 531.75px;
           max-width: min(100%, 709px);
           width: 37vw;
-          margin-left: auto;
+          align-self: end;
         }
 
         figcaption {
