@@ -15,7 +15,7 @@
     white-space: nowrap;
     font-size: 14px;
     font-weight: 400;
-    letter-spacing: 0.186em;
+    letter-spacing: 2.9px;
     text-align: left;
     @include for-widescreen {
       font-size: 14px;
