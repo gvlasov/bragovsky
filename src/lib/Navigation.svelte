@@ -59,7 +59,7 @@
 
       font-family: 'Montserrat', 'sans-serif';
       flex-direction: column;
-      row-gap: 10.8vw;
+      row-gap: 43px;
       position: absolute;
       top: 100%;
       right: 0;
@@ -67,9 +67,9 @@
       width: 100vw;
       min-height: 100vh;
       align-items: center;
-      font-size: 4.9vw;
+      font-size: 19px;
       letter-spacing: .15em;
-      padding: 26.6vw 0;
+      padding: 103px 0;
 
       a, button {
         will-change: opacity;
