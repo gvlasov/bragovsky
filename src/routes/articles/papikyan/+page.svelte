@@ -59,21 +59,6 @@
 
       .part2 {
         margin-bottom: 3em;
-
-        figure {
-          margin-top: 0.8em;
-          float: left;
-          max-width: 35.8vw;
-          margin-right: 4.7vw;
-
-          figcaption {
-            font-size: 0.952vw;
-            line-height: 1.190vw;
-            letter-spacing: 0.138em;
-            text-align: right;
-            margin-top: 2.6em;
-          }
-        }
       }
 
       .part3 {

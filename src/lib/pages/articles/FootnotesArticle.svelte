@@ -74,6 +74,7 @@
       :global(figcaption) {
         text-align: right;
         font-size: 12px;
+        font-style: normal;
         font-weight: 400;
         line-height: 20px; /* 166.667% */
         letter-spacing: 1.8px;
@@ -161,12 +162,6 @@
           }
         }
 
-        :global(figcaption) {
-          font-size: 0.952vw;
-          line-height: 1.190vw;
-          letter-spacing: 0.138em;
-          margin-top: 2.6em;
-        }
       }
     }
   }
