@@ -6,15 +6,15 @@
     import painter3 from '$imagesOptimized/Статьи/Художник 4.2.1.jpg'
     import painter4 from '$imagesOptimized/Статьи/Художник 3.2.1.jpg'
     import tutunov from '$imagesOptimized/Статьи/А. Тутунов.jpg'
-    import bragovsky2_a from '$imagesOptimized/Статьи/Творчество 1.jpg'
-    import bragovsky2_b from '$imagesOptimized/Статьи/Творчество 4.2.jpg'
-    import bragovsky2_c from '$imagesOptimized/Статьи/Творчество 5.1.jpg'
+    import truth2_a from '$imagesOptimized/Статьи/Творчество 1.jpg'
+    import truth2_b from '$imagesOptimized/Статьи/Творчество 4.2.jpg'
+    import truth2_c from '$imagesOptimized/Статьи/Творчество 5.1.jpg'
     import konchinSimpleTruths from '$imagesOptimized/Статьи/О Браговском.jpg'
     import nikonov from '$imagesOptimized/Статьи/О Никонове 3.jpg'
-    import bragovsky1_a from '$imagesOptimized/Статьи/Каталог 3.jpg'
-    import bragovsky1_b from '$imagesOptimized/Статьи/Юный Художник 1.jpg'
-    import bragovsky1_c from '$imagesOptimized/Статьи/Юный Художник 3.jpg'
-    import bragovsky1_d from '$imagesOptimized/Статьи/Юный Художник 2.jpg'
+    import etude1_a from '$imagesOptimized/Статьи/Каталог 3.jpg'
+    import etude1_b from '$imagesOptimized/Статьи/Юный Художник 1.jpg'
+    import etude1_c from '$imagesOptimized/Статьи/Юный Художник 3.jpg'
+    import etude1_d from '$imagesOptimized/Статьи/Юный Художник 2.jpg'
     import kravchenko from '$imagesOptimized/Статьи/Кравченко 2.jpg'
     import konchin75 from '$imagesOptimized/Статьи/75 лет 2.jpg'
 
@@ -40,15 +40,15 @@
             </ShadowedContainer>
             <a href="{base}/articles/tutunov">{@html $_('page.articles.tutunov.caption')}</a>
         </div>
-        <div class="article article-bragovsky2">
+        <div class="article article-truth-search">
             <ShadowedContainer>
                 <div class="thumbnails">
-                    <img src="{bragovsky2_a}"/>
-                    <img src="{bragovsky2_b}"/>
-                    <img src="{bragovsky2_c}"/>
+                    <img src="{truth2_a}"/>
+                    <img src="{truth2_b}"/>
+                    <img src="{truth2_c}"/>
                 </div>
             </ShadowedContainer>
-            <a href="{base}/articles/bragovsky2">{@html $_('page.articles.bragovsky2.caption')}</a>
+            <a href="{base}/articles/truth-search">{@html $_('page.articles.truth-search.caption')}</a>
         </div>
         <div class="article article-konchin-simple-truths">
             <ShadowedContainer>
@@ -64,16 +64,16 @@
             </ShadowedContainer>
             <a href="{base}/articles/nikonov">{@html $_('page.articles.nikonov.caption')}</a>
         </div>
-        <div class="article article-bragovsky1">
+        <div class="article article-from-etude-to-landscape">
             <ShadowedContainer>
-                <a class="thumbnails" href="{base}/articles/papikyan">
-                    <img src="{bragovsky1_a}"/>
-                    <img src="{bragovsky1_b}"/>
-                    <img src="{bragovsky1_c}"/>
-                    <img src="{bragovsky1_d}"/>
+                <a class="thumbnails" href="{base}/articles/from-etude-to-landscape">
+                    <img src="{etude1_a}"/>
+                    <img src="{etude1_b}"/>
+                    <img src="{etude1_c}"/>
+                    <img src="{etude1_d}"/>
                 </a>
             </ShadowedContainer>
-            <a href="{base}/articles/papikyan">{$_('page.articles.bragovsky1.caption')}</a>
+            <a href="{base}/articles/papikyan">{$_('page.articles.from-etude-to-landscape.caption')}</a>
         </div>
         <div class="article article-kravchenko">
             <ShadowedContainer>
@@ -169,7 +169,7 @@
       }
     }
 
-    .article-bragovsky2 {
+    .article-truth-search {
       .thumbnails {
         display: grid;
         grid-template-columns: max-content max-content;
@@ -218,7 +218,7 @@
       }
     }
 
-    .article-bragovsky1 {
+    .article-from-etude-to-landscape {
       margin-top: 3.9vw;
       margin-right: 2.5vw;
       .thumbnails {
