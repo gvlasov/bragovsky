@@ -115,7 +115,7 @@
       .items {
         .pages {
           display: flex;
-          column-gap: max(1.33vw, 29px);
+          column-gap: 22px;
         }
 
         opacity: initial;
@@ -149,7 +149,7 @@
         }
 
         button {
-          margin-left: max(2.95vw);
+          margin-left: 50px;
         }
       }
     }
