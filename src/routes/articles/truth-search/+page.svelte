@@ -5,7 +5,9 @@
     import petyaFruit from '$imagesOptimized/Статьи/Оригинал/Петя и фрукты 1970 (4).jpg'
     import art1 from '$imagesOptimized/Статьи/Творчество 1.jpg'
     import art2 from '$imagesOptimized/Статьи/Оригинал/Творчество 4.2.jpg'
+    import art3 from '$imagesOptimized/Статьи/Оригинал/Творчество 5.1.jpg'
     import FootnotesArticle from "$lib/pages/articles/FootnotesArticle.svelte";
+    import Carousel from "$lib/Carousel.svelte";
 </script>
 
 <div class="content">
@@ -39,8 +41,11 @@
                 {@html $_('page.life_truth.text.part4')}
             </div>
             <div class="footer">
-                <img src="{art1}"/>
-                <img src="{art2}"/>
+                <Carousel>
+                    <img src="{art1}"/>
+                    <img src="{art2}"/>
+                    <img src="{art3}"/>
+                </Carousel>
             </div>
         </svelte:fragment>
     </FootnotesArticle>
@@ -48,39 +53,42 @@
 
 
 <style lang="scss">
-  article {
-    .part1 {
-      margin-bottom: 2.3em;
+  @import "../../../mixins";
+
+  .part1 {
+    margin-bottom: 2.3em;
+  }
+
+  .part2 {
+    margin-bottom: 3em;
+  }
+
+  .part3 {
+    margin-top: -0.8em;
+  }
+
+  .part4 {
+    padding-top: 0.5em;
+  }
+
+  .footer {
+    margin-top: 2em;
+    margin-bottom: 3em;
+
+    img {
+      height: 40vw;
+      margin-right: 12vw;
     }
 
-    .part2 {
-      margin-bottom: 3em;
-    }
+  }
 
-    .part3 {
-      margin-top: -0.8em;
-    }
-
-    .part4 {
-      padding-top: 0.5em;
-    }
-
+  @include for-widescreen {
     .footer {
-      margin-top: 16.3em;
-      margin-bottom: 3em;
-      display: flex;
-      justify-content: start;
-      gap: 6.3em;
+      margin-top: 13.3em;
 
-      img:nth-child(1) {
-        width: 20.6vw;
-        height: auto;
-        margin-left: 3.2em;
-      }
-
-      img:nth-child(2) {
-        width: 41.4vw;
-        height: auto;
+      img {
+        margin-right: 4vw;
+        height: 26vw;
       }
     }
   }

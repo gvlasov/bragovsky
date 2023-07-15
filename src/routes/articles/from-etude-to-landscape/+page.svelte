@@ -5,7 +5,11 @@
     import petyaFruit from '$assets/Сайт_optimal/Статьи/Оригинал/Петя и фрукты 1970 (4).jpg'
     import art1 from '$assets/Сайт_optimal/Статьи/Творчество 1.jpg'
     import art2 from '$assets/Сайт_optimal/Статьи/Оригинал/Творчество 4.2.jpg'
+    import art3 from '$imagesOptimized/Статьи/Юный Художник 3.jpg'
+    import art4 from '$imagesOptimized/Статьи/Юный Художник 2.jpg'
+    import art5 from '$imagesOptimized/Статьи/Юный Художник 4.jpg'
     import FootnotesArticle from "$lib/pages/articles/FootnotesArticle.svelte";
+    import Carousel from "$lib/Carousel.svelte";
 </script>
 
 <div class="content">
@@ -39,8 +43,13 @@
                 {@html $_('page.life_truth.text.part4')}
             </div>
             <div class="footer">
-                <img src="{art1}"/>
-                <img src="{art2}"/>
+                <Carousel>
+                    <img src="{art1}"/>
+                    <img src="{art2}"/>
+                    <img src="{art3}"/>
+                    <img src="{art4}"/>
+                    <img src="{art5}"/>
+                </Carousel>
             </div>
         </svelte:fragment>
     </FootnotesArticle>
@@ -123,16 +132,6 @@
         justify-content: start;
         gap: 6.3em;
 
-        img:nth-child(1) {
-          width: 20.6vw;
-          height: auto;
-          margin-left: 3.2em;
-        }
-
-        img:nth-child(2) {
-          width: 41.4vw;
-          height: auto;
-        }
       }
     }
   }
