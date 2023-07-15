@@ -4,7 +4,7 @@
     import arrowRight from '$assets/arrow-right_slider.svg'
 
     onMount(() => {
-        window.$(".slider").slick({
+        window.$(".carousel-slider").slick({
             infinite: true,
             arrows: true,
             variableWidth: true,
@@ -14,7 +14,7 @@
     })
 </script>
 
-<div class="slider">
+<div class="carousel-slider">
     <slot/>
 </div>
 
@@ -22,7 +22,7 @@
   @import '../mixins';
   @import '../variables';
 
-  .slider {
+  .carousel-slider {
     user-select: none;
     max-width: 100%;
     display: flex;
@@ -32,6 +32,7 @@
     :global(.slick-list) {
       overflow: hidden;
       margin-right: 0-$mobileBodyPadding;
+
       :global(img) {
         max-height: 40vw;
       }

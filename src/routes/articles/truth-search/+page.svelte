@@ -8,6 +8,7 @@
     import art3 from '$imagesOptimized/Статьи/Оригинал/Творчество 5.1.jpg'
     import FootnotesArticle from "$lib/pages/articles/FootnotesArticle.svelte";
     import Carousel from "$lib/Carousel.svelte";
+    import Gallery from "$lib/Gallery.svelte";
 </script>
 
 <div class="content">
@@ -78,7 +79,6 @@
       height: 40vw;
       margin-right: 12vw;
     }
-
   }
 
   @include for-widescreen {
