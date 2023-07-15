@@ -22,6 +22,7 @@
   @import "../../../variables";
 
   article {
+    padding-bottom: $mobileBodyPadding;
     :global(.description) {
       :global(.headings) {
         :global(h1) {
@@ -85,7 +86,7 @@
       margin: 124px 26px 0 26px;
       box-shadow: 0 0 1vw 0 rgba(209, 207, 207, 0.5);
       font-family: Bruta Global Regular, sans-serif;
-      padding: 3.7em 4.2em 4.15em 4.2em;
+      padding: 3.7em 4.2em 8.15em 4.2em;
       font-size: 1.012vw;
 
       .description {

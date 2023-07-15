@@ -72,8 +72,7 @@
   }
 
   .footer {
-    margin-top: 2em;
-    margin-bottom: 3em;
+    margin-top: 4em;
 
     img {
       height: 40vw;
@@ -87,8 +86,8 @@
       margin-top: 13.3em;
 
       img {
-        margin-right: 4vw;
-        height: 26vw;
+        margin-right: 6vw;
+        height: 25vw;
       }
     }
   }

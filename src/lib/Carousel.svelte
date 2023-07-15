@@ -20,6 +20,7 @@
 
 <style lang="scss">
   @import '../mixins';
+  @import '../variables';
 
   .slider {
     user-select: none;
@@ -30,16 +31,24 @@
 
     :global(.slick-list) {
       overflow: hidden;
+      margin-right: 0-$mobileBodyPadding;
+      :global(img) {
+        max-height: 40vw;
+      }
     }
 
     :global(img.slick-arrow) {
-      display: none;
+      display: none !important;
     }
 
     @include for-widescreen {
       gap: 3.6vw;
       :global(img.slick-arrow) {
+        display: initial !important;
         height: 40px;
+      }
+      :global(.slick-list) {
+        margin-right: initial;
       }
     }
   }
