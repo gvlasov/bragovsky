@@ -1,98 +1,99 @@
 <script lang="ts">
     import ShadowedContainer from "../../lib/ShadowedContainer.svelte";
     import {base} from '$app/paths';
-    import painter1 from '$imagesOptimized/Статьи/Художник 1.jpg'
-    import painter2 from '$imagesOptimized/Статьи/Художник 2.2.1.jpg'
-    import painter3 from '$imagesOptimized/Статьи/Художник 4.2.1.jpg'
-    import painter4 from '$imagesOptimized/Статьи/Художник 3.2.1.jpg'
-    import tutunov from '$imagesOptimized/Статьи/А. Тутунов.jpg'
-    import truth2_a from '$imagesOptimized/Статьи/Творчество 1.jpg'
-    import truth2_b from '$imagesOptimized/Статьи/Творчество 4.2.jpg'
-    import truth2_c from '$imagesOptimized/Статьи/Творчество 5.1.jpg'
-    import konchinSimpleTruths from '$imagesOptimized/Статьи/О Браговском.jpg'
-    import nikonov from '$imagesOptimized/Статьи/О Никонове 3.jpg'
-    import etude1_a from '$imagesOptimized/Статьи/Каталог 3.jpg'
-    import etude1_b from '$imagesOptimized/Статьи/Юный Художник 1.jpg'
-    import etude1_c from '$imagesOptimized/Статьи/Юный Художник 3.jpg'
-    import etude1_d from '$imagesOptimized/Статьи/Юный Художник 2.jpg'
+    import artistStory1 from '$imagesOptimized/Статьи/Художник 1.jpg'
+    import artistStory2 from '$imagesOptimized/Статьи/Художник 2.2.1.jpg'
+    import artistStory3 from '$imagesOptimized/Статьи/Художник 4.2.1.jpg'
+    import artistStory4 from '$imagesOptimized/Статьи/Художник 3.2.1.jpg'
+    import paintersGift from '$imagesOptimized/Статьи/А. Тутунов.jpg'
+    import truthSearch1 from '$imagesOptimized/Статьи/Творчество 1.jpg'
+    import truthSearch2 from '$imagesOptimized/Статьи/Творчество 4.2.jpg'
+    import truthSearch3 from '$imagesOptimized/Статьи/Творчество 5.1.jpg'
+    import simpleTruths from '$imagesOptimized/Статьи/О Браговском.jpg'
+    import timeForTruth from '$imagesOptimized/Статьи/О Никонове 3.jpg'
+    import fromEtude1 from '$imagesOptimized/Статьи/Каталог 3.jpg'
+    import fromEtude2 from '$imagesOptimized/Статьи/Юный Художник 1.jpg'
+    import fromEtude3 from '$imagesOptimized/Статьи/Юный Художник 3.jpg'
+    import fromEtude4 from '$imagesOptimized/Статьи/Юный Художник 2.jpg'
     import kravchenko from '$imagesOptimized/Статьи/Кравченко 2.jpg'
-    import konchin75 from '$imagesOptimized/Статьи/75 лет 2.jpg'
+    import unknownColors from '$imagesOptimized/Статьи/75 лет 2.jpg'
 
     import {_} from 'svelte-i18n'
 </script>
 
 <div class="articles">
     <div class="left-column">
-        <div class="article article-papikyan">
-            <ShadowedContainer>
-                <a class="thumbnails" href="{base}/articles/papikyan">
-                    <img src="{painter1}"/>
-                    <img src="{painter2}"/>
-                    <img src="{painter3}"/>
-                    <img src="{painter4}"/>
-                </a>
-            </ShadowedContainer>
-            <a href="{base}/articles/papikyan">{$_('page.articles.papikyan.caption')}</a>
-        </div>
-        <div class="article article-tutunov">
-            <ShadowedContainer>
-                <img src="{tutunov}"/>
-            </ShadowedContainer>
-            <a href="{base}/articles/tutunov">{@html $_('page.articles.tutunov.caption')}</a>
-        </div>
-        <div class="article article-truth-search">
+        <a href="{base}/articles/artist-story" class="article article-artist-story">
             <ShadowedContainer>
                 <div class="thumbnails">
-                    <img src="{truth2_a}"/>
-                    <img src="{truth2_b}"/>
-                    <img src="{truth2_c}"/>
+                    <img src="{artistStory1}"/>
+                    <img src="{artistStory2}"/>
+                    <img src="{artistStory3}"/>
+                    <img src="{artistStory4}"/>
                 </div>
             </ShadowedContainer>
-            <a href="{base}/articles/truth-search">{@html $_('page.articles.truth-search.caption')}</a>
-        </div>
-        <div class="article article-simple-truths">
+            <h3>{$_('page.artist-story.article-title')}</h3>
+        </a>
+        <a href="{base}/articles/painters-gift" class="article article-painters-gift">
             <ShadowedContainer>
-                <img src="{konchinSimpleTruths}"/>
+                <img src="{paintersGift}"/>
             </ShadowedContainer>
-            <a href="{base}/articles/simple-truths">{@html $_('page.articles.konchinSimpleTruths.caption')}</a>
-        </div>
+            <h3>{@html $_('page.painters-gift.article-title')}</h3>
+        </a>
+        <a href="{base}/articles/truth-search" class="article article-truth-search">
+            <ShadowedContainer>
+                <div class="thumbnails">
+                    <img src="{truthSearch1}"/>
+                    <img src="{truthSearch2}"/>
+                    <img src="{truthSearch3}"/>
+                </div>
+            </ShadowedContainer>
+            <h3>{@html $_('page.truth-search.article-title')}</h3>
+        </a>
+        <a href="{base}/articles/simple-truths" class="article article-simple-truths">
+            <ShadowedContainer>
+                <img src="{simpleTruths}"/>
+            </ShadowedContainer>
+            <h3>{@html $_('page.articles.simple-truths.caption')}</h3>
+        </a>
     </div>
     <div class="right-column">
-        <div class="article article-nikonov">
+        <a href="{base}/articles/time-for-truth" class="article article-time-for-truth">
             <ShadowedContainer>
-                <img src="{nikonov}"/>
+                <img src="{timeForTruth}"/>
             </ShadowedContainer>
-            <a href="{base}/articles/nikonov">{@html $_('page.articles.nikonov.caption')}</a>
-        </div>
-        <div class="article article-from-etude-to-landscape">
+            <h3>{@html $_('page.time-for-truth.article-title')}</h3>
+        </a>
+        <a href="{base}/articles/from-etude-to-landscape" class="article article-from-etude-to-landscape">
             <ShadowedContainer>
-                <a class="thumbnails" href="{base}/articles/from-etude-to-landscape">
-                    <img src="{etude1_a}"/>
-                    <img src="{etude1_b}"/>
-                    <img src="{etude1_c}"/>
-                    <img src="{etude1_d}"/>
-                </a>
+                <div class="thumbnails" href="{base}/articles/from-etude-to-landscape">
+                    <img src="{fromEtude1}"/>
+                    <img src="{fromEtude2}"/>
+                    <img src="{fromEtude3}"/>
+                    <img src="{fromEtude4}"/>
+                </div>
             </ShadowedContainer>
-            <a href="{base}/articles/papikyan">{$_('page.articles.from-etude-to-landscape.caption')}</a>
-        </div>
-        <div class="article article-kravchenko">
+            <h3>{$_('page.from-etude-to-landscape.article-title')}</h3>
+        </a>
+        <a href="{base}/articles/kravchenko" class="article article-kravchenko">
             <ShadowedContainer>
                 <img src="{kravchenko}"/>
             </ShadowedContainer>
-            <a href="{base}/articles/kravchenko">{@html $_('page.articles.kravchenko.caption')}</a>
-        </div>
-        <div class="article article-konchin-75-years">
+            <h3>{@html $_('page.articles.kravchenko.caption')}</h3>
+        </a>
+        <a href="{base}/articles/unknown-colors" class="article article-unknown-colors">
             <ShadowedContainer>
-                <img src="{konchin75}"/>
+                <img src="{unknownColors}"/>
             </ShadowedContainer>
-            <a href="{base}/articles/konchin-75-years">{@html $_('page.articles.konchin75Years.caption')}</a>
-        </div>
+            <h3>{@html $_('page.unknown-colors.article-title')}</h3>
+        </a>
     </div>
 </div>
 
 <style lang="scss">
   .articles {
     margin-top: 7.5em;
+    margin-bottom: 4.5em;
     margin-left: 3em;
     display: grid;
     justify-content: space-between;
@@ -105,34 +106,35 @@
 
     .left-column {
       grid-column: 1;
+      align-items: start;
     }
 
     .right-column {
       grid-column: 2;
       align-items: end;
-
     }
 
-    .article {
-      width: max-content;
+    a.article {
+      display: block;
+      width: min-content;
       text-align: center;
 
-      & > a {
+      .thumbnails {
+        padding: 3.7vw;
+      }
+
+      h3 {
         font-size: 17px;
         line-height: 42px;
         letter-spacing: 2.6px;
         text-align: center;
         margin-top: 2.67em;
         display: block;
-        white-space: nowrap;
       }
     }
 
-    .thumbnails {
-      padding: 3.7vw;
-    }
 
-    .article-papikyan {
+    .article-artist-story {
       .thumbnails {
         display: grid;
         grid-template-columns: max-content max-content;
@@ -161,11 +163,12 @@
       }
     }
 
-    .article-tutunov {
+    .article-painters-gift {
       margin-top: 11.4vw;
       margin-left: 2.2vw;
+
       img {
-        width: 21.73vw;
+        min-width: 21.73vw;
       }
     }
 
@@ -205,22 +208,25 @@
 
     .article-simple-truths {
       margin-top: 9vw;
+
       img {
-        width: 40.51vw
+        min-width: 40.51vw
       }
     }
 
-    .article-nikonov {
+    .article-time-for-truth {
       margin-top: 14vw;
       margin-right: 5.5vw;
+
       img {
-        width: 22.08vw;
+        min-width: 22.08vw;
       }
     }
 
     .article-from-etude-to-landscape {
       margin-top: 3.9vw;
       margin-right: 2.5vw;
+
       .thumbnails {
         display: grid;
         grid-template-columns: max-content max-content;
@@ -253,16 +259,18 @@
     .article-kravchenko {
       margin-top: 22.2vw;
       margin-right: 5.3vw;
+
       img {
-        width: 22.89vw;
+        min-width: 22.89vw;
       }
     }
 
-    .article-konchin-75-years {
+    .article-unknown-colors {
       margin-top: 9.3vw;
       margin-right: 2.6vw;
+
       img {
-        width: 29.16vw;
+        min-width: 29.16vw;
       }
     }
   }

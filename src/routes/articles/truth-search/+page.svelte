@@ -30,33 +30,33 @@
 
 <div class="content">
     <FootnotesArticle>
-        <svelte:fragment slot="h1">{@html $_('page.life_truth.heading1')}</svelte:fragment>
-        <svelte:fragment slot="h2">{@html $_('page.life_truth.heading2')}</svelte:fragment>
-        <svelte:fragment slot="author">{@html $_('page.life_truth.author')}</svelte:fragment>
+        <svelte:fragment slot="h1">{@html $_('page.truth-search.heading1')}</svelte:fragment>
+        <svelte:fragment slot="h2">{@html $_('page.truth-search.heading2')}</svelte:fragment>
+        <svelte:fragment slot="author">{@html $_('page.truth-search.author')}</svelte:fragment>
         <svelte:fragment slot="content">
             <div class="part part1">
-                {@html $_('page.life_truth.text.part1')}
+                {@html $_('page.truth-search.text.part1')}
             </div>
             <div class="part part2">
                 <figure class="footnote-figure-left">
                     <img src="{pinkVolkhov}"/>
-                    <figcaption>{$_('page.life_truth.images.pinkVolkhov.caption')}</figcaption>
+                    <figcaption>{$_('page.truth-search.images.pinkVolkhov.caption')}</figcaption>
                 </figure>
-                {@html $_('page.life_truth.text.part2')}
+                {@html $_('page.truth-search.text.part2')}
             </div>
             <div class="part part3">
                 <figure class="footnote-figure-right">
                     <img src="{blueVolkhov}"/>
-                    <figcaption>{$_('page.life_truth.images.blueVolkhov.caption')}</figcaption>
+                    <figcaption>{$_('page.truth-search.images.blueVolkhov.caption')}</figcaption>
                 </figure>
-                {@html $_('page.life_truth.text.part3')}
+                {@html $_('page.truth-search.text.part3')}
             </div>
             <div class="part part4">
                 <figure class="footnote-figure-left">
                     <img src="{petyaFruit}"/>
-                    <figcaption>{$_('page.life_truth.images.petyaFruit.caption')}</figcaption>
+                    <figcaption>{$_('page.truth-search.images.petyaFruit.caption')}</figcaption>
                 </figure>
-                {@html $_('page.life_truth.text.part4')}
+                {@html $_('page.truth-search.text.part4')}
             </div>
             <div class="footer">
                 <ArticleGallery images="{images}"/>
