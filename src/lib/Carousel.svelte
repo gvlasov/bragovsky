@@ -1,16 +1,43 @@
 <script lang="ts">
-    import {onMount} from 'svelte'
+    import {createEventDispatcher, onMount} from 'svelte'
     import arrowLeft from '$assets/arrow-left_slider.svg'
     import arrowRight from '$assets/arrow-right_slider.svg'
 
+    const dispatch = createEventDispatcher();
+
+    let gallery
     onMount(() => {
-        window.$(".carousel-slider").slick({
-            infinite: true,
-            arrows: true,
-            variableWidth: true,
-            prevArrow: `<img class="arrow-left" src="${arrowLeft}"/>`,
-            nextArrow: `<img class="arrow-right" src="${arrowRight}"/>`
-        });
+        gallery = window.$(".carousel-slider")
+        gallery
+            .on('init', function () {
+                gallery.find('.slick-slide').each(function(i) {
+                    const deltaPx = 6;
+                    let startX;
+                    let startY;
+
+                    this.addEventListener('mousedown', function (event) {
+                        startX = event.pageX;
+                        startY = event.pageY;
+                    });
+
+                    this.addEventListener('mouseup', function (event) {
+                        console.log(event.target)
+                        const diffX = Math.abs(event.pageX - startX);
+                        const diffY = Math.abs(event.pageY - startY);
+
+                        if (diffX < deltaPx && diffY < deltaPx) {
+                            dispatch('open-image', event.target.getAttribute('data-slick-index'))
+                        }
+                    });
+                })
+            })
+            .slick({
+                infinite: true,
+                arrows: true,
+                variableWidth: true,
+                prevArrow: `<img class="arrow-left" src="${arrowLeft}"/>`,
+                nextArrow: `<img class="arrow-right" src="${arrowRight}"/>`
+            });
     })
 </script>
 
@@ -35,6 +62,7 @@
 
       :global(img) {
         max-height: 40vw;
+        margin-right: 6px;
       }
     }
 
@@ -43,13 +71,18 @@
     }
 
     @include for-widescreen {
-      gap: 3.6vw;
+      gap: 3.0vw;
       :global(img.slick-arrow) {
         display: initial !important;
-        height: 40px;
+        height: 2.4vw;
       }
       :global(.slick-list) {
         margin-right: initial;
+
+        :global(img) {
+          max-height: 27.083vw;
+          margin-right: 3.4vw;
+        }
       }
     }
   }

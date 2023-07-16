@@ -6,9 +6,29 @@
     import art1 from '$imagesOptimized/Статьи/Творчество 1.jpg'
     import art2 from '$imagesOptimized/Статьи/Оригинал/Творчество 4.2.jpg'
     import art3 from '$imagesOptimized/Статьи/Оригинал/Творчество 5.1.jpg'
+    import art1_big from '$images/Статьи/Творчество 1.jpg'
+    import art2_big from '$images/Статьи/Оригинал/Творчество 4.2.jpg'
+    import art3_big from '$images/Статьи/Оригинал/Творчество 5.1.jpg'
     import FootnotesArticle from "$lib/pages/articles/FootnotesArticle.svelte";
     import Carousel from "$lib/Carousel.svelte";
-    import Gallery from "$lib/Gallery.svelte";
+    import FullscreenGallery from "$lib/FullscreenGallery.svelte";
+    import GallerySlide from "$lib/GallerySlide.svelte";
+    import ArticleGallery from "$lib/ArticleGallery.svelte";
+    import type {GalleryImage} from "$lib/GalleryImages";
+    const images: GalleryImage[] = [
+        {
+            small: art1,
+            big: art1_big,
+        },
+        {
+            small: art2,
+            big: art2_big
+        },
+        {
+            small: art3,
+            big: art3_big
+        }
+    ]
 </script>
 
 <div class="content">
@@ -41,26 +61,8 @@
                 </figure>
                 {@html $_('page.life_truth.text.part4')}
             </div>
-            <Gallery>
-                <div class="slide">
-                    <img src="{art1}"/>
-                </div>
-                <div class="slide">
-                    <img src="{art2}"/>
-                </div>
-                <div class="slide">
-                    <img src="{art3}"/>
-                </div>
-                <div class="slide">
-                    <img src="{art2}"/>
-                </div>
-            </Gallery>
             <div class="footer">
-                <Carousel>
-                    <img src="{art1}"/>
-                    <img src="{art2}"/>
-                    <img src="{art3}"/>
-                </Carousel>
+                <ArticleGallery images="{images}"/>
             </div>
         </svelte:fragment>
     </FootnotesArticle>
