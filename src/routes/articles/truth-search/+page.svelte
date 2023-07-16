@@ -41,6 +41,20 @@
                 </figure>
                 {@html $_('page.life_truth.text.part4')}
             </div>
+            <Gallery>
+                <div class="slide">
+                    <img src="{art1}"/>
+                </div>
+                <div class="slide">
+                    <img src="{art2}"/>
+                </div>
+                <div class="slide">
+                    <img src="{art3}"/>
+                </div>
+                <div class="slide">
+                    <img src="{art2}"/>
+                </div>
+            </Gallery>
             <div class="footer">
                 <Carousel>
                     <img src="{art1}"/>
