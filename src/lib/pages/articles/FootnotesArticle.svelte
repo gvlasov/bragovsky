@@ -23,6 +23,7 @@
 
   article {
     padding-bottom: $mobileBodyPadding;
+
     :global(.description) {
       :global(.headings) {
         :global(h1) {
@@ -106,6 +107,7 @@
           grid-template-rows: min-content min-content min-content;
 
           :global(h1) {
+            width: min-content;
             font-size: 15.61px;
             font-weight: 400;
             line-height: 26px;
@@ -115,6 +117,7 @@
           }
 
           :global(h2) {
+            width: min-content;
             max-width: 8em;
             margin-top: 7em;
             font-size: 25.15px;
@@ -124,7 +127,7 @@
           }
 
           :global(h3) {
-            color: #262626;
+            width: min-content;
             font-size: 25.15px;
             font-weight: 300;
             line-height: 17.3px;
@@ -139,7 +142,6 @@
 
       :global(p) {
         margin: 0 0 1.8em 0;
-        font-family: Bruta Global Regular;
         font-size: 17.34px;
         font-style: normal;
         font-weight: 400;
@@ -150,7 +152,6 @@
       :global(figure) {
         margin: 0;
         margin-top: 0.8em;
-        max-width: 35.8vw;
         min-width: initial;
 
         :global(figcaption) {
@@ -178,6 +179,9 @@
         :global(figcaption) {
           text-align: right;
         }
+      }
+      :global(.footer) {
+        margin-top: 13.6vw;
       }
     }
   }

@@ -10,9 +10,6 @@
     import art2_big from '$images/Статьи/Оригинал/Творчество 4.2.jpg'
     import art3_big from '$images/Статьи/Оригинал/Творчество 5.1.jpg'
     import FootnotesArticle from "$lib/pages/articles/FootnotesArticle.svelte";
-    import Carousel from "$lib/Carousel.svelte";
-    import FullscreenGallery from "$lib/FullscreenGallery.svelte";
-    import GallerySlide from "$lib/GallerySlide.svelte";
     import ArticleGallery from "$lib/ArticleGallery.svelte";
     import type {GalleryImage} from "$lib/GalleryImages";
     const images: GalleryImage[] = [
@@ -78,29 +75,27 @@
 
   .part2 {
     margin-bottom: 3em;
+    figure {
+      max-width: 35.833vw;
+    }
   }
 
   .part3 {
     margin-top: -0.8em;
+    figure {
+      max-width: 33.512vw;
+    }
   }
 
   .part4 {
     padding-top: 0.5em;
-  }
-
-  .footer {
-    margin-top: 4em;
-
-    img {
-      height: 40vw;
-      margin-right: 12vw;
+    figure {
+      max-width: 37.083vw;
     }
   }
 
   @include for-widescreen {
     .footer {
-      margin-top: 13.3em;
-
       img {
         margin-right: 6vw;
         height: 25vw;
