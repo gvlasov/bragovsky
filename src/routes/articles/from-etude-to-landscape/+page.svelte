@@ -3,13 +3,42 @@
     import pinkVolkhov from '$assets/Сайт_optimal/Статьи/Этюд. Розовый волхов 6.jpg'
     import blueVolkhov from '$assets/Сайт_optimal/Живопись/_s-2901-2. Resolution 65.jpg'
     import petyaFruit from '$assets/Сайт_optimal/Статьи/Оригинал/Петя и фрукты 1970 (4).jpg'
-    import art1 from '$assets/Сайт_optimal/Статьи/Творчество 1.jpg'
-    import art2 from '$assets/Сайт_optimal/Статьи/Оригинал/Творчество 4.2.jpg'
+    import art1 from '$imagesOptimized/Статьи/Каталог 3.jpg'
+    import art1_big from '$images/Статьи/Каталог 3.jpg'
+    import art2 from '$imagesOptimized/Статьи/Юный Художник 1.jpg'
+    import art2_big from '$images/Статьи/Юный Художник 1.jpg'
     import art3 from '$imagesOptimized/Статьи/Юный Художник 3.jpg'
+    import art3_big from '$images/Статьи/Юный Художник 3.jpg'
     import art4 from '$imagesOptimized/Статьи/Юный Художник 2.jpg'
+    import art4_big from '$images/Статьи/Юный Художник 2.jpg'
     import art5 from '$imagesOptimized/Статьи/Юный Художник 4.jpg'
+    import art5_big from '$images/Статьи/Юный Художник 4.jpg'
     import FootnotesArticle from "$lib/pages/articles/FootnotesArticle.svelte";
     import Carousel from "$lib/Carousel.svelte";
+    import ArticleGallery from "$lib/ArticleGallery.svelte";
+    import type {GalleryImage} from "$lib/GalleryImages";
+    const images: GalleryImage[] = [
+        {
+            small: art1,
+            big: art1_big,
+        },
+        {
+            small: art2,
+            big: art2_big,
+        },
+        {
+            small: art3,
+            big: art3_big,
+        },
+        {
+            small: art4,
+            big: art4_big,
+        },
+        {
+            small: art5,
+            big: art5_big,
+        },
+    ]
 </script>
 
 <div class="content">
@@ -43,13 +72,7 @@
                 {@html $_('page.life_truth.text.part4')}
             </div>
             <div class="footer">
-                <Carousel>
-                    <img src="{art1}"/>
-                    <img src="{art2}"/>
-                    <img src="{art3}"/>
-                    <img src="{art4}"/>
-                    <img src="{art5}"/>
-                </Carousel>
+                <ArticleGallery images="{images}"/>
             </div>
         </svelte:fragment>
     </FootnotesArticle>
