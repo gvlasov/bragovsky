@@ -82,6 +82,9 @@
         letter-spacing: 1.8px;
       }
     }
+    :global(.footer) {
+      margin-top: 2em;
+    }
 
     @include for-widescreen {
       margin: 124px 26px 0 26px;
@@ -182,6 +185,9 @@
       }
       :global(.footer) {
         margin-top: 13.6vw;
+        :global(.footer) {
+          margin-top: initial;
+        }
       }
     }
   }
