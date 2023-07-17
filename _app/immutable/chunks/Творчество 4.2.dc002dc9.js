@@ -1,1 +1,0 @@
-const e=""+new URL("../assets/Этюд. Розовый волхов 6.abe566ab.jpg",import.meta.url).href,s=""+new URL("../assets/_s-2901-2. Resolution 65.7c941c19.jpg",import.meta.url).href,t=""+new URL("../assets/Петя и фрукты 1970 (4).1b3121ba.jpg",import.meta.url).href,a=""+new URL("../assets/Творчество 4.2.bce31a95.jpg",import.meta.url).href;export{t as a,s as b,a as c,e as p};
