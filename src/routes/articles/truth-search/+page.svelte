@@ -12,6 +12,7 @@
     import FootnotesArticle from "$lib/pages/articles/FootnotesArticle.svelte";
     import ArticleGallery from "$lib/ArticleGallery.svelte";
     import type {GalleryImage} from "$lib/GalleryImages";
+
     const images: GalleryImage[] = [
         {
             small: art1,
@@ -28,42 +29,40 @@
     ]
 </script>
 
-<div class="content">
-    <FootnotesArticle>
-        <svelte:fragment slot="h1">{@html $_('page.truth-search.heading1')}</svelte:fragment>
-        <svelte:fragment slot="h2">{@html $_('page.truth-search.heading2')}</svelte:fragment>
-        <svelte:fragment slot="author">{@html $_('page.truth-search.author')}</svelte:fragment>
-        <svelte:fragment slot="content">
-            <div class="part part1">
-                {@html $_('page.truth-search.text.part1')}
-            </div>
-            <div class="part part2">
-                <figure class="footnote-figure-left">
-                    <img src="{pinkVolkhov}"/>
-                    <figcaption>{$_('page.truth-search.images.pinkVolkhov.caption')}</figcaption>
-                </figure>
-                {@html $_('page.truth-search.text.part2')}
-            </div>
-            <div class="part part3">
-                <figure class="footnote-figure-right">
-                    <img src="{blueVolkhov}"/>
-                    <figcaption>{$_('page.truth-search.images.blueVolkhov.caption')}</figcaption>
-                </figure>
-                {@html $_('page.truth-search.text.part3')}
-            </div>
-            <div class="part part4">
-                <figure class="footnote-figure-left">
-                    <img src="{petyaFruit}"/>
-                    <figcaption>{$_('page.truth-search.images.petyaFruit.caption')}</figcaption>
-                </figure>
-                {@html $_('page.truth-search.text.part4')}
-            </div>
-            <div class="footer">
-                <ArticleGallery images="{images}"/>
-            </div>
-        </svelte:fragment>
-    </FootnotesArticle>
-</div>
+<FootnotesArticle>
+    <svelte:fragment slot="h1">{@html $_('page.truth-search.heading1')}</svelte:fragment>
+    <svelte:fragment slot="h2">{@html $_('page.truth-search.heading2')}</svelte:fragment>
+    <svelte:fragment slot="author">{@html $_('page.truth-search.author')}</svelte:fragment>
+    <svelte:fragment slot="content">
+        <div class="part part1">
+            {@html $_('page.truth-search.text.part1')}
+        </div>
+        <div class="part part2">
+            <figure class="footnote-figure-left">
+                <img src="{pinkVolkhov}"/>
+                <figcaption>{$_('page.truth-search.images.pinkVolkhov.caption')}</figcaption>
+            </figure>
+            {@html $_('page.truth-search.text.part2')}
+        </div>
+        <div class="part part3">
+            <figure class="footnote-figure-right">
+                <img src="{blueVolkhov}"/>
+                <figcaption>{$_('page.truth-search.images.blueVolkhov.caption')}</figcaption>
+            </figure>
+            {@html $_('page.truth-search.text.part3')}
+        </div>
+        <div class="part part4">
+            <figure class="footnote-figure-left">
+                <img src="{petyaFruit}"/>
+                <figcaption>{$_('page.truth-search.images.petyaFruit.caption')}</figcaption>
+            </figure>
+            {@html $_('page.truth-search.text.part4')}
+        </div>
+        <div class="footer">
+            <ArticleGallery images="{images}"/>
+        </div>
+    </svelte:fragment>
+</FootnotesArticle>
 
 
 <style lang="scss">
@@ -75,6 +74,7 @@
 
   .part2 {
     margin-bottom: 3em;
+
     figure {
       max-width: 35.833vw;
     }
@@ -82,6 +82,7 @@
 
   .part3 {
     margin-top: -0.8em;
+
     figure {
       max-width: 33.512vw;
     }
@@ -89,6 +90,7 @@
 
   .part4 {
     padding-top: 0.5em;
+
     figure {
       max-width: 37.083vw;
     }

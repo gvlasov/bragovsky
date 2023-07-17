@@ -96,6 +96,7 @@
 
     .part2 {
       margin-bottom: 3em;
+
       figure {
         max-width: 25.260vw;
       }
@@ -103,6 +104,7 @@
 
     .part3 {
       margin-top: -0.8em;
+
       figure {
         max-width: 29.762vw;
       }
@@ -110,6 +112,7 @@
 
     .part4 {
       padding-top: 0.5em;
+
       figure {
         max-width: 32.679vw;
       }
@@ -117,6 +120,7 @@
 
     .part5 {
       padding-top: 0.5em;
+
       figure {
         max-width: 29.762vw;
       }

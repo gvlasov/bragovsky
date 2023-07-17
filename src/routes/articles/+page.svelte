@@ -22,81 +22,81 @@
 </script>
 
 <div class="articles">
-    <div class="left-column">
-        <a href="{base}/articles/artist-story" class="article article-artist-story">
-            <ShadowedContainer>
-                <div class="thumbnails">
-                    <img src="{artistStory1}"/>
-                    <img src="{artistStory2}"/>
-                    <img src="{artistStory3}"/>
-                    <img src="{artistStory4}"/>
-                </div>
-            </ShadowedContainer>
-            <h3>{$_('page.artist-story.article-title')}</h3>
-        </a>
-        <a href="{base}/articles/painters-gift" class="article article-painters-gift">
-            <ShadowedContainer>
-                <img src="{paintersGift}"/>
-            </ShadowedContainer>
-            <h3>{@html $_('page.painters-gift.article-title')}</h3>
-        </a>
-        <a href="{base}/articles/truth-search" class="article article-truth-search">
-            <ShadowedContainer>
-                <div class="thumbnails">
-                    <img src="{truthSearch1}"/>
-                    <img src="{truthSearch2}"/>
-                    <img src="{truthSearch3}"/>
-                </div>
-            </ShadowedContainer>
-            <h3>{@html $_('page.truth-search.article-title')}</h3>
-        </a>
-        <a href="{base}/articles/simple-truths" class="article article-simple-truths">
-            <ShadowedContainer>
-                <img src="{simpleTruths}"/>
-            </ShadowedContainer>
-            <h3>{@html $_('page.articles.simple-truths.caption')}</h3>
-        </a>
-    </div>
-    <div class="right-column">
-        <a href="{base}/articles/time-for-truth" class="article article-time-for-truth">
-            <ShadowedContainer>
-                <img src="{timeForTruth}"/>
-            </ShadowedContainer>
-            <h3>{@html $_('page.time-for-truth.article-title')}</h3>
-        </a>
-        <a href="{base}/articles/from-etude-to-landscape" class="article article-from-etude-to-landscape">
-            <ShadowedContainer>
-                <div class="thumbnails" href="{base}/articles/from-etude-to-landscape">
-                    <img src="{fromEtude1}"/>
-                    <img src="{fromEtude2}"/>
-                    <img src="{fromEtude3}"/>
-                    <img src="{fromEtude4}"/>
-                </div>
-            </ShadowedContainer>
-            <h3>{$_('page.from-etude-to-landscape.article-title')}</h3>
-        </a>
-        <a href="{base}/articles/kravchenko" class="article article-kravchenko">
-            <ShadowedContainer>
-                <img src="{kravchenko}"/>
-            </ShadowedContainer>
-            <h3>{@html $_('page.articles.kravchenko.caption')}</h3>
-        </a>
-        <a href="{base}/articles/unknown-colors" class="article article-unknown-colors">
-            <ShadowedContainer>
-                <img src="{unknownColors}"/>
-            </ShadowedContainer>
-            <h3>{@html $_('page.unknown-colors.article-title')}</h3>
-        </a>
-    </div>
+    <a href="{base}/articles/artist-story" class="article article-artist-story">
+        <ShadowedContainer>
+            <div class="thumbnails">
+                <img src="{artistStory1}"/>
+                <img src="{artistStory2}"/>
+                <img src="{artistStory3}"/>
+                <img src="{artistStory4}"/>
+            </div>
+        </ShadowedContainer>
+        <h3>{$_('page.artist-story.article-title')}</h3>
+    </a>
+    <a href="{base}/articles/time-for-truth" class="article article-time-for-truth">
+        <ShadowedContainer>
+            <img src="{timeForTruth}"/>
+        </ShadowedContainer>
+        <h3>{@html $_('page.time-for-truth.article-title')}</h3>
+    </a>
+    <a href="{base}/articles/painters-gift" class="article article-painters-gift">
+        <ShadowedContainer>
+            <img src="{paintersGift}"/>
+        </ShadowedContainer>
+        <h3>{@html $_('page.painters-gift.article-title')}</h3>
+    </a>
+    <a href="{base}/articles/from-etude-to-landscape" class="article article-from-etude-to-landscape">
+        <ShadowedContainer>
+            <div class="thumbnails" href="{base}/articles/from-etude-to-landscape">
+                <img src="{fromEtude1}"/>
+                <img src="{fromEtude2}"/>
+                <img src="{fromEtude3}"/>
+                <img src="{fromEtude4}"/>
+            </div>
+        </ShadowedContainer>
+        <h3>{$_('page.from-etude-to-landscape.article-title')}</h3>
+    </a>
+    <a href="{base}/articles/truth-search" class="article article-truth-search">
+        <ShadowedContainer>
+            <div class="thumbnails">
+                <img src="{truthSearch1}"/>
+                <img src="{truthSearch2}"/>
+                <img src="{truthSearch3}"/>
+            </div>
+        </ShadowedContainer>
+        <h3>{@html $_('page.truth-search.article-title')}</h3>
+    </a>
+    <a href="{base}/articles/kravchenko" class="article article-kravchenko">
+        <ShadowedContainer>
+            <img src="{kravchenko}"/>
+        </ShadowedContainer>
+        <h3>{@html $_('page.kravchenko.article-title')}</h3>
+    </a>
+    <a href="{base}/articles/simple-truths" class="article article-simple-truths">
+        <ShadowedContainer>
+            <img src="{simpleTruths}"/>
+        </ShadowedContainer>
+        <h3>{@html $_('page.simple-truths.article-title')}</h3>
+    </a>
+    <a href="{base}/articles/unknown-colors" class="article article-unknown-colors">
+        <ShadowedContainer>
+            <img src="{unknownColors}"/>
+        </ShadowedContainer>
+        <h3>{@html $_('page.unknown-colors.article-title')}</h3>
+    </a>
 </div>
 
 <style lang="scss">
+  @import "../../mixins";
+
   .articles {
-    margin-top: 7.5em;
+    margin-top: 9.6vw;
     margin-bottom: 4.5em;
-    margin-left: 3em;
-    display: grid;
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: 0 0;
     justify-content: space-between;
+    max-width: 100vw;
 
     .left-column, .right-column {
       width: 0;
@@ -116,19 +116,20 @@
 
     a.article {
       display: block;
-      width: min-content;
       text-align: center;
 
       .thumbnails {
-        padding: 3.7vw;
+        padding: 6.3vw;
       }
 
       h3 {
-        font-size: 17px;
-        line-height: 42px;
-        letter-spacing: 2.6px;
         text-align: center;
-        margin-top: 2.67em;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 48px;
+        letter-spacing: 1.8px;
+        margin-top: 8px;
         display: block;
       }
     }
@@ -137,34 +138,35 @@
     .article-artist-story {
       .thumbnails {
         display: grid;
-        grid-template-columns: max-content max-content;
+        grid-template-columns: 0 0;
+        justify-content: space-between;
 
         img {
           &:nth-of-type(1) {
-            width: 14.44vw;
+            min-width: 27.44vw;
           }
 
           &:nth-of-type(2) {
-            width: 22.2vw;
-            margin-top: 1.3vw;
-            margin-left: .5vw;
+            min-width: 38.2vw;
+            margin-right: 1.5vw;
+            margin-top: 4vw;
+            justify-self: end;
           }
 
           &:nth-of-type(3) {
-            width: 17vw;
-            margin-top: 4vw;
+            min-width: 32.5vw;
+            margin-top: 7vw;
           }
 
           &:nth-of-type(4) {
-            width: 19vw;
-            margin-left: 3.5vw;
+            min-width: 36vw;
+            justify-self: end;
           }
         }
       }
     }
 
     .article-painters-gift {
-      margin-top: 11.4vw;
       margin-left: 2.2vw;
 
       img {
@@ -207,15 +209,13 @@
     }
 
     .article-simple-truths {
-      margin-top: 9vw;
-
       img {
         min-width: 40.51vw
       }
     }
 
     .article-time-for-truth {
-      margin-top: 14vw;
+      align-self: end;
       margin-right: 5.5vw;
 
       img {
@@ -224,7 +224,6 @@
     }
 
     .article-from-etude-to-landscape {
-      margin-top: 3.9vw;
       margin-right: 2.5vw;
 
       .thumbnails {
@@ -257,7 +256,6 @@
     }
 
     .article-kravchenko {
-      margin-top: 22.2vw;
       margin-right: 5.3vw;
 
       img {
@@ -266,11 +264,111 @@
     }
 
     .article-unknown-colors {
-      margin-top: 9.3vw;
       margin-right: 2.6vw;
 
       img {
         min-width: 29.16vw;
+      }
+    }
+
+    @include for-widescreen {
+      position: relative;
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 0;
+
+
+      a.article {
+        width: min-content;
+        height: 0;
+        position: absolute;
+        margin-top: 7.5em;
+        margin-left: 3em;
+        h3 {
+          font-size: 1.012vw;
+          line-height: 2.500vw;
+          letter-spacing: 0.155vw;
+          text-align: center;
+          margin-top: 2.67em;
+          display: block;
+        }
+        .thumbnails {
+          padding: 3.6vw;
+        }
+      }
+
+      .article-artist-story {
+        min-width: 47vw;
+        .thumbnails {
+          img {
+            &:nth-of-type(1) {
+              min-width: 14.36vw;
+            }
+
+            &:nth-of-type(2) {
+              min-width: 21.7vw;
+              margin-right: 0.0vw;
+              margin-top: 1.4vw;
+              justify-self: end;
+            }
+
+            &:nth-of-type(3) {
+              min-width: 16.9vw;
+              margin-top: 4.1vw;
+            }
+
+            &:nth-of-type(4) {
+              min-width: 19vw;
+              justify-self: end;
+            }
+          }
+        }
+
+      }
+      .article-unknown-colors {
+        align-self: end;
+      }
+
+      .article-kravchenko {
+        align-self: end;
+      }
+
+      .article-from-etude-to-landscape {
+        align-self: end;
+      }
+
+      .article-time-for-truth {
+        align-self: end;
+      }
+
+      .article-simple-truths {
+        top: 183vw;
+      }
+
+      .article-unknown-colors {
+        top: 194vw;
+        right: 0;
+        h3 {
+          padding-bottom: 6em;
+        }
+      }
+      .article-truth-search {
+        top: 105.5vw;
+      }
+      .article-kravchenko {
+        top: 138.2vw;
+        right: 0;
+      }
+      .article-painters-gift {
+        top: 59vw;
+      }
+      .article-from-etude-to-landscape {
+        top: 68.4vw;
+        right: 0;
+      }
+      .article-time-for-truth {
+        right: 0;
+        top: 13.8vw;
       }
     }
   }
