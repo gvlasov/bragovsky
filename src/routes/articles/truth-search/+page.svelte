@@ -40,21 +40,21 @@
         <div class="part part2">
             <figure class="footnote-figure-left">
                 <img src="{pinkVolkhov}"/>
-                <figcaption>{$_('page.truth-search.images.pinkVolkhov.caption')}</figcaption>
+                <figcaption>{@html $_('page.truth-search.images.pinkVolkhov.caption')}</figcaption>
             </figure>
             {@html $_('page.truth-search.text.part2')}
         </div>
         <div class="part part3">
             <figure class="footnote-figure-right">
                 <img src="{blueVolkhov}"/>
-                <figcaption>{$_('page.truth-search.images.blueVolkhov.caption')}</figcaption>
+                <figcaption>{@html $_('page.truth-search.images.blueVolkhov.caption')}</figcaption>
             </figure>
             {@html $_('page.truth-search.text.part3')}
         </div>
         <div class="part part4">
             <figure class="footnote-figure-left">
                 <img src="{petyaFruit}"/>
-                <figcaption>{$_('page.truth-search.images.petyaFruit.caption')}</figcaption>
+                <figcaption>{@html $_('page.truth-search.images.petyaFruit.caption')}</figcaption>
             </figure>
             {@html $_('page.truth-search.text.part4')}
         </div>

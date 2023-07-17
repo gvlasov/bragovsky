@@ -17,7 +17,7 @@
     </div>
     <figure class="afisha">
         <img src="{afisha}"/>
-        <figcaption>{$_('page.index.life.afisha.desc')}</figcaption>
+        <figcaption>{@html $_('page.index.life.afisha.desc')}</figcaption>
     </figure>
     <div class="photo1">
         <img src="{photo1}"/>

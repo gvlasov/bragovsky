@@ -49,42 +49,42 @@
         <div class="part part2">
             <figure class="footnote-figure-left">
                 <img src="{autumn}"/>
-                <figcaption>{$_('page.artist-story.images.autumn.caption')}</figcaption>
+                <figcaption>{@html $_('page.artist-story.images.autumn.caption')}</figcaption>
             </figure>
             {@html $_('page.artist-story.text.part2')}
         </div>
         <div class="part part3">
             <figure class="footnote-figure-right">
                 <img src="{autoportrait}"/>
-                <figcaption>{$_('page.artist-story.images.autoportrait.caption')}</figcaption>
+                <figcaption>{@html $_('page.artist-story.images.autoportrait.caption')}</figcaption>
             </figure>
             {@html $_('page.artist-story.text.part3')}
         </div>
         <div class="part part4">
             <figure class="footnote-figure-left">
                 <img src="{workshop}"/>
-                <figcaption>{$_('page.artist-story.images.workshop.caption')}</figcaption>
+                <figcaption>{@html $_('page.artist-story.images.workshop.caption')}</figcaption>
             </figure>
             {@html $_('page.artist-story.text.part4')}
         </div>
         <div class="part part5">
             <figure class="footnote-figure-left">
                 <img src="{willows}"/>
-                <figcaption>{$_('page.artist-story.images.willows.caption')}</figcaption>
+                <figcaption>{@html $_('page.artist-story.images.willows.caption')}</figcaption>
             </figure>
             {@html $_('page.artist-story.text.part5')}
         </div>
         <div class="part part6">
             <figure class="footnote-figure-left">
                 <img src="{evening}"/>
-                <figcaption>{$_('page.artist-story.images.evening.caption')}</figcaption>
+                <figcaption>{@html $_('page.artist-story.images.evening.caption')}</figcaption>
             </figure>
             {@html $_('page.artist-story.text.part6')}
         </div>
         <div class="part part7">
             <figure class="footnote-figure-right">
                 <img src="{petya}"/>
-                <figcaption>{$_('page.artist-story.images.petya.caption')}</figcaption>
+                <figcaption>{@html $_('page.artist-story.images.petya.caption')}</figcaption>
             </figure>
             {@html $_('page.artist-story.text.part7')}
         </div>

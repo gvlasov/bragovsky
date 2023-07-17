@@ -7,7 +7,7 @@
     <h3 class="top">{$_('page.index.desc.top')}</h3>
     <figure>
         <img class="image-right" src="{imageRight}"/>
-        <figcaption>{$_('page.index.desc.photo.desc')}</figcaption>
+        <figcaption>{@html $_('page.index.desc.photo.desc')}</figcaption>
     </figure>
     <div class="bottom">{@html ($_('page.index.desc.bottom'))}</div>
 </section>
