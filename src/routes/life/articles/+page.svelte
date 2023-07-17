@@ -1,5 +1,5 @@
 <script lang="ts">
-    import ShadowedContainer from "../../lib/ShadowedContainer.svelte";
+    import ShadowedContainer from "$lib/ShadowedContainer.svelte";
     import {base} from '$app/paths';
     import artistStory1 from '$imagesOptimized/Статьи/Художник 1.jpg'
     import artistStory2 from '$imagesOptimized/Статьи/Художник 2.2.1.png'
@@ -22,7 +22,7 @@
 </script>
 
 <div class="articles">
-    <a href="{base}/articles/artist-story" class="article article-artist-story">
+    <a href="{base}/life/articles/artist-story" class="article article-artist-story">
         <ShadowedContainer>
             <div class="thumbnails">
                 <img src="{artistStory1}"/>
@@ -33,21 +33,21 @@
         </ShadowedContainer>
         <h3>{$_('page.artist-story.article-title')}</h3>
     </a>
-    <a href="{base}/articles/time-for-truth" class="article article-time-for-truth">
+    <a href="{base}/life/articles/time-for-truth" class="article article-time-for-truth">
         <ShadowedContainer>
             <img src="{timeForTruth}"/>
         </ShadowedContainer>
         <h3>{@html $_('page.time-for-truth.article-title')}</h3>
     </a>
-    <a href="{base}/articles/painters-gift" class="article article-painters-gift">
+    <a href="{base}/life/articles/painters-gift" class="article article-painters-gift">
         <ShadowedContainer>
             <img src="{paintersGift}"/>
         </ShadowedContainer>
         <h3>{@html $_('page.painters-gift.article-title')}</h3>
     </a>
-    <a href="{base}/articles/from-etude-to-landscape" class="article article-from-etude-to-landscape">
+    <a href="{base}/life/articles/from-etude-to-landscape" class="article article-from-etude-to-landscape">
         <ShadowedContainer>
-            <div class="thumbnails" href="{base}/articles/from-etude-to-landscape">
+            <div class="thumbnails">
                 <img src="{fromEtude1}"/>
                 <img src="{fromEtude2}"/>
                 <img src="{fromEtude3}"/>
@@ -56,13 +56,13 @@
         </ShadowedContainer>
         <h3>{$_('page.from-etude-to-landscape.article-title')}</h3>
     </a>
-    <a href="{base}/articles/kravchenko" class="article article-kravchenko">
+    <a href="{base}/life/articles/kravchenko" class="article article-kravchenko">
         <ShadowedContainer>
             <img src="{kravchenko}"/>
         </ShadowedContainer>
         <h3>{@html $_('page.kravchenko.article-title')}</h3>
     </a>
-    <a href="{base}/articles/truth-search" class="article article-truth-search">
+    <a href="{base}/life/articles/truth-search" class="article article-truth-search">
         <ShadowedContainer>
             <div class="thumbnails">
                 <img src="{truthSearch1}"/>
@@ -72,13 +72,13 @@
         </ShadowedContainer>
         <h3>{@html $_('page.truth-search.article-title')}</h3>
     </a>
-    <a href="{base}/articles/simple-truths" class="article article-simple-truths">
+    <a href="{base}/life/articles/simple-truths" class="article article-simple-truths">
         <ShadowedContainer>
             <img src="{simpleTruths}"/>
         </ShadowedContainer>
         <h3>{@html $_('page.simple-truths.article-title')}</h3>
     </a>
-    <a href="{base}/articles/unknown-colors" class="article article-unknown-colors">
+    <a href="{base}/life/articles/unknown-colors" class="article article-unknown-colors">
         <ShadowedContainer>
             <img src="{unknownColors}"/>
         </ShadowedContainer>
@@ -87,7 +87,7 @@
 </div>
 
 <style lang="scss">
-  @import "../../mixins";
+  @import "../../../mixins";
 
   .articles {
     margin-top: 9.6vw;

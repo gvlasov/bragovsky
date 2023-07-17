@@ -66,7 +66,7 @@
 
 
 <style lang="scss">
-  @import "../../../mixins";
+  @import "../../../../mixins";
 
   .part1 {
     margin-bottom: 2.3em;

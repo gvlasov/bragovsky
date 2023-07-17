@@ -87,7 +87,7 @@
 
 
 <style lang="scss">
-  @import "../../../mixins";
+  @import "../../../../mixins";
 
   article {
     .part1 {

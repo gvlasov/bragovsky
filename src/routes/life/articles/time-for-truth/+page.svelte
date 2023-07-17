@@ -21,7 +21,7 @@
 
 
 <style lang="scss">
-  @import "../../../mixins";
+  @import "../../../../mixins";
   article {
     figure {
       img {
