@@ -30,7 +30,7 @@
     }
 
     :global(h1) {
-      margin-top: 20px;
+      margin-top: 58px;
       color: #262626;
       font-size: 19px;
       font-style: normal;
