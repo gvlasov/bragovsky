@@ -1,27 +1,19 @@
 <script lang="ts">
     import {_} from 'svelte-i18n';
-    import { base } from '$app/paths';
+    import {base} from '$app/paths';
 
     export let name: string
-    export let image: string|null = null
+    export let image: string | null = null
+    export let style: string = ''
 </script>
-<div class="category">
-    <a href="{base}/life/{name}/">
+<figure class="category">
+    <a href="{base}/life/{name}/" style="{style}">
         <slot>
             <img alt="{$_(`page.life.categories.${name}.title`)}" src="{image}"/>
         </slot>
-        <div>{$_(`page.life.categories.${name}.title`)}</div>
+        <figcaption>{$_(`page.life.categories.${name}.title`)}</figcaption>
     </a>
-</div>
+</figure>
 <style lang="scss">
-  .category {
-    text-align: center;
-    box-shadow: .3rem .3rem #000;
-    padding: 4rem;
-
-    img {
-      min-width: 20rem;
-      min-height: 20rem;
-    }
-  }
+  @import "../mixins";
 </style>
