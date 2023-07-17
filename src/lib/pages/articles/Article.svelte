@@ -5,9 +5,11 @@
         <slot name="heading"/>
     </h1>
     <slot name="content"/>
-    <div class="author">
-        <slot name="author"/>.
-    </div>
+    {#if $$slots.author}
+        <div class="author">
+            <slot name="author"/>.
+        </div>
+    {/if}
 </article>
 
 <style lang="scss">
@@ -49,7 +51,7 @@
 
     @include for-widescreen {
       box-shadow: 0 0 1vw 0 rgba(209, 207, 207, 0.5);
-      margin: 124px 0 ;
+      margin: 124px 0;
       padding: 7.15em 8.1em 7.15em 7.1em;
       font-size: 1.012vw;
 

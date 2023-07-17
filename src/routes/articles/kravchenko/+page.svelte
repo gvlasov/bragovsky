@@ -10,7 +10,6 @@
     <svelte:fragment slot="content">{@html $_('page.kravchenko.text')}</svelte:fragment>
 </Article>
 
-
 <style lang="scss">
   .heading {
     text-decoration: underline;
