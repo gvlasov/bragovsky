@@ -168,11 +168,6 @@
         float: left;
         margin-right: 4.7vw;
 
-        :global(figcaption) {
-          text-align: left;
-        }
-
-
       }
       :global(figure.footnote-figure-right) {
         float: right;
