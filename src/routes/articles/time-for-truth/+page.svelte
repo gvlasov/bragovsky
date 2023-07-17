@@ -35,6 +35,7 @@
         font-weight: 400;
         line-height: 25px;
         letter-spacing: 1.8px;
+        margin-top: 10px;
       }
     }
     @include for-widescreen {
