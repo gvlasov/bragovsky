@@ -17,6 +17,7 @@
 
   article {
     font-family: Bruta Global Regular, sans-serif;
+    margin-top: 3em;
 
     .author {
       margin-top: 1em;
@@ -30,13 +31,11 @@
     }
 
     :global(h1) {
-      margin-top: 58px;
-      color: #262626;
-      font-size: 19px;
+      font-size: 16px;
       font-style: normal;
-      font-weight: 400;
-      line-height: 20px;
-      letter-spacing: 0.57px;
+      font-weight: 600;
+      line-height: 50px;
+      letter-spacing: 0.32px;
     }
 
     :global(p) {

@@ -3,11 +3,14 @@
     import { base } from '$app/paths';
 
     export let name: string
+    export let image: string|null = null
 </script>
 <div class="category">
     <a href="{base}/life/{name}/">
-        <img alt="{$_(`life.categories.${name}.title`)}" src="/images/{name}.jpg"/>
-        <div>{$_(`life.categories.${name}.title`)}</div>
+        <slot>
+            <img alt="{$_(`page.life.categories.${name}.title`)}" src="{image}"/>
+        </slot>
+        <div>{$_(`page.life.categories.${name}.title`)}</div>
     </a>
 </div>
 <style lang="scss">

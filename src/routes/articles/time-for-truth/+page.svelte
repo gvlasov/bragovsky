@@ -21,6 +21,7 @@
 
 
 <style lang="scss">
+  @import "../../../mixins";
   article {
     figure {
       img {
@@ -29,12 +30,25 @@
       }
       figcaption {
         text-align: center;
-        font-size: 19px;
+        font-size: 12px;
         font-style: normal;
         font-weight: 400;
-        line-height: 41.5px;
-        letter-spacing: 2.8px;
+        line-height: 25px;
+        letter-spacing: 1.8px;
       }
+    }
+    @include for-widescreen {
+      figure {
+        figcaption {
+          text-align: center;
+          font-size: 19px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 41.5px;
+          letter-spacing: 2.8px;
+        }
+      }
+
     }
   }
 </style>
