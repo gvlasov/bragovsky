@@ -8,12 +8,12 @@
     import petya from "$imagesOptimized/Живопись/В список. Resolution 50.jpg"
     import art1 from '$imagesOptimized/Статьи/Художник 1.jpg'
     import art1_big from '$images/Статьи/Художник 1.jpg'
-    import art2 from '$imagesOptimized/Статьи/Художник 2.2.1.jpg'
-    import art2_big from '$images/Статьи/Художник 2.2.1.jpg'
-    import art3 from '$imagesOptimized/Статьи/Художник 3.2.1.jpg'
-    import art3_big from '$images/Статьи/Художник 3.2.1.jpg'
-    import art4 from '$imagesOptimized/Статьи/Художник 4.2.1.jpg'
-    import art4_big from '$images/Статьи/Художник 4.2.1.jpg'
+    import art2 from '$imagesOptimized/Статьи/Художник 2.2.1.png'
+    import art2_big from '$images/Статьи/Художник 2.2.1.png'
+    import art3 from '$imagesOptimized/Статьи/Художник 3.2.1.png'
+    import art3_big from '$images/Статьи/Художник 3.2.1.png'
+    import art4 from '$imagesOptimized/Статьи/Художник 4.2.1.png'
+    import art4_big from '$images/Статьи/Художник 4.2.1.png'
     import FootnotesArticle from "$lib/pages/articles/FootnotesArticle.svelte";
     import ArticleGallery from "$lib/ArticleGallery.svelte";
     import type {GalleryImage} from "$lib/GalleryImages";

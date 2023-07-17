@@ -157,6 +157,7 @@
         min-width: initial;
 
         :global(figcaption) {
+          margin-top: 37px;
           font-size: 15.61px;
           font-weight: 400;
           line-height: 20px;
