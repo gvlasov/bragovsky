@@ -56,6 +56,12 @@
         </ShadowedContainer>
         <h3>{$_('page.from-etude-to-landscape.article-title')}</h3>
     </a>
+    <a href="{base}/articles/kravchenko" class="article article-kravchenko">
+        <ShadowedContainer>
+            <img src="{kravchenko}"/>
+        </ShadowedContainer>
+        <h3>{@html $_('page.kravchenko.article-title')}</h3>
+    </a>
     <a href="{base}/articles/truth-search" class="article article-truth-search">
         <ShadowedContainer>
             <div class="thumbnails">
@@ -65,12 +71,6 @@
             </div>
         </ShadowedContainer>
         <h3>{@html $_('page.truth-search.article-title')}</h3>
-    </a>
-    <a href="{base}/articles/kravchenko" class="article article-kravchenko">
-        <ShadowedContainer>
-            <img src="{kravchenko}"/>
-        </ShadowedContainer>
-        <h3>{@html $_('page.kravchenko.article-title')}</h3>
     </a>
     <a href="{base}/articles/simple-truths" class="article article-simple-truths">
         <ShadowedContainer>
@@ -94,9 +94,9 @@
     margin-bottom: 4.5em;
     display: flex;
     flex-direction: column;
-    grid-template-columns: 0 0;
-    justify-content: space-between;
     max-width: 100vw;
+    justify-content: center;
+    gap: 13vw;
 
     .left-column, .right-column {
       width: 0;
@@ -117,6 +117,7 @@
     a.article {
       display: block;
       text-align: center;
+      align-self: center;
 
       .thumbnails {
         padding: 6.3vw;
@@ -127,15 +128,16 @@
         font-size: 12px;
         font-style: normal;
         font-weight: 400;
-        line-height: 48px;
+        line-height: 20px;
         letter-spacing: 1.8px;
-        margin-top: 8px;
-        display: block;
+        margin-top: 22px;
       }
     }
 
 
     .article-artist-story {
+      width: 100%;
+
       .thumbnails {
         display: grid;
         grid-template-columns: 0 0;
@@ -167,7 +169,7 @@
     }
 
     .article-painters-gift {
-      margin-left: 2.2vw;
+      width: 61.026vw;
 
       img {
         min-width: 21.73vw;
@@ -175,48 +177,52 @@
     }
 
     .article-truth-search {
+      width: 100%;
+
       .thumbnails {
         display: grid;
-        grid-template-columns: max-content max-content;
-        margin-top: 17.5vw;
+        grid-template-columns: 0 0;
+        justify-content: space-between;
 
         img {
           &:nth-of-type(1) {
-            width: 14.8vw;
+            min-width: 27.44vw;
             grid-column: 1;
             grid-row: 1;
-            margin-bottom: 10%;
           }
 
           &:nth-of-type(2) {
-            width: 20.8vw;
+            min-width: 38.2vw;
+            margin-top: 5vw;
             grid-column: 2;
+            justify-self: end;
             grid-row: 1;
-            margin-top: 6%;
-            margin-left: 4vw;
           }
 
           &:nth-of-type(3) {
-            width: 25.3vw;
-            grid-column: 1/3;
-            grid-row: 2;
-            justify-self: center;
-            margin-top: .8vw;
-            margin-left: 2vw;
+            min-width: 46.0vw;
+            margin-top: 43vw;
+            margin-left: 16vw;
+            grid-column: 1;
+            grid-row: 1/3;
           }
+
         }
+
       }
     }
 
     .article-simple-truths {
+      width: 69.744vw;
+
       img {
         min-width: 40.51vw
       }
     }
 
     .article-time-for-truth {
-      align-self: end;
-      margin-right: 5.5vw;
+      align-self: center;
+      width: 61.026vw;
 
       img {
         min-width: 22.08vw;
@@ -224,39 +230,39 @@
     }
 
     .article-from-etude-to-landscape {
-      margin-right: 2.5vw;
+      width: 100%;
 
       .thumbnails {
         display: grid;
-        grid-template-columns: max-content max-content;
+        grid-template-columns: 0 0;
+        justify-content: space-between;
 
         img {
           &:nth-of-type(1) {
-            width: 15.0vw;
+            min-width: 27.44vw;
           }
 
           &:nth-of-type(2) {
-            width: 21.04vw;
-            margin-left: 1.9vw;
+            min-width: 38.2vw;
+            justify-self: end;
           }
 
           &:nth-of-type(3) {
-            width: 17vw;
-            margin-top: 4vw;
+            min-width: 32.5vw;
+            margin-top: 7vw;
           }
 
           &:nth-of-type(4) {
-            width: 18.54vw;
-            margin-left: 4.2vw;
-            margin-top: -2.5vw;
-
+            min-width: 36vw;
+            margin-top: -1vw;
+            justify-self: end;
           }
         }
       }
     }
 
     .article-kravchenko {
-      margin-right: 5.3vw;
+      width: 61.026vw;
 
       img {
         min-width: 22.89vw;
@@ -264,7 +270,7 @@
     }
 
     .article-unknown-colors {
-      margin-right: 2.6vw;
+      width: 69.744vw;
 
       img {
         min-width: 29.16vw;
@@ -276,7 +282,7 @@
       display: flex;
       flex-wrap: wrap;
       margin-top: 0;
-
+      justify-content: space-between;
 
       a.article {
         width: min-content;
@@ -284,6 +290,7 @@
         position: absolute;
         margin-top: 7.5em;
         margin-left: 3em;
+
         h3 {
           font-size: 1.012vw;
           line-height: 2.500vw;
@@ -292,6 +299,7 @@
           margin-top: 2.67em;
           display: block;
         }
+
         .thumbnails {
           padding: 3.6vw;
         }
@@ -299,6 +307,8 @@
 
       .article-artist-story {
         min-width: 47vw;
+        left: 0;
+
         .thumbnails {
           img {
             &:nth-of-type(1) {
@@ -323,52 +333,109 @@
             }
           }
         }
-
-      }
-      .article-unknown-colors {
-        align-self: end;
-      }
-
-      .article-kravchenko {
-        align-self: end;
-      }
-
-      .article-from-etude-to-landscape {
-        align-self: end;
       }
 
       .article-time-for-truth {
+        right: 5.5vw;
+        top: 13.8vw;
         align-self: end;
+        width: initial;
+      }
+
+      .article-painters-gift {
+        top: 59vw;
+        left: 2.2vw;
+        width: initial;
+      }
+      .article-from-etude-to-landscape {
+        top: 68.4vw;
+        right: 2.7vw;
+        align-self: end;
+        width: initial;
+        min-width: 47vw;
+        .thumbnails {
+          img {
+            &:nth-of-type(1) {
+              min-width: 15.36vw;
+            }
+
+            &:nth-of-type(2) {
+              min-width: 20.9vw;
+              margin-right: 0.0vw;
+              margin-top: 0.1vw;
+              justify-self: end;
+            }
+
+            &:nth-of-type(3) {
+              min-width: 17.4vw;
+              margin-top: 3.3vw;
+            }
+
+            &:nth-of-type(4) {
+              min-width: 18.4vw;
+              margin-top: -2.7vw;
+              justify-self: end;
+            }
+          }
+        }
+      }
+
+      .article-truth-search {
+        top: 123.1vw;
+        left: 0;
+        width: initial;
+        min-width: 47vw;
+        .thumbnails {
+          img {
+            &:nth-of-type(1) {
+              grid-column: 1;
+              grid-row: 1;
+              min-width: 14.9vw;
+            }
+
+            &:nth-of-type(2) {
+              grid-column: 2;
+              grid-row: 1;
+              min-width: 20.9vw;
+              margin-right: 0.0vw;
+              margin-top: 1.3vw;
+              justify-self: end;
+            }
+
+            &:nth-of-type(3) {
+              min-width: 25.3vw;
+              margin-top: 21.6vw;
+              margin-left: 7.9vw;
+              grid-column: 1;
+              grid-row: 1/3;
+            }
+
+          }
+        }
+      }
+
+      .article-kravchenko {
+        top: 138.2vw;
+        right: 5.3vw;
+        align-self: end;
+        width: initial;
       }
 
       .article-simple-truths {
         top: 183vw;
+        left: 0;
+        width: initial;
       }
 
       .article-unknown-colors {
-        top: 194vw;
-        right: 0;
+        top: 193.6vw;
+        right: 2.7vw;
+        align-self: end;
+        width: initial;
+
         h3 {
           padding-bottom: 6em;
         }
-      }
-      .article-truth-search {
-        top: 105.5vw;
-      }
-      .article-kravchenko {
-        top: 138.2vw;
-        right: 0;
-      }
-      .article-painters-gift {
-        top: 59vw;
-      }
-      .article-from-etude-to-landscape {
-        top: 68.4vw;
-        right: 0;
-      }
-      .article-time-for-truth {
-        right: 0;
-        top: 13.8vw;
       }
     }
   }
