@@ -49,7 +49,6 @@
           font-weight: 300;
           line-height: 20px;
           letter-spacing: 0.39px;
-          text-transform: uppercase;
         }
       }
     }

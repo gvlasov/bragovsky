@@ -9,14 +9,14 @@
 </script>
 
 <div class="categories">
-    <LifeCategory name="photos" image="{photos}"/>
-    <LifeCategory name="sketches" image="{sketches}"/>
-    <LifeCategory name="books" image="{books}"/>
-    <LifeCategory name="articles" image="{articles}"/>
-    <LifeCategory name="1971" image="{year1971}"/>
-    <LifeCategory name="dates">
-        <div class="dates-figure">{$_('page.life.')}</div>
-    </LifeCategory>
+<!--    <LifeCategory name="photos" image="{photos}"/>-->
+<!--    <LifeCategory name="sketches" image="{sketches}"/>-->
+<!--    <LifeCategory name="books" image="{books}"/>-->
+<!--    <LifeCategory name="articles" image="{articles}"/>-->
+<!--    <LifeCategory name="1971" image="{year1971}"/>-->
+<!--    <LifeCategory name="dates">-->
+<!--        <div class="dates-figure">{$_('page.life.')}</div>-->
+<!--    </LifeCategory>-->
 </div>
 
 
