@@ -1,0 +1,1 @@
+const e=""+new URL("../assets/Художник 1.bde441ce.jpg",import.meta.url).href,t=""+new URL("../assets/Художник 2.2.1.21b903ee.png",import.meta.url).href,s=""+new URL("../assets/Художник 4.2.1.33e24090.png",import.meta.url).href,a=""+new URL("../assets/Художник 3.2.1.82c7c9d2.png",import.meta.url).href;export{e as a,t as b,s as c,a as d};

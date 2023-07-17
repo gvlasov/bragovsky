@@ -1,1 +1,0 @@
-const t=""+new URL("../assets/Каталог 3.e3d83e5f.jpg",import.meta.url).href,s=""+new URL("../assets/Юный Художник 1.99db2b83.jpg",import.meta.url).href,e=""+new URL("../assets/Юный Художник 3.453bbbf3.jpg",import.meta.url).href,a=""+new URL("../assets/Юный Художник 2.42c95393.jpg",import.meta.url).href;export{t as a,s as b,e as c,a as d};
