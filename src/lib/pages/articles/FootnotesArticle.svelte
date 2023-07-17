@@ -165,6 +165,7 @@
           margin-bottom: 2em;
         }
       }
+
       :global(figure.footnote-figure-left) {
         float: left;
         margin-right: 4.7vw;
