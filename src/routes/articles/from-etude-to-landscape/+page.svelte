@@ -14,10 +14,10 @@
     import ArticleGallery from "$lib/ArticleGallery.svelte";
     import type {GalleryImage} from "$lib/GalleryImages";
 
-    import rooksBack from '$imagesOptimized/Статьи/RooksBackOfSavrasov.jpg'
-    import korovinBridge from '$imagesOptimized/Статьи/KorovinBridge.jpg'
+    import rooksBack from '$assets/custom/rooks-back.jpg'
+    import korovinBridge from '$assets/custom/korovin-bridge.jpg'
     import bragovskyIstomino from '$imagesOptimized/Статьи/Вечер в Истомино 3.jpg'
-    import lentulovSquare from '$imagesOptimized/Статьи/Лентулов.jpg'
+    import lentulovSquare from '$assets/custom/lentulov-square.jpg'
 
     const images: GalleryImage[] = [
         {
@@ -54,28 +54,28 @@
         <div class="part part2">
             <figure class="footnote-figure-left">
                 <img src="{rooksBack}"/>
-                <figcaption>{$_('page.from-etude-to-landscape.images.savrasov-rooks.caption')}</figcaption>
+                <figcaption>{@html $_('page.from-etude-to-landscape.images.savrasov-rooks.caption')}</figcaption>
             </figure>
             {@html $_('page.from-etude-to-landscape.text.part2')}
         </div>
         <div class="part part3">
             <figure class="footnote-figure-right">
                 <img src="{korovinBridge}"/>
-                <figcaption>{$_('page.from-etude-to-landscape.images.korovin-bridge.caption')}</figcaption>
+                <figcaption>{@html $_('page.from-etude-to-landscape.images.korovin-bridge.caption')}</figcaption>
             </figure>
             {@html $_('page.from-etude-to-landscape.text.part3')}
         </div>
         <div class="part part4">
             <figure class="footnote-figure-left">
                 <img src="{bragovskyIstomino}"/>
-                <figcaption>{$_('page.from-etude-to-landscape.images.bragovsky-istomino.caption')}</figcaption>
+                <figcaption>{@html $_('page.from-etude-to-landscape.images.bragovsky-istomino.caption')}</figcaption>
             </figure>
             {@html $_('page.from-etude-to-landscape.text.part4')}
         </div>
         <div class="part part5">
             <figure class="footnote-figure-right">
                 <img src="{lentulovSquare}"/>
-                <figcaption>{$_('page.from-etude-to-landscape.images.lentulov-square.caption')}</figcaption>
+                <figcaption>{@html $_('page.from-etude-to-landscape.images.lentulov-square.caption')}</figcaption>
             </figure>
             {@html $_('page.from-etude-to-landscape.text.part5')}
         </div>

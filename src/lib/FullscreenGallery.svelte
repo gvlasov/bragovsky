@@ -3,6 +3,7 @@
     import arrowLeft from '$assets/arrow-left_gallery.svg'
     import arrowRight from '$assets/arrow-right_gallery.svg'
     import closeButton from '$assets/close-button.svg'
+    import closeButtonDesktop from '$assets/close-button-fat.svg'
 
     let gallery
     onMount(() => {
@@ -34,7 +35,8 @@
 
 <div class="gallery" class:open={open}>
     <button class="close" on:click={close}>
-        <img src="{closeButton}"/>
+        <img src="{closeButton}" class="mobile"/>
+        <img src="{closeButtonDesktop}" class="desktop"/>
     </button>
     <div class="slider">
         <slot/>
@@ -85,6 +87,14 @@
       right: 0;
       padding: 30px;
       cursor: pointer;
+
+      img.desktop {
+        display: none;
+      }
+
+      img.mobile {
+        display: block;
+      }
     }
 
     .slider {
@@ -123,7 +133,19 @@
         }
       }
 
-      @include for-widescreen {
+    }
+
+    @include for-widescreen {
+      button.close {
+        img.desktop {
+          display: block;
+        }
+
+        img.mobile {
+          display: none;
+        }
+      }
+      .slider {
         $sliderHorizontalPadding: 20px;
         $sliderArrowsGap: 3.6vw;
         $arrowWidth: 1.8vw;
@@ -136,6 +158,7 @@
         :global(.slick-list) {
           :global(.slick-track .slide) {
             max-width: calc(100vw - ($arrowWidth * 2) - ($sliderArrowsGap * 2) - ($sliderHorizontalPadding * 2));
+
             :global(img) {
               padding: 8px 0;
             }
