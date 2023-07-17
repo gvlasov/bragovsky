@@ -109,16 +109,7 @@
           grid-template-rows: min-content min-content min-content;
 
           :global(h1) {
-            width: min-content;
-            font-size: 15.61px;
-            font-weight: 400;
-            line-height: 26px;
-            letter-spacing: 0.3px;
-            margin-top: 4.5em;
-            max-width: max-content;
-          }
-
-          :global(h2) {
+            grid-row: 2;
             width: min-content;
             max-width: 8em;
             margin-top: 7em;
@@ -126,6 +117,17 @@
             font-weight: 400;
             line-height: 48.3px;
             letter-spacing: 0.5px;
+          }
+
+          :global(h2) {
+            grid-row: 1;
+            width: min-content;
+            font-size: 15.61px;
+            font-weight: 400;
+            line-height: 26px;
+            letter-spacing: 0.3px;
+            margin-top: 4.5em;
+            max-width: max-content;
           }
 
           :global(h3) {

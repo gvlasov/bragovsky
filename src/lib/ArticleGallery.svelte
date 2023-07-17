@@ -4,6 +4,8 @@
     import Carousel from "$lib/Carousel.svelte";
     import {indexToPosition} from "$lib/SliderPosition";
     import type {GalleryImage} from "$lib/GalleryImages";
+    import preload from "$lib/preload";
+    import {onMount} from 'svelte'
 
     export let images: GalleryImage[]
     export let fullscreenPosition: number = 0
@@ -13,7 +15,11 @@
         open = true
         fullscreenPosition = event.detail
     }
-
+    onMount(() => {
+        for(const image of images) {
+            preload(image.big)
+        }
+    })
 </script>
 
 <FullscreenGallery bind:open={open} bind:activeSlide={fullscreenPosition}>

@@ -10,6 +10,9 @@
         gallery = window.$(".gallery .slider");
         gallery.slick({
             arrows: true,
+            speed: 400,
+            fade: true,
+            cssEase: 'linear',
             variableWidth: true,
             slidesPerRow: 1,
             prevArrow: `<img class="arrow-left" src="${arrowLeft}"/>`,
@@ -113,23 +116,29 @@
         overflow: hidden;
         height: 100vh;
         align-items: center;
+        vertical-align: center;
+        position: relative;
 
         :global(.slick-track) {
           display: flex;
           align-items: center;
+          height: 100%;
         }
 
         :global(.slick-track .slide) {
           display: inline-block;
           max-height: 100%;
           text-align: center;
-          position: relative;
+          position: absolute !important;
+          left: 0 !important;
           width: 100vw;
+          top: 50% !important;
+          transform: translateY(-50%);
 
           :global(img) {
             max-height: 100vh;
-            vertical-align: middle;
           }
+
         }
       }
 
